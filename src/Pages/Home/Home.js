@@ -1,0 +1,78 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import './Home.css';
+import windowLogo from '../../assets/windows-logo.webp';
+
+const Home = () => {
+    return (
+        <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Home Windows</title>
+            </Helmet>
+            <div className='body sg-body'>
+                <div className='bg-opacity-25 bg-black'>
+                    <div className='speak-agent'>
+                        <div className='flex justify-center items-center'>
+                            <i class="fa-solid fa-phone-volume pr-3 text-[#9c7113] text-3xl"></i>
+                            <p className='text-white !leading-normal'>Speak to a Licensed Agent <br />
+                                <a className='text-3xl font-bold text-[#94783a]' href="/">(866) 996-1187</a> <br />
+                                Licensed Agents available now
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='grid sm:grid-cols-2 grid-cols-1 max-w-[800px] mx-auto mb-16'>
+
+                        <div className='bg-[#fff8f0b0] logo-chip '>
+                            <img src={windowLogo} alt="" />
+                            <h4 className='text-2xl mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
+                            <h5 className='text-xl mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
+                        </div>
+                        <div className='bg-[#fff8f0]'>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id='details'>
+                    <div className='bg-[#e48a03] text-xl text-white font-bold py-2 flex items-center justify-center'>
+                        <a href="#details">
+                            <span>More Info</span>
+                            <i class="fa-solid fa-caret-down pl-3"></i>
+                        </a>
+                    </div>
+                    <div id='cac-footer-legal'>
+                        <div className='max-w-[990px] mx-auto'>
+                            <h3 className='text-xl mb-2 text-[#e48a03]'>Update Your Existing Home Windows By Replacing Them With Affordable Window Alternatives</h3>
+                            <p className='mb-5'>Looking for replacement windows at great prices? You're in luck. windowinstallation.com helps you streamline and expedite the process of replacement window shopping without the hassle. Once you’ve completed the windows questionnaire above, numerous quotes from local window professionals (unique to your area) will be made available instantly so you can be sure you're getting the best value on your replacement windows!</p>
+
+                            <h3 className='text-xl mb-2 text-[#e48a03]'>Save On Costs And Be Energy Efficient By Purchasing New House Windows</h3>
+                            <p className='mb-5'>Did you know you that by simply replacing the windows in your home you can enjoy the cost-effective benefits when it comes to utility bills? The proper windows can keep heat locked in during cold weather and your home cool in the summer without the inconvenience of additional appliances, which can cost you hundreds in in expenses. Instead of spending too much on intricate home improvement projects in order to make your home more energy efficient, new home windows can be a convenient solution. If you reside in an older home, you may have single-pane windows that do little to preserve the proper indoor temperature within your home. Due to innovative home windows technology, there are now more cutting-edge windows that you can install in your home now.</p>
+
+                            <h3 className='text-xl mb-2 text-[#e48a03]'>Investing And Saving With Double-Pane Home Windows</h3>
+                            <p className='mb-2'>Single-pane home windows are now obsolete. Yes, they may be cheaper than double-pane windows but the amount in associated energy costs alone makes single-pane windows less ideal. Double-pane windows help shield your home from extreme climates, pollution, and even insects - saving you significant money in the long run, and you’ll experience the advantages immediately. The National Fenestration Rating Council determines market guidelines for today's highest standard double-pane windows - so if the windows in your home are labelled "NFRC," you can be confident that it’s top tier quality.</p>
+                            <p className='mb-5'>Older single-multiple pane models consist of krypton and argon, gases that assist in elevating the R-values (heat loss resistance) among your windows. Higher R-values in your windows regulate home temperature. Higher U-values are beneficial as well (window's heat transfer resistance). While some manufacturers solely extend R and U value ratings for the center portion of a window, it’s optimal to ensure both R and U value details are available for the full window. With the number of varied styles in today's windows, searching for the right selection within your budget is imperative. Not all presented opportunities will deliver the same savings. There are some window companies out there that may try to convince you to purchase double-pane windows with more than an inch of space between panes. This may provide supplementary insulation but more than an inch is typically not essential.</p>
+
+                            <h3 className='text-xl mb-2 text-[#e48a03]'>Browsing For Window Quotes To Find The Average Cost Of Home Windows Replacement</h3>
+                            <p className='mb-2 '>There is no time like today to purchase suitable home windows at a reasonable value. Premium window companies will even assign a personalized home windows technician to your house for a tailored consultation experience - walking you through an assortment of replacement windows and window accessories, assisting you every step of the way. It’s best to acquire quotes from several window installers, so that you may take advantage of first-time customer deals or new home window consumer promotions. With a little research on multiple home window rates, you can make sure you’re getting the best energy-efficient and budget friendly windows out there.</p>
+                            <p className='mb-5'>With pertinent tools, resources and adequate information at your disposal - you can have a multi-faceted understanding of which windows work best for your home and budget, whether you go the route of working with a certified professional or installing windows on your own. With new home windows installation, there will be a notable improvement all around - your home's value and appearance will be enhanced while you save money. Window replacement automatically upgrades your home and is an effortless lifetime investment that you can enjoy with ease.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='bg-opacity-25 bg-black'>
+                    <div className='text-white  max-w-7xl mx-auto sm:my-16 my-5'>
+                        <h6 className='text-xs'>Important Disclosures</h6>
+                        <p className='text-xs'>This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video in any advertisement associated with this site are actors or models and not contractors affiliated with this site.
+                            <br /> <br />
+                            Any service marks, logos, and trademarks (collectively the "Trademarks") displayed are registered and/or unregistered Trademarks of their respective owners. This site contains affiliate and partner links and may receive compensation for referrals or purchases made through our links. Subject matter within this website are copyrighted property of the owner of this site. This website and its owner is not responsible for any photographic or typographical errors.</p>
+
+                        <p className='text-xs text-center mt-8'>© 2023 window installation, All Rights Reserved. <a className='underline hover:text-[#e48a03]' href="/">Privacy Policy</a> Cookie <a className='underline hover:text-[#e48a03]' href="/">Policy Terms</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Home
