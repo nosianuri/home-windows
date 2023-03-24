@@ -21,7 +21,7 @@ const ZipCode = ({ formData, setFormData, page, setPage }) => {
     <div className="flex flex-col w-full" >
       <div className="mx-2  flex-1">
         <div className='text-center'>
-          <h2 className='text-xl font-semibold'>Did you suffer any Physical injuries in the car accident?<em className='text-red-700'>*</em></h2>
+          <h2 className='text-xl font-semibold'>What is your Zip Code?<em className='text-red-700'>*</em></h2>
           <div className='my-5' >
             <div className='text-xl'>
               <div onClick={() => handleChange("yes")} className='radio-item'>

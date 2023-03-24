@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import './Home.css';
 import windowLogo from '../../assets/windows-logo.webp';
+import StepForm from './Form/StepForm';
 
 const Home = () => {
     return (
@@ -14,9 +15,9 @@ const Home = () => {
                 <div className='bg-opacity-25 bg-black'>
                     <div className='speak-agent'>
                         <div className='flex justify-center items-center'>
-                            <i class="fa-solid fa-phone-volume pr-3 text-[#9c7113] text-3xl"></i>
+                            <i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] text-3xl"></i>
                             <p className='text-white !leading-normal'>Speak to a Licensed Agent <br />
-                                <a className='text-3xl font-bold text-[#94783a]' href="/">(866) 996-1187</a> <br />
+                                <a className='text-3xl font-bold text-[#eaa613]' href="/">(866) 996-1187</a> <br />
                                 Licensed Agents available now
                             </p>
                         </div>
@@ -25,12 +26,12 @@ const Home = () => {
                     <div className='grid sm:grid-cols-2 grid-cols-1 max-w-[800px] mx-auto mb-16'>
 
                         <div className='bg-[#fff8f0b0] logo-chip '>
-                            <img src={windowLogo} alt="" />
+                            <img src={windowLogo} alt="" className='!w-72' />
                             <h4 className='text-2xl mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
                             <h5 className='text-xl mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
                         </div>
                         <div className='bg-[#fff8f0]'>
-                            
+                            <StepForm />
                         </div>
                     </div>
                 </div>
@@ -66,7 +67,7 @@ const Home = () => {
                             <br /> <br />
                             Any service marks, logos, and trademarks (collectively the "Trademarks") displayed are registered and/or unregistered Trademarks of their respective owners. This site contains affiliate and partner links and may receive compensation for referrals or purchases made through our links. Subject matter within this website are copyrighted property of the owner of this site. This website and its owner is not responsible for any photographic or typographical errors.</p>
 
-                        <p className='text-xs text-center mt-8'>© 2023 window installation, All Rights Reserved. <a className='underline hover:text-[#e48a03]' href="/">Privacy Policy</a> Cookie <a className='underline hover:text-[#e48a03]' href="/">Policy Terms</a></p>
+                        <p className='text-xs text-center mt-8'>© 2023 window installation, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/terms">Terms</a></p>
 
                     </div>
                 </div>

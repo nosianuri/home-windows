@@ -110,7 +110,7 @@ const StepForm = () => {
       }
   };
   return (
-    <div className='mx-auto rounded-2xl bg-[#fff] text-gray-900'>
+    <div className='mx-auto rounded-2xl text-gray-900'>
     <div className="form  container ">
         <div className="progressbar">
             <div style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
