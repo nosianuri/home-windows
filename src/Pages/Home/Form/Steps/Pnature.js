@@ -12,15 +12,15 @@ const Pnature = ({ setCurrently, setPage }) => {
           <h2 className='text-xl font-semibold'>What is the nature of your windows project?<em className='text-red-700'>*</em></h2>
           <div className='my-5'>
             <div className='text-xl'>
-              <div onClick={() => handleChange("yes")} className='radio-item'>
+              <div onClick={() => handleChange("repair")} className='radio-item'>
                 <input name='radio' id='radio1' type="radio" />
                 <label htmlFor="radio1">Repair</label>
               </div>
-              <div onClick={() => handleChange("no")} className='radio-item'>        
+              <div onClick={() => handleChange("replace")} className='radio-item'>        
                     <input name='radio' id='radio2' type="radio" />
                 <label htmlFor="radio2">Replace</label>
               </div>
-              <div onClick={() => handleChange("no")} className='radio-item'>        
+              <div onClick={() => handleChange("unsure")} className='radio-item'>        
                     <input name='radio' id='radio2' type="radio" />
                 <label htmlFor="radio2">Unsure</label>
               </div>

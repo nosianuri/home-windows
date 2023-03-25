@@ -8,11 +8,11 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
         <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
             <h2 className='text-2xl font-semibold text-center mb-5'>What is your Address?<em className='text-red-700'>*</em></h2>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <div className='grid grid-cols-2 gap-1'>
-                    <div className=" mx-2 flex-1">
+                <div className='grid sm:grid-cols-2 grid-cols-1 mt-5'>
+                    <div className="flex-1 mx-2">
                         <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">City<em className='text-red-700'>*</em>
                         </div>
-                        <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded">
+                        <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded ">
                             <input name="city" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"
                                 // {...register("city", {
                                 //     required: {
@@ -26,11 +26,11 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                             {errors.city?.type === 'required' && <span className="text-xs text-red-500">{errors.city.message}</span>}
                         </p>
                     </div>
-                    <div className=" mx-2 flex-1">
+                    <div className=" flex-1 mx-2">
                         <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
-                            State<em className='text-red-700'>*</em>
+                            State<em className='text-red-700 !leading-normal'>*</em>
                         </div>
-                        <div class="relative w-full">
+                        <div class="relative ">
                             <select class="text-[16px] block appearance-none w-full bg-white border border-gray-400 hover:border-yellow-400 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
                                 // {...register("state", {
                                 //     required: {
@@ -100,11 +100,11 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                         </p>
                     </div>
                 </div>
-                <div className=" mx-2">
-                    <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
-                        Zip Code<em className='text-red-700'>*</em>
+                <div className=" mx-2 mt-5">
+                    <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal mx-auto w-64 uppercase">
+                        Address<em className='text-red-700'>*</em>
                     </div>
-                    <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded mx-auto !w-64">
+                    <div className="bg-white p-1 flex border border-gray-400 hover:border-yellow-400 rounded mx-auto w-64">
                         <input name="address" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none  text-gray-800"
                             // {...register("address", {
                             //     required: {
@@ -129,14 +129,7 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                     </p>
 
                 </div>
-                <div className="footer text-center mt-5">
-                    {/* <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" disabled={page === 0}
-                        onClick={() => {
-                            setPage((currPage) => currPage - 1);
-                        }}
-                    >
-                        Back
-                    </button> */}
+                <div className="footer text-center mt-16">
                     <input id='submitButton' className=" sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Submit" />
                 </div>
             </form>

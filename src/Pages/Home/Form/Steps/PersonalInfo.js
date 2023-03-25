@@ -66,14 +66,7 @@ const PersonalInfo = ({ page, setPage, setAllData, AllData }) => {
                     </div>
                 </div>
 
-                <div className="footer mt-5">
-                    {/* <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" disabled={page === 0}
-                        onClick={() => {
-                            setPage((currPage) => currPage - 1);
-                        }}
-                    >
-                        Back
-                    </button> */}
+                <div className="footer mt-16">
                     <input className="sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Next" />
                 </div>
             </form>

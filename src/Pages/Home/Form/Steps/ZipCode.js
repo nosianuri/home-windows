@@ -22,8 +22,8 @@ const ZipCode = ({ page, setPage, setAllData, AllData }) => {
                         <h2 className='text-xl font-semibold'>What is your Zip Code?<em className='text-red-700'>*</em></h2>
                         <div className=" my-10">
 
-                            <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded mx-auto !w-64">
-                                <input name="zip_code" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none  text-gray-800"
+                            <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded mx-auto w-64">
+                                <input name="zip_code" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"
                                     {...register("zip_code", {
                                         required: {
                                             value: true,
