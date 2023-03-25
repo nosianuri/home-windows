@@ -9,15 +9,20 @@ const Pnature = ({ setCurrently, setPage }) => {
     <div className="flex flex-col w-full " data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
       <div className="mx-2 flex-1">
         <div className='text-center'>
-          <h2 className='text-xl font-semibold'>Do you currently have an Attorney for this case?<em className='text-red-700'>*</em></h2>
+          <h2 className='text-xl font-semibold'>What is the nature of your windows project?<em className='text-red-700'>*</em></h2>
           <div className='my-5'>
             <div className='text-xl'>
               <div onClick={() => handleChange("yes")} className='radio-item'>
                 <input name='radio' id='radio1' type="radio" />
-                <label htmlFor="radio1">Yes</label>
+                <label htmlFor="radio1">Repair</label>
               </div>
-              <div onClick={() => handleChange("no")} className='radio-item'>              <input name='radio' id='radio2' type="radio" />
-                <label htmlFor="radio2">No</label>
+              <div onClick={() => handleChange("no")} className='radio-item'>        
+                    <input name='radio' id='radio2' type="radio" />
+                <label htmlFor="radio2">Replace</label>
+              </div>
+              <div onClick={() => handleChange("no")} className='radio-item'>        
+                    <input name='radio' id='radio2' type="radio" />
+                <label htmlFor="radio2">Unsure</label>
               </div>
             </div>
           </div>

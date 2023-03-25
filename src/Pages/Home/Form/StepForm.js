@@ -3,6 +3,8 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import Address from './Steps/Address';
+import Contact from './Steps/Contact';
+import Final from './Steps/Final';
 import Involveved from './Steps/Involveved';
 import OwnHome from './Steps/OwnHome';
 import PersonalInfo from './Steps/PersonalInfo';
@@ -69,7 +71,8 @@ const StepForm = () => {
                     window.dataLayer.push({
                         event: data
                       })
-                    navigate("/thanks");
+                    // navigate("/thanks");
+                    setPage(page + 1);
                 } else if (data.errors) {
                     toast.error('Something went wrong', data.errors.message);
                     setLoading(false)
@@ -94,26 +97,30 @@ const StepForm = () => {
       "Final",];
   const PageDisplay = () => {
       if (page === 0) {
-          return <ZipCode page={page} setPage={setPage} register={register} errors={errors} />;
+          return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       } else if (page === 1) {
           return <Pnature setCurrently={setCurrently} setPage={setPage} />;
       } else if (page === 2) {
           return <Involveved setFault={setFault} setPage={setPage} />;
       } else if (page === 3) {
-          return <PlanStart selectedDate={selectedDate} setSelectedDate={setSelectedDate} page={page} setPage={setPage} />;
+          return <PlanStart setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       } else if (page === 4) {
           return <OwnHome setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       } else if (page === 5) {
           return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else {
+      } else if (page === 6) {
+          return <Contact setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+      } else if (page === 7) {
           return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+      } else {
+          return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       }
   };
   return (
     <div className='mx-auto rounded-2xl text-gray-900'>
     <div className="form  container ">
         <div className="progressbar">
-            <div style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
+            <div style={{ width: page === 0 ? "0%" : page == 1 ? "30%" : page == 2 ? "40%" : page == 3 ? "50%" : page == 4 ? "60%" : page == 5 ? "70%" : page == 6 ? "80%" : page == 7 ? "90%" : "100%" }}
             ></div>
         </div>
         <div className="form-container pb-5 sm:px-10 px-3 ">

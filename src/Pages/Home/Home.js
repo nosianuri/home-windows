@@ -1,42 +1,54 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import './Home.css';
 import windowLogo from '../../assets/windows-logo.webp';
 import StepForm from './Form/StepForm';
+import Loader from '../../Shared/Loader';
 
 const Home = () => {
+    const [isLoading, setIsLoading] = useState(true);
+    useEffect(() => {
+        // simulate a delay of 3 seconds to show the loader
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 3000);
+      }, []);
     return (
         <>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Home Windows</title>
             </Helmet>
-            <div className='body sg-body'>
+            {isLoading ? (
+        <Loader />
+      ) : (
+        <div>
+        <div className='body sg-body'>
                 <div className='bg-opacity-25 bg-black'>
                     <div className='speak-agent'>
                         <div className='flex justify-center items-center'>
-                            <i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] text-3xl"></i>
+                            <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] text-3xl"></i></a>
                             <p className='text-white !leading-normal'>Speak to a Licensed Agent <br />
-                                <a className='text-3xl font-bold text-[#eaa613]' href="/">(866) 996-1187</a> <br />
+                                <a className='text-3xl font-bold text-[#f4b836]' href="tel:+18559390621">(866) 996-1187</a> <br />
                                 Licensed Agents available now
                             </p>
                         </div>
                     </div>
 
-                    <div className='grid sm:grid-cols-2 grid-cols-1 max-w-[800px] mx-auto mb-16'>
+                    <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[900px] mx-auto my-16 px-3'>
 
-                        <div className='bg-[#fff8f0b0] logo-chip '>
-                            <img src={windowLogo} alt="" className='!w-72' />
-                            <h4 className='text-2xl mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
-                            <h5 className='text-xl mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
+                        <div className='bg-[#fff8f0b0] sm:px-5 sm:py-5'>
+                            <img src='https://i.ibb.co/vZxr3dp/window-logo.png' alt="" className='sm:w-64 mx-auto' />
+                            <h4 className='sm:text-2xl text-xl mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
+                            <h5 className='sm:text-xl mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
                         </div>
-                        <div className='bg-[#fff8f0]'>
+                        <div className='bg-[#fff8f0] rounded-r-lg sm:w-[700px] '>
                             <StepForm />
                         </div>
                     </div>
                 </div>
                 <div id='details'>
-                    <div className='bg-[#e48a03] text-xl text-white font-bold py-2 flex items-center justify-center'>
+                    <div className='bg-[#eaa613] text-xl text-white font-bold py-2 flex items-center justify-center'>
                         <a href="#details">
                             <span>More Info</span>
                             <i class="fa-solid fa-caret-down pl-3"></i>
@@ -61,7 +73,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='bg-opacity-25 bg-black'>
-                    <div className='text-white  max-w-7xl mx-auto sm:my-16 my-5'>
+                    <div className='text-white  max-w-7xl px-3 mx-auto sm:my-16 my-5'>
                         <h6 className='text-xs'>Important Disclosures</h6>
                         <p className='text-xs'>This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video in any advertisement associated with this site are actors or models and not contractors affiliated with this site.
                             <br /> <br />
@@ -72,6 +84,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+        </div>
+      )}
+            
         </>
     )
 }
