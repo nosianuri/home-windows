@@ -14,12 +14,12 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                         </div>
                         <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded ">
                             <input name="city" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"
-                                // {...register("city", {
-                                //     required: {
-                                //         value: true,
-                                //         message: 'City Name is required'
-                                //     },
-                                // })}
+                                {...register("city", {
+                                    required: {
+                                        value: true,
+                                        message: 'City Name is required'
+                                    },
+                                })}
                                 placeholder='City' />
                         </div>
                         <p>
@@ -32,12 +32,12 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                         </div>
                         <div class="relative ">
                             <select class="text-[16px] block appearance-none w-full bg-white border border-gray-400 hover:border-yellow-400 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
-                                // {...register("state", {
-                                //     required: {
-                                //         value: true,
-                                //         message: 'State Name is required'
-                                //     },
-                                // })}
+                                {...register("state", {
+                                    required: {
+                                        value: true,
+                                        message: 'State Name is required'
+                                    },
+                                })}
                                 id='state' name="state" >
                                 <option value="">Select State...</option>
                                 <option value="AK">AK</option>
@@ -105,27 +105,19 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                         Address<em className='text-red-700'>*</em>
                     </div>
                     <div className="bg-white p-1 flex border border-gray-400 hover:border-yellow-400 rounded mx-auto w-64">
-                        <input name="address" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none  text-gray-800"
-                            // {...register("address", {
-                            //     required: {
-                            //         value: true,
-                            //         message: 'Address is required'
-                            //     },
-                            //     maxLength: {
-                            //         value: 5,
-                            //         message: 'Must be 5 characters longer'
-                            //     },
-                            //     minLength: {
-                            //         value: 5,
-                            //         message: 'Must be 5 characters longer'
-                            //     }
-                            // })}
+                        <input name="address" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none  text-gray-800 w-full"
+                            {...register("address", {
+                                required: {
+                                    value: true,
+                                    message: 'Address is required'
+                                },
+                                
+                            })}
                             placeholder='Address' />
                     </div>
                     <p>
-                        {errors.zip_code?.type === 'required' && <span className="text-xs text-red-500">{errors.address.message}</span>}
-                        {errors.zip_code?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.address.message}</span>}
-                        {errors.zip_code?.type === 'minLength' && <span className="text-xs text-red-500">{errors.address.message}</span>}
+                        {errors.address?.type === 'required' && <span className="text-xs text-red-500">{errors.address.message}</span>}
+                        
                     </p>
 
                 </div>

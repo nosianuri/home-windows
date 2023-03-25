@@ -25,16 +25,16 @@ const PersonalInfo = ({ page, setPage, setAllData, AllData }) => {
                         </div>
                         <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded">
                             <input name="first_name" className="p-1 text-[16px] px-2 appearance-none outline-none w-full text-gray-800"
-                                // {...register("first_name", {
-                                //   required: {
-                                //     value: true,
-                                //     message: 'First Name is required'
-                                //   },
-                                //   minLength: {
-                                //     value: 3,
-                                //     message: 'Must be 3 characters longer'
-                                //   }
-                                // })}
+                                {...register("first_name", {
+                                  required: {
+                                    value: true,
+                                    message: 'First Name is required'
+                                  },
+                                  minLength: {
+                                    value: 3,
+                                    message: 'Must be 3 characters longer'
+                                  }
+                                })}
                                 placeholder='First Name' />
                         </div>
                         <p>
@@ -47,16 +47,16 @@ const PersonalInfo = ({ page, setPage, setAllData, AllData }) => {
                             Last Name<em className='text-red-700'>*</em>              </div>
                         <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded">
                             <input name="last_name" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"           
-                            //        {...register("last_name", {
-                            //     required: {
-                            //         value: true,
-                            //         message: 'Last Name is required'
-                            //     },
-                            //     minLength: {
-                            //         value: 3,
-                            //         message: 'Must be 3 characters longer'
-                            //     }
-                            // })}
+                                   {...register("last_name", {
+                                required: {
+                                    value: true,
+                                    message: 'Last Name is required'
+                                },
+                                minLength: {
+                                    value: 3,
+                                    message: 'Must be 3 characters longer'
+                                }
+                            })}
                                 placeholder='Last Name' />
                         </div>
                         <p>
