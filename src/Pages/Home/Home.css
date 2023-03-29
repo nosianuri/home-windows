@@ -141,6 +141,7 @@ div#headline h1 span {
 }
 
 #cac-footer-legal {
+    /* background: #ffffff; */
     background: #003144;
     color: #FFFFFF;
     min-width: 100vw;
