@@ -3,7 +3,7 @@ import React from 'react'
 const Final = () => {
   return (
     <div>
-        <h3 className='text-center'>A Windows contractor will be reaching out very soon! Please take a look at some other services we offer!</h3>
+        <h3 className='text-center font-medium'>A Windows contractor will be reaching out very soon! Please take a look at some other services we offer!</h3>
         <div className='flex justify-between items-center mt-5'>
             <img src="https://i.ibb.co/MZQKDwX/window-installation.png" alt="" className='w-36' />
             <div className='text-center'>

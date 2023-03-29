@@ -22,13 +22,13 @@ const PrivacyPolicy = () => {
                 <Loader />
             ) : (
                 <div>
-                    <div className='bg-[#323a56] text-[#ffffff]'>
+                    <div className='bg-[#003144] text-[#ffffff]'>
                         <div className='max-w-7xl mx-auto sm:py-16 py-5'>
                             <h3 className='text-3xl font-bold !leading-normal'>PRIVACY NOTICE</h3>
                             <h5 className='text-xl font-bold mb-2 !leading-normal'>Last updated 24 March, 2023</h5>
                             <p>This privacy notice for Instal US, LLC ("<span className='font-bold'>Company</span>," "<span className='font-bold'>we</span>," "<span className='font-bold'>us</span>," or "<span className='font-bold'>our</span>"), describes how and why we might collect, store, use, and/or share ("<span className='font-bold'>process</span>") your information when you use our services ("<span className='font-bold'>Services</span>"), such as when you:</p>
                             <ul>
-                                <li>Visit our website at <a className='underline text-[#ffae00]' href="/">https://HomesWindows.com</a> or any website of ours that links to this privacy notice</li>
+                                <li>Visit our website at <a className='underline text-[#ffae00]' href="https://mrhomeservice-com.preview-domain.com/window-installation">https://windowinstallation.com</a> or any website of ours that links to this privacy notice</li>
                                 <li>Engage with us in other related ways, including any sales, marketing, or events</li>
                             </ul>
                             <p className='mb-8'><span className='font-bold'>Questions or concerns?</span> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at adops_us@instal.com.</p>
@@ -114,28 +114,44 @@ const PrivacyPolicy = () => {
                             <p><span>In Short:</span>
                                 We may share information in specific situations described in this section and/or with the following categories of third parties.</p>
 
-
+                            <p></p>
                             Vendors, Consultants, and Other Third-Party Service Providers. We may share your data with third-party vendors, service providers, contractors, or agents ("third parties") who perform services for us or on our behalf and require access to such information to do that work. The categories of third parties we may share personal information with are as follows:
+                            <ul className='ul-article'>
+                                <li>Ad Networks</li>
+                                <li>Affiliate Marketing Programs</li>
+                                <li> Communication & Collaboration Tools</li>
+                                <li>Data Analytics Services</li>
+                                <li>Data Storage Service Providers</li>
+                                <li> Performance Monitoring Tools</li>
+                                <li>Retargeting Platforms</li>
+                                <li>Sales & Marketing Tools</li>
+                                <li>Social Networks</li>
+                            </ul>
+                            <p>We also may need to share your personal information in the following situations:</p>
+                            <ul className='ul-article'>
+                                <li><span className='font-bold'>Business Transfers.</span> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
+                                <li><span className='font-bold'>When we use Google Maps Platform APIs.</span> We may share your information with certain Google Maps Platform APIs (e.g., Google Maps API, Places API). To find out more about Google's Privacy Policy, please refer to this link.</li>
+                                <li><span className='font-bold'>Affiliates.</span> We may share your information with our affiliates, in which case we will require those affiliates to honor this privacy notice. Affiliates include our parent company and any subsidiaries, joint venture partners, or other companies that we control or that are under common control with us.</li>
+                                <li><span className='font-bold'>Business Partners.</span> We may share your information with our business partners to offer you certain products, services, or promotions.</li>
+                            </ul>
 
-                            Ad Networks
+                            <h4 className='text-3xl font-bold !leading-normal'>4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h4>
+                            <p className='mb-2'><span className='italic font-bold'>In Short:</span> We may use cookies and other tracking technologies to collect and store your information.</p>
+                            <p className='mb-2'>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: <a href="https://mrhomeservice-com.preview-domain.com/window-installation">https://windowsinstallation.com/cookie-policy/</a>.</p>
 
-                            Affiliate Marketing Programs
+                            <h4 className='text-3xl font-bold !leading-normal'>5. HOW LONG DO WE KEEP YOUR INFORMATION?</h4>
+                            <p className='mb-2'><span className='italic font-bold'>In Short:</span>  We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.</p>
+                            <p className='mb-2'>We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than 2 years.</p>
+                            <p className='mb-2'>When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>
 
-                            Communication & Collaboration Tools
+                            <h4 className='text-3xl font-bold !leading-normal'>6. HOW DO WE KEEP YOUR INFORMATION SAFE?</h4>
+                            <p className='mb-2'><span className='italic font-bold'>In Short:</span>  We aim to protect your personal information through a system of organizational and technical security measures.</p>
+                            <p className='mb-2'>We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
+                            <h4 className='text-3xl font-bold !leading-normal'>7. DO WE COLLECT INFORMATION FROM MINORS?</h4>
+                            <p className='mb-2'><span className='italic font-bold'>In Short:</span>  We do not knowingly collect data from or market to children under 18 years of age.</p>
+                            <p className='mb-2'>We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at info@yourhomesconnection.com.</p>
 
-                            Data Analytics Services
 
-                            Data Storage Service Providers
-
-                            Performance Monitoring Tools
-
-                            Retargeting Platforms
-
-                            Sales & Marketing Tools
-
-                            Social Networks
-
-                            We also may need to share your personal information in the following situations:
                         </div>
                     </div>
                 </div>

@@ -20,11 +20,11 @@ const Terms = () => {
                 <Loader />
             ) : (
                 <div>
-                    <div className='bg-[#323a56] text-[#ffffff]'>
+                    <div className='bg-[#003144] text-[#ffffff]'>
                         <div className='max-w-7xl mx-auto sm:py-16 py-5'>
                             <h3 className='text-3xl font-bold !leading-normal'>Terms of Use</h3>
                             <h5 className='text-xl font-bold mb-2 !leading-normal'>Last update 23/03/2023</h5>
-                            <h5 className='text-xl mb-2 '>For our privacy policy please click <a href="/privacy-policy">here</a>.</h5>
+                            <h5 className='text-xl mb-2 '>For our privacy policy please click <a className='text-orange-500 underline hover:no-underline' href="https://mrhomeservice-com.preview-domain.com/privacy-policy">here</a>.</h5>
                             <p className='mb-8'>Please review these terms and conditions of use (the "Terms and Conditions") carefully before using "YourHomesConnection.com and other web properties linking to these terms of use using the "YourHomes" brand (the "Site"), (the “Brand”). The Site and Brand are owned and operated by Instal US, LLC and, by using the site or brand, you accept and agree to these Terms and Conditions. If you do not agree to these Terms and Conditions, you may not access or otherwise use the Site. You may only use the Site if you are domiciled in the United States and you are 18 years old or older.</p>
 
                             <p className='mb-2'>1. <span className='font-bold'>Services Available on the Site Or Brand:</span> The Site and Brand provides content and referrals related to home improvement and repair products, services, and professionals. The service provided by the Site is for general educational, informational, and research purposes only and is not an endorsement, recommendation, or guarantee of any service, product, or professional. No advice or information, whether oral or written, obtained by you from YourHomesConnection.com or through or from the service shall create any warranty of any kind.</p>
