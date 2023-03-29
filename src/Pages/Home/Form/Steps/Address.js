@@ -6,14 +6,14 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
 
     return (
         <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
-            <h2 className='text-2xl font-semibold text-center mb-5'>What is your Address?<em className='text-red-700'>*</em></h2>
+            <h2 className='text-[24px] font-bold text-center mb-10'>What is your Address?<em className='text-red-700'>*</em></h2>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <div className='grid sm:grid-cols-2 grid-cols-1 mt-5'>
+                
                     <div className="flex-1 mx-2">
-                        <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">City<em className='text-red-700'>*</em>
-                        </div>
-                        <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded ">
-                            <input name="city" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"
+                        {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">City<em className='text-red-700'>*</em>
+                        </div> */}
+                        <div className="input-container ">
+                            <input name="city" type="text" className="input"
                                 {...register("city", {
                                     required: {
                                         value: true,
@@ -27,10 +27,20 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                         </p>
                     </div>
                     <div className=" flex-1 mx-2">
-                        <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
-                            State<em className='text-red-700 !leading-normal'>*</em>
+                    <div className="input-container">
+                            <input name="state" type="text" className="input"
+                                {...register("state", {
+                                    required: {
+                                        value: true,
+                                        message: 'state Name is required'
+                                    },
+                                })}
+                                placeholder='STATE (EX. CA)' />
                         </div>
-                        <div class="relative ">
+                        {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
+                            State<em className='text-red-700 !leading-normal'>*</em>
+                        </div> */}
+                        {/* <div class="relative ">
                             <select class="text-[16px] block appearance-none w-full bg-white border border-gray-400 hover:border-yellow-400 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
                                 {...register("state", {
                                     required: {
@@ -94,18 +104,18 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                             <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                 <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                             </div>
-                        </div>
+                        </div> */}
                         <p>
                             {errors.state?.type === 'required' && <span className="text-xs text-red-500">{errors.state.message}</span>}
                         </p>
                     </div>
-                </div>
-                <div className=" mx-2 mt-5">
-                    <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal mx-auto w-64 uppercase">
+                
+                <div className=" mx-2">
+                    {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal mx-auto w-64 uppercase">
                         Address<em className='text-red-700'>*</em>
-                    </div>
-                    <div className="bg-white p-1 flex border border-gray-400 hover:border-yellow-400 rounded mx-auto w-64">
-                        <input name="address" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none  text-gray-800 w-full"
+                    </div> */}
+                    <div className="input-container">
+                        <input name="address" type="text" className="input"
                             {...register("address", {
                                 required: {
                                     value: true,
@@ -113,7 +123,7 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                                 },
                                 
                             })}
-                            placeholder='Address' />
+                            placeholder='Street Address' />
                     </div>
                     <p>
                         {errors.address?.type === 'required' && <span className="text-xs text-red-500">{errors.address.message}</span>}
@@ -121,7 +131,7 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                     </p>
 
                 </div>
-                <div className="footer text-center mt-16">
+                <div className="footer text-center mt-16 mx-auto">
                     <input id='submitButton' className=" sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Submit" />
                 </div>
             </form>

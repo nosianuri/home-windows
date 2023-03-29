@@ -22,8 +22,8 @@ const Home = () => {
             {isLoading ? (
                 <Loader />
             ) : (
-                <div>
-                    <div className='body sg-body'>
+                <div className=''>
+                    <div className='body sg-body '>
                         <div className='bg-opacity-25 bg-black'>
                             <div className='speak-agent'>
                                 <div className='flex justify-center items-center'>
@@ -39,8 +39,8 @@ const Home = () => {
 
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
                                     <img src='https://i.ibb.co/vZxr3dp/window-logo.png' alt="" className='sm:w-64 mx-auto' />
-                                    <h4 className='text-2xl  mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
-                                    <h5 className='text-xl mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
+                                    <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
+                                    <h5 className='text-xl font-medium mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
                                 </div>
                                 <div className='bg-[#fff8f0] rounded-r-lg sm:w-[700px] '>
                                     <StepForm />

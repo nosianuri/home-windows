@@ -9,7 +9,7 @@ const PlanStart = ({ page, setPage, setTimeFrame }) => {
     <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
       <div className="mx-2  flex-1">
         <div className='text-center'>
-          <h2 className='text-2xl font-semibold'>When do you plan to start this project?<em className='text-red-700'>*</em></h2>
+          <h2 className='text-[24px] font-bold mb-14'>When do you plan to start this project?<em className='text-red-700'>*</em></h2>
           <div className='my-5'>
             <div className='text-xl'>
               <div onClick={() => handleChange("immediately")} className='radio-item'>

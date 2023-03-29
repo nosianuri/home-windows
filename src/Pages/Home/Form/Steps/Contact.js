@@ -14,14 +14,14 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
     }
     return (
         <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
-            <h2 className='text-2xl font-semibold text-center mb-5'>Contact Information<em className='text-red-700'>*</em></h2>
+            <h2 className='text-[24px] font-bold text-center mb-2'>What is the best phone number & email to reach you?<em className='text-red-700'>*</em></h2>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <div className=''>
+                <div className='space-y-2'>
                     <div className=" mx-2">
-                        <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">Email<em className='text-red-700'>*</em>
-                        </div>
-                        <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded">
-                            <input name="email" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"
+                        {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">Email<em className='text-red-700'>*</em>
+                        </div> */}
+                        <div className="input-container">
+                            <input name="email" className="input"
                                 {...register("email_address", {
                                     required: {
                                         value: true,
@@ -31,15 +31,15 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
                                 placeholder='Email' />
                         </div>
                         <p>
-                            {errors.email_address?.type === 'required' && <span className="text-xs text-red-500">{errors.email.message}</span>}
+                            {errors.email_address?.type === 'required' && <span className="text-xs text-red-500">{errors.email_address.message}</span>}
                         </p>
                     </div>
-                    <div className="mx-2">
-                        <div className="font-bold h-6 mt-3 !text-gray-900 text-sm !leading-normal uppercase">
+                    <div className="mx-2 input-container">
+                        {/* <div className="font-bold h-6 mt-3 !text-gray-900 text-sm !leading-normal uppercase">
                             Phone Number<em className='text-red-700'>*</em>
-                        </div>
-                        <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-yellow-400 rounded">
-                            <input name="phone" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"
+                        </div> */}
+                        <div className="input-container">
+                            <input name="phone" type="text" autoComplete='off' className="input "
                                 {...register("phone_home", {
                                     required: {
                                         value: true,
@@ -54,16 +54,18 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
                                         message: 'Must be 10 characters longer'
                                     }
                                 })}
-                                placeholder='Phone Number' />
+                                placeholder='10 Digits (Ex. 5231231234)' />
                         </div>
                         <p>
-                            {errors.phone_home?.type === 'required' && <span className="text-xs text-red-500">{errors.phone.message}</span>}
-                            {errors.phone_home?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.phone.message}</span>}
-                            {errors.phone_home?.type === 'minLength' && <span className="text-xs text-red-500">{errors.phone.message}</span>}
+                            {errors.phone_home?.type === 'required' && <span className="text-xs text-red-500">{errors.phone_home.message}</span>}
+                            {errors.phone_home?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.phone_home.message}</span>}
+                            {errors.phone_home?.type === 'minLength' && <span className="text-xs text-red-500">{errors.phone_home.message}</span>}
                         </p>
                     </div>
+                    <p className='text-[8px] !mt-5'>BY CLICKING NEXT, YOU AUTHORIZE WINDOWSInstallation.COM, YOURHOMESCONNECTION.COM AND UP TO <a className='text-orange-500 hover:underline' href="/">FOUR PARTNER COMPANIES</a> TO CALL YOU AND SEND YOU PRE-RECORDED MESSAGES AND TEXT MESSAGES AT THE NUMBER YOU ENTERED ABOVE, USING AN AUTODIALER, WITH OFFERS ABOUT THEIR PRODUCTS OR SERVICES, EVEN IF YOUR PHONE NUMBER IS ON ANY NATIONAL OR STATE DO NOT CALL LIST. MESSAGE AND DATA RATES MAY APPLY. YOUR CONSENT HERE IS NOT BASED ON A CONDITION OF PURCHASE.YOU ALSO AGREE TO THE <a className='text-orange-500 hover:underline' href="/terms">TERMS AND CONDITION</a> AND <a className='text-orange-500 hover:underline' href="/privacy-policy">PRIVACY POLICY</a></p>
+                    
                 </div>
-                <div className="footer mt-16">
+                <div className="footer mt-5 mx-auto">
                     <input className="sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Next" />
                 </div>
             </form>

@@ -9,7 +9,7 @@ const Pnature = ({ setCurrently, setPage }) => {
     <div className="flex flex-col w-full " data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
       <div className="mx-2 flex-1">
         <div className='text-center'>
-          <h2 className='text-xl font-semibold'>What is the nature of your windows project?<em className='text-red-700'>*</em></h2>
+          <h2 className='text-[24px] font-bold mb-10'>What is the nature of your windows project?<em className='text-red-700'>*</em></h2>
           <div className='my-5'>
             <div className='text-xl'>
               <div onClick={() => handleChange("repair")} className='radio-item'>
