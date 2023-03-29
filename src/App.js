@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Routes>
-    <Route path='/' element={<Home />} />
+    <Route path='/window-installation' element={<Home />} />
     <Route path='/privacy-policy' element={<PrivacyPolicy />} />
     <Route path='/terms' element={<Terms />} />
     </Routes>
