@@ -3,7 +3,7 @@ import React from 'react'
 const PlanStart = ({ page, setPage, setTimeFrame }) => {
   const handleChange = (e) => {
     setTimeFrame(e);
-    setPage(4);
+    setPage(5);
   };
   return (
     <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">

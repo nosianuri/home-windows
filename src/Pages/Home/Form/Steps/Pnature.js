@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Pnature = ({ setCurrently, setPage }) => {
+const Pnature = ({ nature, setNature, setPage }) => {
     const handleChange = (e) => {
-        setCurrently(e);
+      setNature(e);
         setPage(2)
       };
   return (
@@ -12,17 +12,17 @@ const Pnature = ({ setCurrently, setPage }) => {
           <h2 className='text-[24px] font-bold mb-10'>What is the nature of your windows project?<em className='text-red-700'>*</em></h2>
           <div className='my-5'>
             <div className='text-xl'>
-              <div onClick={() => handleChange("repair")} className='radio-item'>
-                <input name='radio' id='radio1' type="radio" />
-                <label htmlFor="radio1">Repair</label>
+              <div onClick={() => handleChange("Cleaning")} className='radio-item'>
+                <input name='nature' id='cleaning'  type="radio" />
+                <label htmlFor="cleaning">Cleaning</label>
               </div>
-              <div onClick={() => handleChange("replace")} className='radio-item'>        
-                    <input name='radio' id='radio2' type="radio" />
-                <label htmlFor="radio2">Replace</label>
+              <div onClick={() => handleChange("Replace")} className='radio-item'>        
+                    <input name='nature' id='replace'  type="radio" />
+                <label htmlFor="replace">Replace</label>
               </div>
-              <div onClick={() => handleChange("unsure")} className='radio-item'>        
-                    <input name='radio' id='radio2' type="radio" />
-                <label htmlFor="radio2">Unsure</label>
+              <div onClick={() => handleChange("Repair")} className='radio-item'>        
+                    <input name='nature' id='repair'  type="radio" />
+                <label htmlFor="repair">Repair</label>
               </div>
             </div>
           </div>

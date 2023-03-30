@@ -8,7 +8,27 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
         <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
             <h2 className='text-[24px] font-bold text-center mb-10'>What is your Address?<em className='text-red-700'>*</em></h2>
             <form onSubmit={handleSubmit(onSubmit)}>
-                
+            <div className=" mx-2">
+                    {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal mx-auto w-64 uppercase">
+                        Address<em className='text-red-700'>*</em>
+                    </div> */}
+                    <div className="input-container">
+                        <input name="address" type="text" className="input"
+                            {...register("address", {
+                                required: {
+                                    value: true,
+                                    message: 'Address is required'
+                                },
+                                
+                            })}
+                            placeholder='Street Address' />
+                    </div>
+                    <p>
+                        {errors.address?.type === 'required' && <span className="text-xs text-red-500">{errors.address.message}</span>}
+                        
+                    </p>
+
+                </div>
                     <div className="flex-1 mx-2">
                         {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">City<em className='text-red-700'>*</em>
                         </div> */}
@@ -110,27 +130,7 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                         </p>
                     </div>
                 
-                <div className=" mx-2">
-                    {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal mx-auto w-64 uppercase">
-                        Address<em className='text-red-700'>*</em>
-                    </div> */}
-                    <div className="input-container">
-                        <input name="address" type="text" className="input"
-                            {...register("address", {
-                                required: {
-                                    value: true,
-                                    message: 'Address is required'
-                                },
-                                
-                            })}
-                            placeholder='Street Address' />
-                    </div>
-                    <p>
-                        {errors.address?.type === 'required' && <span className="text-xs text-red-500">{errors.address.message}</span>}
-                        
-                    </p>
-
-                </div>
+                
                 <div className="footer text-center mt-16 mx-auto">
                     <input id='submitButton' className=" sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Submit" />
                 </div>
