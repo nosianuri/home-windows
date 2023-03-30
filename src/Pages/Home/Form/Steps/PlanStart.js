@@ -12,29 +12,34 @@ const PlanStart = ({ page, setPage, setTimeFrame }) => {
           <h2 className='text-[24px] font-bold mb-14'>When do you plan to start this project?<em className='text-red-700'>*</em></h2>
           <div className='my-5'>
             <div className='text-xl'>
-              <div onClick={() => handleChange("immediately")} className='radio-item'>
+              <div onClick={() => handleChange("Immediate")} className='radio-item'>
                 <input name='radio' id='radio1' type="radio" />
-                <label htmlFor="radio1">Immediately</label>
+                <label htmlFor="radio1">Immediate</label>
               </div>
-              <div onClick={() => handleChange("1-6 months")} className='radio-item'>
+              <div onClick={() => handleChange("More Than 1 Month")} className='radio-item'>
                 <input name='radio' id='radio2' type="radio" />
-                <label htmlFor="radio2">1-6 Months</label>
+                <label htmlFor="radio2">More Than 1 Month</label>
               </div>
-              <div onClick={() => handleChange("don't Know")} className='radio-item'>
+              <div onClick={() => handleChange("Timing is Flexible")} className='radio-item'>
                 <input name='radio' id='radio2' type="radio" />
-                <label htmlFor="radio2">Don't Know</label>
+                <label htmlFor="radio2">Timing is Flexible</label>
+              </div>
+              <div onClick={() => handleChange("Within 1 Month")} className='radio-item'>
+                <input name='radio' id='radio2' type="radio" />
+                <label htmlFor="radio2">Within 1 Month</label>
+              </div>
+              <div onClick={() => handleChange("Within 1 Week")} className='radio-item'>
+                <input name='radio' id='radio2' type="radio" />
+                <label htmlFor="radio2">Within 1 Week</label>
+              </div>
+              <div onClick={() => handleChange("Within 2 Weeks")} className='radio-item'>
+                <input name='radio' id='radio2' type="radio" />
+                <label htmlFor="radio2">Within 2 Weeks</label>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="footer mt-5">
-
-        <button className="sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white"
-          onClick={() => {
-            setPage((currPage) => currPage + 1);
-          }}>Next</button>
-      </div> */}
     </div>
   )
 }

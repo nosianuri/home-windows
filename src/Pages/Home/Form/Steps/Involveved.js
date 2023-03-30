@@ -12,21 +12,25 @@ const Involveved = ({ setPage, setFault }) => {
                     <h2 className='text-[24px] font-bold mb-10'>How many windows are involved?<em className='text-red-700'>*</em></h2>
                     <div className='my-5'>
                         <div className='text-xl'>
-                            <div onClick={() => handleChange("6+")} className='radio-item'>
+                            <div onClick={() => handleChange("1")} className='radio-item'>
                                 <input name='radio' id='radio1' type="radio" />
-                                <label htmlFor="radio1">6+</label>
+                                <label htmlFor="radio1">1</label>
                             </div>
-                            <div onClick={() => handleChange("3-5")} className='radio-item'>
+                            <div onClick={() => handleChange("10+")} className='radio-item'>
                                 <input name='radio' id='radio2' type="radio" />
-                                <label htmlFor="radio2">3-5</label>
+                                <label htmlFor="radio2">10+</label>
                             </div>
                             <div onClick={() => handleChange("2")} className='radio-item'>
                                 <input name='radio' id='radio2' type="radio" />
                                 <label htmlFor="radio2">2</label>
                             </div>
-                            <div onClick={() => handleChange("1")} className='radio-item'>
+                            <div onClick={() => handleChange("3-5")} className='radio-item'>
                                 <input name='radio' id='radio2' type="radio" />
-                                <label htmlFor="radio2">1</label>
+                                <label htmlFor="radio2">3-5</label>
+                            </div>
+                            <div onClick={() => handleChange("6-9")} className='radio-item'>
+                                <input name='radio' id='radio2' type="radio" />
+                                <label htmlFor="radio2">6-9</label>
                             </div>
                         </div>
                     </div>
