@@ -26,12 +26,12 @@ const Home = () => {
                         <div className='bg-opacity-25 bg-black'>
                             <div className='max-w-7xl mx-auto px-2 mt-3'>
                                 <div className='flex justify-between items-center'>
-                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-24 w-16' />
+                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-24 w-16 bg-black bg-opacity-10' />
 
-                                    <div className='flex justify-center items-center'>
-                                        <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] text-3xl"></i></a>
-                                        <p className='text-white !leading-normal agent'>Speak to a Licensed Agent <br />
-                                            <a className='text-3xl font-bold text-[#f4b836]' href="tel:+18888560197">(888) 856-0197</a> <br />
+                                    <div className='flex justify-center items-center  px-1'>
+                                        <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] sm:text-3xl text-xl"></i></a>
+                                        <p className='text-white !leading-normal sm:text-base text-xs agent bg-black bg-opacity-20'>Speak to a Licensed Agent <br />
+                                            <a className='sm:text-3xl font-bold text-[#f4b836]' href="tel:+18888560197">(888) 856-0197</a> <br />
                                             Licensed Agents available now
                                         </p>
                                     </div>
@@ -50,7 +50,7 @@ const Home = () => {
                             <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[900px] mx-auto my-16 px-3'>
 
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
-                                    <img src='https://i.ibb.co/vZxr3dp/window-logo.png' alt="" className='sm:w-64 mx-auto' />
+                                    <img src='https://i.ibb.co/SVgJyPv/idk-removebg-preview.png' alt="" className='sm:w-64 mx-auto' />
                                     <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
                                     <h5 className='text-xl font-medium mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
                                 </div>

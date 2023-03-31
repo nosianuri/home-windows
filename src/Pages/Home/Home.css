@@ -225,8 +225,3 @@ div#headline h1 span {
     width: 200%;
 }
 
-@media screen and (max-width: 780px) {
-    .agent{
-        display: none;
-    }
-}

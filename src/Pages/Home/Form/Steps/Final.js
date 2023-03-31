@@ -5,7 +5,7 @@ const Final = () => {
     <div>
         <h3 className='text-center font-medium'>A Windows contractor will be reaching out very soon! Please take a look at some other services we offer!</h3>
         <div className='flex justify-between items-center mt-5'>
-            <img src="https://i.ibb.co/MZQKDwX/window-installation.png" alt="" className='w-36' />
+            <img src="https://i.ibb.co/SVgJyPv/idk-removebg-preview.png" alt="" className='w-36' />
             <div className='text-center'>
             <h2 className='font-bold text-xl'>Home Windows installation</h2>
             <p>See if windows is right for your home</p>
