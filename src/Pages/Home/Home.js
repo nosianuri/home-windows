@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import './Home.css';
-import windowLogo from '../../assets/windows-logo.webp';
 import StepForm from './Form/StepForm';
 import Loader from '../../Shared/Loader';
 
@@ -17,7 +16,7 @@ const Home = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Home Windows</title>
+                <title>Home Windows Installation</title>
             </Helmet>
             {isLoading ? (
                 <Loader />
@@ -29,7 +28,7 @@ const Home = () => {
                                 <div className='flex justify-center items-center'>
                                     <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] text-3xl"></i></a>
                                     <p className='text-white !leading-normal'>Speak to a Licensed Agent <br />
-                                        <a className='text-3xl font-bold text-[#f4b836]' href="tel:+18559390621">(866) 996-1187</a> <br />
+                                        <a className='text-3xl font-bold text-[#f4b836]' href="tel:+18888560197">(888) 856-0197</a> <br />
                                         Licensed Agents available now
                                     </p>
                                 </div>

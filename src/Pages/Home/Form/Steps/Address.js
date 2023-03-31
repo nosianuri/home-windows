@@ -48,7 +48,7 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                     </div>
                     <div className=" flex-1 mx-2">
                     <div className="input-container">
-                            <input name="state" type="text" className="input"
+                            <input name="state" type="text" className="input uppercase"
                                 {...register("state", {
                                     required: {
                                         value: true,
