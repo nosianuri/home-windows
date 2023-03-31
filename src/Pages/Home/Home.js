@@ -28,7 +28,9 @@ const Home = () => {
                             
                                 <div className='flex justify-between items-center '>
                                    <a href="https://mrhomeservice.net/window-installation">
-                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-32 w-16 ' /></a>
+                                   
+                                    <img src="https://i.ibb.co/jrNqB5g/home-service.png" alt="" className='sm:w-32 w-16 ' />
+                                    </a>
 
                                     <div className='flex justify-center items-center  px-1'>
                                         <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] sm:text-3xl text-xl"></i></a>
@@ -53,7 +55,7 @@ const Home = () => {
                             <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[900px] mx-auto mt-8 mb-16 px-3'>
 
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
-                                    <img src='https://i.ibb.co/SVgJyPv/idk-removebg-preview.png' alt="" className='sm:w-64 mx-auto' />
+                                    <img src='https://i.ibb.co/WFZvYCD/zip-window.png' alt="" className='sm:w-64 mx-auto' />
                                     <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
                                     <h5 className='text-xl font-medium mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
                                 </div>
@@ -94,7 +96,7 @@ const Home = () => {
                                     <br /> <br />
                                     Any service marks, logos, and trademarks (collectively the "Trademarks") displayed are registered and/or unregistered Trademarks of their respective owners. This site contains affiliate and partner links and may receive compensation for referrals or purchases made through our links. Subject matter within this website are copyrighted property of the owner of this site. This website and its owner is not responsible for any photographic or typographical errors.</p>
 
-                                <p className='text-xs text-center mt-8'>© 2023 window installation, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/terms">Terms & Condition</a></p>
+                                <p className='text-xs text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/terms">Terms & Condition</a></p>
                             </div>
                         </div>
                     </div>
