@@ -28,7 +28,7 @@ const Home = () => {
                             
                                 <div className='flex justify-between items-center '>
                                    <a href="https://mrhomeservice.net/window-installation">
-                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-32 w-16 bg-black bg-opacity-10' /></a>
+                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-32 w-16 ' /></a>
 
                                     <div className='flex justify-center items-center  px-1'>
                                         <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] sm:text-3xl text-xl"></i></a>
