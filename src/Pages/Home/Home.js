@@ -26,7 +26,7 @@ const Home = () => {
                         <div className='bg-opacity-25 bg-black'>
                             <div className='max-w-[920px] mx-auto px-2 mt-3'>
                             
-                                <div className='flex justify-between items-center gap-52'>
+                                <div className='flex justify-between items-center '>
                                    <a href="https://mrhomeservice.net/window-installation">
                                     <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-32 w-16 bg-black bg-opacity-10' /></a>
 
