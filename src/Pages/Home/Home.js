@@ -26,7 +26,8 @@ const Home = () => {
                         <div className='bg-opacity-25 bg-black'>
                             <div className='max-w-7xl mx-auto px-2 mt-3'>
                                 <div className='flex justify-between items-center'>
-                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-24 w-16 bg-black bg-opacity-10' />
+                                   <a href="https://mrhomeservice.net/window-installation">
+                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-24 w-16 bg-black bg-opacity-10' /></a>
 
                                     <div className='flex justify-center items-center  px-1'>
                                         <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] sm:text-3xl text-xl"></i></a>
