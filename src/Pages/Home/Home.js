@@ -29,7 +29,7 @@ const Home = () => {
                                 <div className='flex justify-between items-center '>
                                    <a href="https://mrhomeservice.net/window-installation">
                                    
-                                    <img src="https://i.ibb.co/jrNqB5g/home-service.png" alt="" className='sm:w-32 w-16 ' />
+                                    <img src="https://i.ibb.co/jrNqB5g/home-service.png" alt="" className='sm:w-32 w-24 ' />
                                     </a>
 
                                     <div className='flex justify-center items-center  px-1'>
