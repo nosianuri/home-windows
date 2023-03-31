@@ -24,7 +24,20 @@ const Home = () => {
                 <div className=''>
                     <div className='body sg-body '>
                         <div className='bg-opacity-25 bg-black'>
-                            <div className='speak-agent'>
+                            <div className='max-w-7xl mx-auto px-2 mt-3'>
+                                <div className='flex justify-between items-center'>
+                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-24 w-16' />
+
+                                    <div className='flex justify-center items-center'>
+                                        <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] text-3xl"></i></a>
+                                        <p className='text-white !leading-normal agent'>Speak to a Licensed Agent <br />
+                                            <a className='text-3xl font-bold text-[#f4b836]' href="tel:+18888560197">(888) 856-0197</a> <br />
+                                            Licensed Agents available now
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className='speak-agent'>
                                 <div className='flex justify-center items-center'>
                                     <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] text-3xl"></i></a>
                                     <p className='text-white !leading-normal'>Speak to a Licensed Agent <br />
@@ -32,7 +45,7 @@ const Home = () => {
                                         Licensed Agents available now
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[900px] mx-auto my-16 px-3'>
 

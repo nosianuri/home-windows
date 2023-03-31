@@ -224,3 +224,9 @@ div#headline h1 span {
     transition: all .3s ease;
     width: 200%;
 }
+
+@media screen and (max-width: 780px) {
+    .agent{
+        display: none;
+    }
+}
