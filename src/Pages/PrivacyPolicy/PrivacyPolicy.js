@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
                             <h5 className='text-xl font-bold mb-2 !leading-normal'>Last updated 24 March, 2023</h5>
                             <p>This privacy notice for Instal US, LLC ("<span className='font-bold'>Company</span>," "<span className='font-bold'>we</span>," "<span className='font-bold'>us</span>," or "<span className='font-bold'>our</span>"), describes how and why we might collect, store, use, and/or share ("<span className='font-bold'>process</span>") your information when you use our services ("<span className='font-bold'>Services</span>"), such as when you:</p>
                             <ul>
-                                <li>Visit our website at <a className='underline text-[#ffae00]' href="https://mrhomeservice-com.preview-domain.com/window-installation">https://windowinstallation.com</a> or any website of ours that links to this privacy notice</li>
+                                <li>Visit our website at <a className='underline text-[#ffae00]' href="https://mrhomeservice.net/window-installation">https://windowinstallation.com</a> or any website of ours that links to this privacy notice</li>
                                 <li>Engage with us in other related ways, including any sales, marketing, or events</li>
                             </ul>
                             <p className='mb-8'><span className='font-bold'>Questions or concerns?</span> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at adops_us@instal.com.</p>

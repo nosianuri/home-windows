@@ -24,10 +24,11 @@ const Home = () => {
                 <div className=''>
                     <div className='body sg-body '>
                         <div className='bg-opacity-25 bg-black'>
-                            <div className='max-w-7xl mx-auto px-2 mt-3'>
-                                <div className='flex justify-between items-center'>
+                            <div className='max-w-[920px] mx-auto px-2 mt-3'>
+                            
+                                <div className='flex justify-between items-center gap-52'>
                                    <a href="https://mrhomeservice.net/window-installation">
-                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-24 w-16 bg-black bg-opacity-10' /></a>
+                                    <img src="https://i.ibb.co/jftkr0f/mr-homepng.png" alt="" className='sm:w-32 w-16 bg-black bg-opacity-10' /></a>
 
                                     <div className='flex justify-center items-center  px-1'>
                                         <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] sm:text-3xl text-xl"></i></a>
@@ -37,6 +38,7 @@ const Home = () => {
                                         </p>
                                     </div>
                                 </div>
+                                
                             </div>
                             {/* <div className='speak-agent'>
                                 <div className='flex justify-center items-center'>
@@ -48,7 +50,7 @@ const Home = () => {
                                 </div>
                             </div> */}
 
-                            <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[900px] mx-auto my-16 px-3'>
+                            <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[900px] mx-auto mt-8 mb-16 px-3'>
 
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
                                     <img src='https://i.ibb.co/SVgJyPv/idk-removebg-preview.png' alt="" className='sm:w-64 mx-auto' />
