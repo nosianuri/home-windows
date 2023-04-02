@@ -26,16 +26,16 @@ const PrivacyPolicy = () => {
                         <div className='max-w-7xl mx-auto sm:py-16 py-5'>
                             <h3 className='text-3xl font-bold !leading-normal'>PRIVACY NOTICE</h3>
                             <h5 className='text-xl font-bold mb-2 !leading-normal'>Last updated 24 March, 2023</h5>
-                            <p>This privacy notice for Instal US, LLC ("<span className='font-bold'>Company</span>," "<span className='font-bold'>we</span>," "<span className='font-bold'>us</span>," or "<span className='font-bold'>our</span>"), describes how and why we might collect, store, use, and/or share ("<span className='font-bold'>process</span>") your information when you use our services ("<span className='font-bold'>Services</span>"), such as when you:</p>
+                            <p>This privacy notice for LLC ("<span className='font-bold'>Company</span>," "<span className='font-bold'>we</span>," "<span className='font-bold'>us</span>," or "<span className='font-bold'>our</span>"), describes how and why we might collect, store, use, and/or share ("<span className='font-bold'>process</span>") your information when you use our services ("<span className='font-bold'>Services</span>"), such as when you:</p>
                             <ul>
-                                <li>Visit our website at <a className='underline text-[#ffae00]' href="https://mrhomeservice.net/window-installation">https://windowinstallation.com</a> or any website of ours that links to this privacy notice</li>
+                                <li>Visit our website at <a className='underline text-[#ffae00]' href="https://mrhomeservice.net/window-installation">https://mrhomeservice.net/window-installation</a> or any website of ours that links to this privacy notice</li>
                                 <li>Engage with us in other related ways, including any sales, marketing, or events</li>
                             </ul>
-                            <p className='mb-8'><span className='font-bold'>Questions or concerns?</span> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at adops_us@instal.com.</p>
+                            <p className='mb-8'><span className='font-bold'>Questions or concerns?</span> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="tel:+18888560197"> https://mrhomeservice.net/window-installation</a>.</p>
                             <h5 className='font-bold mb-2 text-3xl !leading-normal'>SUMMARY OF KEY POINTS</h5>
                             <p className='mb-2 font-bold'>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. You can also click here to go directly to our table of contents.</p>
 
-                            <p className='mb-2'><span className='font-bold'>What personal information do we process?</span> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Instal US, LLC and the Services, the choices you make, and the products and features you use. Click here to learn more.</p>
+                            <p className='mb-2'><span className='font-bold'>What personal information do we process?</span> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with  LLC and the Services, the choices you make, and the products and features you use. Click here to learn more.</p>
 
                             <p className='mb-2'><span className='font-bold'>Do we process any sensitive personal information?</span> We do not process sensitive personal information.</p>
 
@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
 
                             <p className='mb-2'><span className='font-bold'>How do I exercise my rights?</span>The easiest way to exercise your rights is by filling out our data subject request form available here, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</p>
 
-                            <p className='mb-8'>Want to learn more about what Instal US, LLC does with any information we collect? Click here to review the notice in full.</p>
+                            <p className='mb-8'>Want to learn more about what  information we collect? Click here to review the notice in full.</p>
 
                             <h4 className='text-3xl !leading-normal'>TABLE OF CONTENTS</h4>
                             <ul className='my-3'>
@@ -89,7 +89,7 @@ const PrivacyPolicy = () => {
                             <p className='text-xl font-bold'>Information automatically collected</p>
                             <p className='mb-2'><span className='italic'>In Short:</span> Some information -- such as your Internet Protocol (IP) address and/or browser and device characteristics -- is collected automatically when you visit our Services.</p>
                             <p>We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes.</p>
-                            <p>Like many businesses, we also collect information through cookies and similar technologies. You can find out more about this in our Cookie Notice: <span className='text-[#ffae00]'>https://homeswindowsinstallation.com/cookie-policy/.</span></p>
+                            <p>Like many businesses, we also collect information through cookies and similar technologies. You can find out more about this in our Cookie Notice: <span className='text-[#ffae00]'>https://mrhomeservice.net/window-installation.</span></p>
 
                             <p>The information we collect includes:</p>
                             <ul className='my-8'>
@@ -105,7 +105,7 @@ const PrivacyPolicy = () => {
                                 <li><span className='font-bold'>To respond to user inquiries/offer support to users.</span> We may process your information to respond to your inquiries and solve any potential issues you might have with the requested service.</li>
                                 <li><span className='font-bold'>To send administrative information to you.</span> We may process your information to send you details about our products and services, changes to our terms and policies, and other similar information.</li>
                                 <li><span className='font-bold'>To send you marketing and promotional communications.</span> We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see "WHAT ARE YOUR PRIVACY RIGHTS?" below.</li>
-                                <li><span className='font-bold'>To deliver targeted advertising to you.</span> We may process your information to develop and display personalized content and advertising tailored to your interests, location, and more. For more information see our Cookie Notice: https://homeswindowsinstallation.com/cookie-policy/.</li>
+                                <li><span className='font-bold'>To deliver targeted advertising to you.</span> We may process your information to develop and display personalized content and advertising tailored to your interests, location, and more. For more information see our Cookie Notice: https://mrhomeservice.net/window-installation.</li>
                                 <li><span className='font-bold'>To protect our Services.</span> We may process your information as part of our efforts to keep our Services safe and secure, including fraud monitoring and prevention.</li>
                                 <li><span className='font-bold'>To comply with our legal obligations.</span> We may process your information to comply with our legal obligations, respond to legal requests, and exercise, establish, or defend our legal rights.</li>
                             </ul>
@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
 
                             <h4 className='text-3xl font-bold !leading-normal'>4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h4>
                             <p className='mb-2'><span className='italic font-bold'>In Short:</span> We may use cookies and other tracking technologies to collect and store your information.</p>
-                            <p className='mb-2'>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: <a href="https://mrhomeservice-com.preview-domain.com/window-installation">https://windowsinstallation.com/cookie-policy/</a>.</p>
+                            <p className='mb-2'>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: <a href="https://mrhomeservice-com.preview-domain.net/window-installation">https://mrhomeservice.net/window-installation</a>.</p>
 
                             <h4 className='text-3xl font-bold !leading-normal'>5. HOW LONG DO WE KEEP YOUR INFORMATION?</h4>
                             <p className='mb-2'><span className='italic font-bold'>In Short:</span>  We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.</p>
@@ -149,7 +149,7 @@ const PrivacyPolicy = () => {
                             <p className='mb-2'>We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
                             <h4 className='text-3xl font-bold !leading-normal'>7. DO WE COLLECT INFORMATION FROM MINORS?</h4>
                             <p className='mb-2'><span className='italic font-bold'>In Short:</span>  We do not knowingly collect data from or market to children under 18 years of age.</p>
-                            <p className='mb-2'>We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at info@mrhomeService.com.</p>
+                            <p className='mb-2'>We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at info@mrhomeService.net.</p>
 
 
                         </div>
