@@ -95,7 +95,7 @@ const HomeService = () => {
             name: 'Solar Services',
             Link: '/solar-services'
         },
-        
+
     ];
     return (
         <div className='body hm-body '>
@@ -104,18 +104,19 @@ const HomeService = () => {
             </div>
             <div className='bg-[#09193d] bg-opacity-80'>
                 <div className='max-w-[1100px] mx-auto py-10 text-white'>
-                    <div className='grid grid-cols-2 gap-5 items-center'>
-                        <div><h1 className='text-4xl leading-snug font-bold'>Find the Best Home Services for Your Needs - Plumbing, HVAC, Electrical, and More!
+                    <div className='grid sm:grid-cols-2 grid-cols-1 gap-5 items-center'>
+                        <div className='sm:px-0 px-3'>
+                        <h1 className='text-4xl leading-snug font-bold'>Find the Best Home Services for Your Needs - Plumbing, HVAC, Electrical, and More!
                         </h1>
                             <h4 className='font-bold my-5'>Welcome to the top-quality home services! Here, you'll find a range of services to meet your home's needs, including plumbing, HVAC, electrical, and more. Our professionals are licensed, insured, and ready to provide you with the best service possible.</h4>
                             <p>.
                             </p>
 
-                            <div className='px-4 py-2 bg-[#de1b23] text-xl text-[#fff] font-bold hover:text-[#0f2863] rounded w-[40%] text-center'>GET A Quote
+                            <div className='px-4 py-2 bg-[#de1b23] text-xl text-[#fff] font-bold hover:text-[#0f2863] rounded sm:w-[40%] text-center'>GET A Quote
                             </div>
                         </div>
-                        <div className=''>
-                            <div className='w-[400px] mx-auto text-center bg-[#de1b23] pt-[14px] pb-[15px]'>
+                        <div className='sm:px-0 px-3'>
+                            <div className='sm:w-[400px] mx-auto text-center bg-[#de1b23] pt-[14px] pb-[15px]'>
                                 <div className='text-3xl leading-normal font-semibold px-3'>Categorize Home Services
                                 </div>
                                 <div className='d-flex justify-content-center'>
@@ -155,7 +156,7 @@ const HomeService = () => {
                 <div id='cac-mid-legal'>
                     <div className='max-w-[990px] mx-auto'>
                         <h3 className='text-xl mb-2 text-[#e48a03] font-semibold'> Some customer testimonials or reviews for each service type.</h3>
-                        
+
                         <p className='border-2 border-white border-y-[#e48a03] py-3 font-medium'>
                             I had a great experience with your plumbing service. The technician arrived on time and fixed the issue quickly. I would highly recommend your service to anyone!
                             <br /> <br />
@@ -171,7 +172,7 @@ const HomeService = () => {
                 </div>
             </div>
             <footer className=' bg-[#09193d] text-[#ffffff]'>
-                <div className='flex justify-between max-w-[900px] mx-auto my-5'>
+                <div className='sm:flex justify-between max-w-[900px] mx-auto my-5 px-3'>
                     <div>Copyright © 2023 <span className='text-blue-400'>MrHomeService</span>. All rights reserved.</div>
                     <div><a className='hover:text-[#e48a03]' href="/terms">Terms and Conditions</a> | <a className='hover:text-[#e48a03]' href="/privacy-policy">Privacy Policy</a></div>
                 </div>
