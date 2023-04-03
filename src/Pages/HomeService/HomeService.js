@@ -124,7 +124,7 @@ const HomeService = () => {
                                         <div className=' text-[#000] '>
                                             <div className=''>
                                                 {services.slice(0, showMore ? services.length : 6).map(city => (
-                                                    <div key={city} className=" bg-[#f4f6f7] font-semibold text-xl px-4 py-2 max-w-[70%] mx-auto my-5">
+                                                    <div key={city} className=" bg-[#f4f6f7] font-semibold text-xl px-4 py-1 max-w-[70%] mx-auto my-5">
                                                         <a href={city.Link}><span className="block">{city.name}</span></a>
                                                     </div>
                                                 ))}
@@ -154,9 +154,9 @@ const HomeService = () => {
                 </div>
                 <div id='cac-mid-legal'>
                     <div className='max-w-[990px] mx-auto'>
-                        <h3 className='text-xl mb-2 text-[#e48a03]'> Some customer testimonials or reviews for each service type.</h3>
+                        <h3 className='text-xl mb-2 text-[#e48a03] font-semibold'> Some customer testimonials or reviews for each service type.</h3>
                         
-                        <p className='border-2 border-white border-y-[#e48a03] py-3'>
+                        <p className='border-2 border-white border-y-[#e48a03] py-3 font-medium'>
                             I had a great experience with your plumbing service. The technician arrived on time and fixed the issue quickly. I would highly recommend your service to anyone!
                             <br /> <br />
                             Your HVAC team installed a new air conditioning unit in my home, and I'm very happy with the results. The unit is energy-efficient and has lowered my utility bills. Thanks for your great work!

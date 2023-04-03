@@ -1,8 +1,13 @@
 import React from 'react'
+import HvacBody from './HvacBody'
+import HvacFooter from './HvacFooter'
 
 const HvacService = () => {
   return (
-    <div>HvacService</div>
+    <div>
+        <HvacBody />
+        <HvacFooter />
+    </div>
   )
 }
 
