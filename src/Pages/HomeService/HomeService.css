@@ -1,0 +1,34 @@
+.body.hm-body:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 1 !important;
+    background: url(https://i.ibb.co/MV3nk6P/window.png) no-repeat !important;
+    filter: none !Important;
+    background-size: cover !important;
+    z-index: -1;
+    top: 0;
+}
+
+#cac-mid-legal {
+    /* background: #ffffff; */
+    background: #FFFFFF;
+    color: #000;
+    min-width: 100vw;
+    padding: 50px 50px;
+    margin-top: 80px;
+}
+
+#cac-mid-legal {
+    /* padding-top: 150px; */
+    max-width: 1280px;
+    margin: auto;
+    width: 90%;
+}
+
+.transition-opacity {
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+  }
