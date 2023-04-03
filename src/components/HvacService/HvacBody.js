@@ -10,7 +10,7 @@ const HvacBody = () => {
                     <div></div>
                     <div className='max-w-[800px] items-end text-white py-10'>
 
-                        <div>
+                        <div className='px-3'>
                             <h1 className='text-center text-5xl leading-normal font-bold text-[#fff]'>HVAC Service</h1>
                             <div className='text-2xl my-8 font-bold text-[#ED8502]'>  Our HVAC services are backed by a money-back guarantee, and we offer financing options for larger projects.
                             </div>

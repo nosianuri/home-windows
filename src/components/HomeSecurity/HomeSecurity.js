@@ -1,8 +1,13 @@
 import React from 'react'
+import SecurityBody from './SecurityBody'
+import SecurityFooter from './SecurityFooter'
 
 const HomeSecurity = () => {
   return (
-    <div>HomeSecurity</div>
+    <div>
+        <SecurityBody />
+        <SecurityFooter />
+    </div>
   )
 }
 

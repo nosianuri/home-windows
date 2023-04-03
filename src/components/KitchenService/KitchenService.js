@@ -1,8 +1,13 @@
 import React from 'react'
+import KitchenBody from './KitchenBody'
+import KitchenFooter from './KitchenFooter'
 
 const KitchenService = () => {
   return (
-    <div>KitchenService</div>
+    <div>
+        <KitchenBody />
+        <KitchenFooter />
+    </div>
   )
 }
 

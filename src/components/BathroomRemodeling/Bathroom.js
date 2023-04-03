@@ -1,8 +1,13 @@
 import React from 'react'
+import BathroomBody from './BathroomBody'
+import BathroomFooter from './BathroomFooter'
 
 const Bathroom = () => {
   return (
-    <div>Bathroom</div>
+    <div>
+        <BathroomBody />
+        <BathroomFooter />
+    </div>
   )
 }
 

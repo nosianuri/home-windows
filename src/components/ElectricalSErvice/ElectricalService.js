@@ -1,8 +1,13 @@
 import React from 'react'
+import ElectricalBody from './ElectricalBody'
+import ElectricalFooter from './ElectricalFooter'
 
 const ElectricalService = () => {
   return (
-    <div>ElectricalService</div>
+    <div>
+        <ElectricalBody />
+        <ElectricalFooter />
+    </div>
   )
 }
 

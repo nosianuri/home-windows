@@ -1,8 +1,13 @@
 import React from 'react'
+import SolarBody from './SolarBody'
+import SolarFooter from './SolarFooter'
 
 const SolarService = () => {
   return (
-    <div>SolarService</div>
+    <div>
+        <SolarBody />
+        <SolarFooter />
+    </div>
   )
 }
 

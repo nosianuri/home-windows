@@ -1,8 +1,13 @@
 import React from 'react'
+import FlooringBody from './FlooringBody'
+import FlooringFooter from './FlooringFooter'
 
 const FlooringService = () => {
   return (
-    <div>FlooringService</div>
+    <div>
+        <FlooringBody />
+        <FlooringFooter />
+    </div>
   )
 }
 

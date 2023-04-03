@@ -1,8 +1,13 @@
 import React from 'react'
+import WindowsBody from './WindowsBody'
+import WindowsFooter from './WindowsFooter'
 
 const WindowService = () => {
   return (
-    <div>WindowService</div>
+    <div>
+        <WindowsBody />
+        <WindowsFooter />
+    </div>
   )
 }
 

@@ -1,8 +1,13 @@
 import React from 'react'
+import MoversBody from './MoversBody'
+import MoversFooter from './MoversFooter'
 
 const MoversService = () => {
   return (
-    <div>MoversService</div>
+    <div>
+        <MoversBody />
+        <MoversFooter />
+    </div>
   )
 }
 

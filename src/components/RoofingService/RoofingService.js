@@ -1,8 +1,13 @@
 import React from 'react'
+import RoofingBody from './RoofingBody'
+import RoofingFooter from './RoofingFooter'
 
 const RoofingService = () => {
   return (
-    <div>RoofingService</div>
+    <div>
+        <RoofingBody />
+        <RoofingFooter />
+    </div>
   )
 }
 
