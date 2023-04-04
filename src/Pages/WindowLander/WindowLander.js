@@ -23,7 +23,7 @@ const WindowLander = () => {
                         </p>
                         </div>
                         <div class="hero my-8 !bg-no-repeat !bg-cover" style={{
-                            background: `url(https://i.ibb.co/BnmJH16/home-promotion.jpg)`
+                            background: `url(https://i.ibb.co/q7s7h6d/window-img.png)`
                         }}>
                             <div className='grid sm:grid-cols-2 grid-cols-1 leading-snug bg-black bg-opacity-50'>
                                 <div></div>
