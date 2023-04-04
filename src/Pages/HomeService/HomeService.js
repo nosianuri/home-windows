@@ -106,8 +106,8 @@ const HomeService = () => {
                 <div className='max-w-[1100px] mx-auto py-10 text-white'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 gap-5 items-center'>
                         <div className='sm:px-0 px-3'>
-                        <h1 className='text-4xl leading-snug font-bold'>Find the Best Home Services for Your Needs - Plumbing, HVAC, Electrical, and More!
-                        </h1>
+                            <h1 className='text-4xl leading-snug font-bold'>Find the Best Home Services for Your Needs - Plumbing, HVAC, Electrical, and More!
+                            </h1>
                             <h4 className='font-bold my-5'>Welcome to the top-quality home services! Here, you'll find a range of services to meet your home's needs, including plumbing, HVAC, electrical, and more. Our professionals are licensed, insured, and ready to provide you with the best service possible.</h4>
                             <p>.
                             </p>
@@ -149,25 +149,46 @@ const HomeService = () => {
                     </div>
                 </div>
             </div>
-            <div id='details'>
-                <div className='bg-[#ddd] text-xl  font-bold  flex items-center justify-center'>
-
-                </div>
+            <div>
+                
                 <div id='cac-mid-legal'>
                     <div className='max-w-[990px] mx-auto'>
-                        <h3 className='text-xl mb-2 text-[#e48a03] font-semibold'> Some customer testimonials or reviews for each service type.</h3>
+                        {/* <h3 className='text-xl mb-2 text-[#e48a03] font-semibold'> Some customer testimonials or reviews for each service type.</h3> */}
+                        <div className='flex justify-between'>
+                                    <p>Recent # Comments</p>
+                                    <p className='commen'>Add a comment</p>
+                                </div>
+                        <div className=' py-3 font-medium'>
+                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                <img src="https://i.ibb.co/wsV52V1/noelia.webp" alt="" className='review-img' />
+                                <div>
+                                    <p className='text-sm text-[#ec9123]'><span className='font-medium text-xl text-black'>Maria</span>, 22.01.2023</p>
+                                    <p className='mt-1'>I had a great experience with your plumbing service. The technician arrived on time and fixed the issue quickly. I would highly recommend your service to anyone!</p>
+                                </div>
+                            </div>
+                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                <img src="https://i.ibb.co/nbd9kMt/julia5.webp" alt="" className='review-img' />
+                                <div>
+                                    <p className='text-sm text-[#ec9123]'><span className='font-medium text-xl text-black'>Julia</span>, 23.01.2023</p>
+                                    <p className='mt-1'>Your HVAC team installed a new air conditioning unit in my home, and I'm very happy with the results. The unit is energy-efficient and has lowered my utility bills. Thanks for your great work!</p>
+                                </div>
+                            </div>
+                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                <img src="https://i.ibb.co/CnYXzV5/noelia2.webp" alt="" className='review-img' />
+                                <div>
+                                    <p className='text-sm text-[#ec9123]'><span className='font-medium text-xl text-black'>Maritza</span>, 23.01.2023</p>
+                                    <p className='mt-1'>I was impressed with your home cleaning service. The team arrived on time and did an excellent job. My home was spotless when they finished. Thank you!</p>
+                                </div>
+                            </div>
 
-                        <p className='border-2 border-white border-y-[#e48a03] py-3 font-medium'>
-                            I had a great experience with your plumbing service. The technician arrived on time and fixed the issue quickly. I would highly recommend your service to anyone!
-                            <br /> <br />
-                            Your HVAC team installed a new air conditioning unit in my home, and I'm very happy with the results. The unit is energy-efficient and has lowered my utility bills. Thanks for your great work!
-                            <br /> <br />
-                            Your electrician was very professional and knowledgeable. They completed the electrical panel upgrade on time and within budget. I'll definitely be using your service again.
-                            <br /> <br />
-                            I was impressed with your home cleaning service. The team arrived on time and did an excellent job. My home was spotless when they finished. Thank you!
-                        </p>
-
-
+                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                <img src="https://i.ibb.co/QMs9B9h/pablo9.webp" alt="" className='review-img' />
+                                <div>
+                                    <p className='text-sm text-[#ec9123]'><span className='font-medium text-xl text-black'>Paul</span>, 25.01.2023</p>
+                                    <p className='mt-1'>Yes right on the manufacturer's site, she ordered, there is a button on the article. Here is the link: click here: and go to your desired site.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -32,3 +32,12 @@
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
   }
+  .commen{
+    display: none;
+}
+
+  @media screen and (max-width: 780px) {
+    .commen{
+        display: none;
+    }
+  }
