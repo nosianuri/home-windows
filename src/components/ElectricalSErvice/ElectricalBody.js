@@ -2,10 +2,10 @@ import React from 'react'
 
 const ElectricalBody = () => {
   return (
-    <div class="hero h-screen !bg-no-repeat !bg-cover" style={{
-        background: `url(https://i.ibb.co/Kz1Y6f5/f1bdff22-brantuck.jpg)`
+    <div class="hero  !bg-no-repeat !bg-cover" style={{
+        background: `url(https://i.ibb.co/bRnJCV9/bg3.png)`
     }}>
-        <div className='bg-black bg-opacity-70 w-[100%] h-[100%]'>
+        <div className='bg-[#000] bg-opacity-70 w-[100%] h-[100%]'>
             <div className='max-w-[800px] mx-auto text-white py-10 px-3'>
                 <h1 className='text-center text-5xl leading-normal font-bold text-[#fff]'>Electrical Service</h1>
                 <div className='text-2xl my-8 font-bold text-[#ED8502]'>  Our electricians are licensed and insured, and we offer a lifetime warranty on our electrical work.

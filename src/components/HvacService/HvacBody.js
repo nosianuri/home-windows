@@ -1,21 +1,19 @@
 import React from 'react'
+import bg2 from '../../assets/bg2.png';
 
 const HvacBody = () => {
     return (
         <div class="hero h-screen !bg-no-repeat !bg-cover" style={{
-            background: `url(https://i.ibb.co/bvNhqY0/herobg.jpg)`
+            background: `url(https://i.ibb.co/ccFfP6W/bg2.png)`
         }}>
-            <div className='bg-black bg-opacity-50 w-[100%] h-[100%]'>
-                <div className='grid sm:grid-cols-2 grid-cols-1'>
-                    <div></div>
-                    <div className='max-w-[800px] items-end text-white py-10 px-3'>
-
-                        <div className='px-3'>
+            <div className='bg-[#09193d] bg-opacity-70 w-[100%] h-[100%]'>
+                    <div className='max-w-[800px] mx-auto items-end text-white py-10 px-3'>
+                        <div className=''>
                             <h1 className='text-center text-5xl leading-normal font-bold text-[#fff]'>HVAC Service</h1>
-                            <div className='text-2xl my-8 font-bold text-[#ED8502]'>  Our HVAC services are backed by a money-back guarantee, and we offer financing options for larger projects.
+                            <div className='text-2xl my-8 font-bold text-[#ED8502] '>  Our HVAC services are backed by a money-back guarantee, and we offer financing options for larger projects.
                             </div>
 
-                            <div>
+                            <div className='max-w-[690px] '>
                                 <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Air Conditioning Repair:</div> <div className='text-xl font-medium mb-4'>  Is your AC unit not working correctly? Our HVAC technicians can diagnose and repair any issue, from refrigerant leaks to faulty thermostats.</div>
 
                                 <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Furnace Installation:</div>
@@ -28,9 +26,7 @@ const HvacBody = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
     )
 }
 

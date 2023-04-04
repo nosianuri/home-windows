@@ -82,8 +82,8 @@ const HomeService = () => {
         },
         {
             id: 8,
-            name: 'Windows Services',
-            Link: '/windows-services',
+            name: 'Bathroom Remodeling',
+            Link: '/bathroom-remodeling',
             img: img8,
         },
         {
@@ -106,20 +106,20 @@ const HomeService = () => {
         },
         {
             id: 12,
-            name: 'Bathroom Remodeling',
-            Link: '/bathroom-remodeling',
+            name: 'Roofing Services',
+            Link: '/roofing-services',
             img: img12,
         },
         {
             id: 13,
-            name: 'Roofing Services',
-            Link: '/roofing-services',
+            name: 'Solar Services',
+            Link: '/solar-services',
             img: img13,
         },
         {
             id: 14,
-            name: 'Solar Services',
-            Link: '/solar-services',
+            name: 'Windows Services',
+            Link: '/windows-services',
             img: img14,
         },
 
@@ -153,7 +153,7 @@ const HomeService = () => {
                                             <div className=''>
                                                 {services.slice(0, showMore ? services.length : 6).map(city => (
                                                     <div key={city} className=" bg-[#f4f6f7] font-semibold text-xl px-4 py-1 max-w-[70%] mx-auto my-5">
-                                                        <a href={city.Link}><span className="block"> <div className='flex justify-between items-center'><div> <img className='w-8' src={city.img} alt="" /></div> <div>{city.name}</div></div></span></a>
+                                                        <a href={city.Link}><span className="block"> <div className='flex justify-between items-center'><div> <img className='w-8' src={city.img} alt="" /></div> <div className='text-[#09193d]'>{city.name}</div></div></span></a>
                                                     </div>
                                                 ))}
                                             </div>
@@ -177,14 +177,14 @@ const HomeService = () => {
                 </div>
             </div>
             <div>
-                
+
                 <div id='cac-mid-legal'>
                     <div className='max-w-[990px] mx-auto'>
                         {/* <h3 className='text-xl mb-2 text-[#e48a03] font-semibold'> Some customer testimonials or reviews for each service type.</h3> */}
                         <div className='flex justify-between'>
-                                    <p>Recent # Comments</p>
-                                    <p className='commen'>Add a comment</p>
-                                </div>
+                            <p>Recent # Comments</p>
+                            <p className='commen'>Add a comment</p>
+                        </div>
                         <div className=' py-3 font-medium'>
                             <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
                                 <img src="https://i.ibb.co/wsV52V1/noelia.webp" alt="" className='review-img' />

@@ -3,7 +3,7 @@ import React from 'react'
 const BathroomBody = () => {
     return (
         <div class="hero h-screen !bg-no-repeat !bg-cover" style={{
-            background: `url(https://i.ibb.co/Kz1Y6f5/f1bdff22-brantuck.jpg)`
+            background: `url(https://i.ibb.co/vZqnM6n/bg8.png)`
         }}>
             <div className='bg-black bg-opacity-70 w-[100%] h-[100%]'>
                 <div className='max-w-[800px] mx-auto text-white py-10 px-3'>
