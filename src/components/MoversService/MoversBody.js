@@ -18,7 +18,7 @@ const MoversBody = () => {
                         <div className='text-xl font-medium mb-4'> If you're moving across the country, we can help you with packing, loading, and transporting your belongings safely and efficiently.
                         </div>
 
-                        <div className='bg-[#de1b23] text-center sm:w-[40%] text-white text-xl font-bold px-4 py-2 mt-10'>Get a Quote</div>
+                        <div className='bg-[#de1b23] text-center sm:w-[40%] text-white text-2xl font-bold px-4 py-2 mt-10'>Get a Quote</div>
                     </div>
 
                 </div>

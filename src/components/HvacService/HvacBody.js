@@ -23,7 +23,7 @@ const HvacBody = () => {
                                 <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Indoor Air Quality Testing:</div>
                                 <div className='text-xl font-medium mb-4'> Poor indoor air quality can lead to health problems. Let us test the air quality in your home and recommend solutions to improve it.
                                 </div>
-                                <div className='bg-[#de1b23] text-center sm:w-[40%] text-white text-xl font-bold px-4 py-2 mt-10'>Get a Quote</div>
+                                <div className='bg-[#de1b23] text-center sm:w-[40%] text-white text-2xl font-bold px-4 py-2 mt-10'>Get a Quote</div>
                             </div>
                         </div>
                     </div>

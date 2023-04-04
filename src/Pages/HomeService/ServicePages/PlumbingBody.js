@@ -19,7 +19,7 @@ const PlumbingBody = () => {
                         <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Water Heater Repair:</div>
                         <div className='text-xl font-medium mb-4'> Don't suffer through cold showers. We offer fast and reliable water heater repair services to get your hot water running again.
                         </div>
-                        <div className='bg-[#de1b23] text-center sm:w-[40%] text-white text-xl font-bold px-4 py-2 mt-10'>Get a Quote</div>
+                        <div className='bg-[#de1b23] text-center sm:w-[40%] text-white text-2xl font-bold px-4 py-2 mt-10'>Get a Quote</div>
                     </div>
 
                 </div>

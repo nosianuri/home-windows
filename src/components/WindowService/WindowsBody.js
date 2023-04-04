@@ -19,7 +19,7 @@ const WindowsBody = () => {
                         <div className='text-xl font-medium mb-4'> If your windows are damaged or not functioning properly, our professionals can repair them quickly and efficiently to keep your home protected and comfortable.
                         </div>
 
-                        <div className='bg-[#de1b23] text-center w-[40%] text-white text-xl font-bold px-4 py-2 mt-10'>Get a Quote</div>
+                        <div className='bg-[#de1b23] text-center w-[40%] text-white text-2xl font-bold px-4 py-2 mt-10'>Get a Quote</div>
                     </div>
 
                 </div>
