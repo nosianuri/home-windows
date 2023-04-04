@@ -1,7 +1,20 @@
 import React, { useState } from 'react';
 import './HomeService.css';
 import classNames from 'classnames';
-import Review from './Review';
+import img1 from '../../assets/1.png';
+import img2 from '../../assets/2.png';
+import img3 from '../../assets/3.png';
+import img4 from '../../assets/4.png';
+import img5 from '../../assets/5.png';
+import img6 from '../../assets/6.png';
+import img7 from '../../assets/7.png';
+import img8 from '../../assets/8.png';
+import img9 from '../../assets/9.png';
+import img10 from '../../assets/10.png';
+import img11 from '../../assets/11.png';
+import img12 from '../../assets/12.png';
+import img13 from '../../assets/13.png';
+import img14 from '../../assets/14.png';
 
 const HomeService = () => {
     const [showMore, setShowMore] = useState(false);
@@ -29,71 +42,85 @@ const HomeService = () => {
             id: 1,
             name: 'Plumbing Services',
             Link: '/plumbing-service',
+            img: img1,
         },
         {
             id: 2,
             name: 'HVAC Services',
-            Link: '/hvac-services'
+            Link: '/hvac-services',
+            img: img2,
         },
         {
             id: 3,
             name: 'Electrical Services',
-            Link: '/electrical-services'
+            Link: '/electrical-services',
+            img: img3,
         },
         {
             id: 4,
             name: 'Home Cleaning',
-            Link: '/home-cleaning'
+            Link: '/home-cleaning',
+            img: img4,
         },
         {
             id: 5,
             name: 'Home Painting',
-            Link: '/home-painting'
+            Link: '/home-painting',
+            img: img5,
         },
         {
             id: 6,
             name: 'Gutters Services',
-            Link: '/gutters-services'
+            Link: '/gutters-services',
+            img: img6,
         },
         {
             id: 7,
             name: 'Kitchens Services',
-            Link: '/kitchens-services'
+            Link: '/kitchens-services',
+            img: img7,
         },
         {
             id: 8,
             name: 'Windows Services',
-            Link: '/windows-services'
+            Link: '/windows-services',
+            img: img8,
         },
         {
             id: 9,
             name: 'Home Security',
-            Link: '/home-security'
+            Link: '/home-security',
+            img: img9,
         },
         {
             id: 10,
             name: 'Movers Services',
-            Link: '/movers-services'
+            Link: '/movers-services',
+            img: img10,
         },
         {
             id: 11,
             name: 'Flooring Services',
-            Link: '/flooring-services'
+            Link: '/flooring-services',
+            img: img11,
         },
         {
             id: 12,
             name: 'Bathroom Remodeling',
-            Link: '/bathroom-remodeling'
+            Link: '/bathroom-remodeling',
+            img: img12,
         },
         {
             id: 13,
             name: 'Roofing Services',
-            Link: '/roofing-services'
+            Link: '/roofing-services',
+            img: img13,
         },
         {
             id: 14,
             name: 'Solar Services',
-            Link: '/solar-services'
+            Link: '/solar-services',
+            img: img14,
         },
 
     ];
@@ -112,7 +139,7 @@ const HomeService = () => {
                             <p>.
                             </p>
 
-                            <div className='px-4 py-2 bg-[#de1b23] text-xl text-[#fff] font-bold hover:text-[#0f2863] rounded sm:w-[40%] text-center'>GET A Quote
+                            <div className='px-4 py-2 bg-[#de1b23] text-xl text-[#fff] font-bold hover:text-[#0f2863] rounded sm:w-[40%] text-center'>GET A QUOTE
                             </div>
                         </div>
                         <div className='sm:px-0 px-3'>
@@ -126,14 +153,14 @@ const HomeService = () => {
                                             <div className=''>
                                                 {services.slice(0, showMore ? services.length : 6).map(city => (
                                                     <div key={city} className=" bg-[#f4f6f7] font-semibold text-xl px-4 py-1 max-w-[70%] mx-auto my-5">
-                                                        <a href={city.Link}><span className="block">{city.name}</span></a>
+                                                        <a href={city.Link}><span className="block"> <div className='flex justify-between items-center'><div> <img className='w-8' src={city.img} alt="" /></div> <div>{city.name}</div></div></span></a>
                                                     </div>
                                                 ))}
                                             </div>
                                             <div className="flex justify-center mt-4 ">
                                                 <button
                                                     className={classNames(
-                                                        'px-4 py-2 text-white text-xl rounded w-[70%]',
+                                                        'px-4 py-2 text-white text-xl font-bold rounded w-[70%]',
                                                         showMore ? 'bg-[#0f2863]' : 'bg-[#09193d]'
                                                     )}
                                                     onClick={toggleShowMore}

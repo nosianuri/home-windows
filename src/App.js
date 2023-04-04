@@ -21,6 +21,7 @@ import FlooringService from './components/FlooringService/FlooringService';
 import RoofingService from './components/RoofingService/RoofingService';
 import SolarService from './components/SolarService/SolarService';
 import WindowService from './components/WindowService/WindowService';
+import WindowLander from './Pages/WindowLander/WindowLander';
 
 function App() {
   useEffect(() => {
@@ -47,6 +48,7 @@ function App() {
     <Route path='/roofing-services' element={<RoofingService />} />
     <Route path='/solar-services' element={<SolarService />} />
     <Route path='/windows-services' element={<WindowService />} />
+    <Route path='/home-windows-installation' element={<WindowLander />} />
     </Routes>
     </>
   );
