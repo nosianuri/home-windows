@@ -35,9 +35,15 @@
   .commen{
     display: none;
 }
+.img-text{
+    color: #FFFFFF;
+}
 
   @media screen and (max-width: 780px) {
     .commen{
         display: none;
+    }
+    .img-text{
+        color: #000000;
     }
   }
