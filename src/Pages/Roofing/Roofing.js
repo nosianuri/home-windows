@@ -4,6 +4,7 @@ import Loader from '../../Shared/Loader';
 import StepForm from '../Home/Form/StepForm';
 import RoofingFaq from './RoofingFaq';
 import './Roofing.css';
+import RoofLoader from '../../Shared/RoofLoader';
 
 const Roofing = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -20,7 +21,7 @@ const Roofing = () => {
                 <title>Roofing Replacement</title>
             </Helmet>
             {isLoading ? (
-                <Loader />
+                <RoofLoader />
             ) : (
                 <div>
                     <div className='body rf-body '>
@@ -34,7 +35,7 @@ const Roofing = () => {
                                     </a>
 
                                     <div className='flex justify-center items-center  px-1'>
-                                        <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] sm:text-3xl text-xl"></i></a>
+                                        <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#f4b836] sm:text-3xl text-xl"></i></a>
                                         <p className='text-white !leading-normal sm:text-base text-xs agent '>Speak to a Licensed Agent <br />
                                             <a className='sm:text-3xl font-bold text-[#f4b836] ' href="tel:+18888560197">(888) 856-0197</a> <br />
                                             Licensed Agents available now
@@ -45,7 +46,7 @@ const Roofing = () => {
                             </div>
                             {/* <div className='speak-agent'>
                         <div className='flex justify-center items-center'>
-                            <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#eaa613] text-3xl"></i></a>
+                            <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#ED8502] text-3xl"></i></a>
                             <p className='text-white !leading-normal'>Speak to a Licensed Agent <br />
                                 <a className='text-3xl font-bold text-[#f4b836]' href="tel:+18888560197">(888) 856-0197</a> <br />
                                 Licensed Agents available now
@@ -56,7 +57,7 @@ const Roofing = () => {
                             <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[900px] mx-auto mt-8 mb-16 px-3'>
 
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
-                                    <img src='https://i.ibb.co/gtY7zFb/roofing.png' alt="" className='sm:w-64 mx-auto' />
+                                    <img src='https://i.ibb.co/CVG0PfP/Home-Windows-5.png' alt="" className='sm:w-64 mx-auto' />
                                     <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
                                     <h5 className='text-xl font-medium mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
                                 </div>
@@ -66,7 +67,7 @@ const Roofing = () => {
                             </div>
                         </div>
                         <div id='details'>
-                            <div className='bg-[#eaa613] text-xl text-white font-bold py-2 flex items-center justify-center'>
+                            <div className='bg-[#ED8502] text-xl text-white font-bold py-2 flex items-center justify-center'>
                                 <a href="#details">
                                     <span>More Info</span>
                                     <i class="fa-solid fa-caret-down pl-3"></i>
@@ -244,18 +245,16 @@ const Roofing = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <p className='text-xs text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/roofing-privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/roofing-terms">Terms & Condition</a></p>
                             </div>
+                            
                         </div>
-                        <div className='bg-opacity-10 bg-black'>
+                        {/* <div className='bg-opacity-10 bg-black'>
                             <div className='text-white font-medium max-w-7xl px-3 mx-auto sm:my-16 my-5'>
-                                {/* <h6 className='text-xs'>Important Disclosures</h6> */}
-                                {/* <p className='text-xs'>This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video in any advertisement associated with this site are actors or models and not contractors affiliated with this site.
-                                    <br /> <br />
-                                    Any service marks, logos, and trademarks (collectively the "Trademarks") displayed are registered and/or unregistered Trademarks of their respective owners. This site contains affiliate and partner links and may receive compensation for referrals or purchases made through our links. Subject matter within this website are copyrighted property of the owner of this site. This website and its owner is not responsible for any photographic or typographical errors.</p> */}
-
+                               
                                 <p className='text-xs text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/terms">Terms & Condition</a></p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             )}
