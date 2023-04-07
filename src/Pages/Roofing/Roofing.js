@@ -245,7 +245,15 @@ const Roofing = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <p className='text-xs text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/roofing-privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/roofing-terms">Terms & Condition</a></p>
+                                <div className=' max-w-7xl px-3 mx-auto sm:my-6 my-5'>
+                                <h6 className='text-xs'>Important Disclosures</h6>
+                                <p className='text-xs'>This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video in any advertisement associated with this site are actors or models and not contractors affiliated with this site.
+                                    <br /> <br />
+                                    Any service marks, logos, and trademarks (collectively the "Trademarks") displayed are registered and/or unregistered Trademarks of their respective owners. This site contains affiliate and partner links and may receive compensation for referrals or purchases made through our links. Subject matter within this website are copyrighted property of the owner of this site. This website and its owner is not responsible for any photographic or typographical errors.</p>
+
+                                <p className='text-xs text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#ED8502]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#ED8502]' href="/terms">Terms & Condition</a></p>
+                            </div>
+                                {/* <p className='text-xs text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/roofing-privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/roofing-terms">Terms & Condition</a></p> */}
                             </div>
                             
                         </div>
