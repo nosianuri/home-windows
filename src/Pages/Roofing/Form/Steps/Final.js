@@ -5,9 +5,9 @@ const Final = () => {
     <div>
         <h3 className='text-center font-medium'>A Windows contractor will be reaching out very soon! Please take a look at some other services we offer!</h3>
         <div className='flex justify-between items-center mt-5'>
-            <img src="" alt="" className='w-36' />
+            <img src="https://i.ibb.co/WFZvYCD/zip-window.png" alt="" className='w-36' />
             <div className='text-center'>
-            <h2 className='font-bold text-xl'>Home Windows installation</h2>
+            <h2 className='font-bold text-xl'> Windows installation</h2>
             <p>See if windows is right for your home</p>
             <p className='text-[#eaa613]'><a href="tel:+18888560197">Get Solar Now</a></p>
             </div>

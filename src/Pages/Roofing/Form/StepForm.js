@@ -42,18 +42,17 @@ const StepForm = () => {
             trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
             tcpa_text: tcpaText,
             tcpa: "No",
-            city: formData.city,
-            address: formData.address,
-            state: formData.state,
+            email_address: formData.email_address,
+            phone_home: formData.phone_home,
             window_project_type: nature,
             number_of_windows: fault,
-            window_material: material,
+            Service_id: material,
             home_owner: howner,
             time_frame: timeFrame,
-            landing_page: 'https://mrhomeservice-com.preview-domain.com/window-installation',
+            landing_page: 'https://mrhomeservice-com.preview-domain.com/roofing-campaign',
         }
         console.log(data, "so good")
-        fetch('https://api.leadprosper.io/ingest', {
+        fetch('https://api.leadprosper.io/post', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
@@ -101,21 +100,15 @@ const StepForm = () => {
       if (page === 0) {
           return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       } else if (page === 1) {
-          return <Pnature nature={nature} setNature={setNature} setPage={setPage} />;
-      } else if (page === 2) {
-          return <Involveved setFault={setFault} setPage={setPage} />;
-      } else if (page === 3) {
-          return <Windowmaterial material={material} setMaterial={setMaterial} page={page} setPage={setPage} />;
-      } else if (page === 4) {
           return <PlanStart setTimeFrame={setTimeFrame} page={page} setPage={setPage} />;
-      } else if (page === 5) {
+      } else if (page === 2) {
           return <OwnHome setHowner={setHowner} page={page} setPage={setPage} />;
-      } else if (page === 6) {
+      } else if (page === 3) {
           return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else if (page === 7) {
+      } else if (page === 4) {
           return <Contact setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else if (page === 8) {
-          return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        } else if (page === 5) {
+            return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       } else {
           return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       }
@@ -124,7 +117,7 @@ const StepForm = () => {
     <div className='mx-auto rounded-2xl text-gray-900'>
     <div className="form  container ">
         <div className="progressbar">
-            <div style={{ width: page === 0 ? "0%" : page == 1 ? "20%" : page == 2 ? "30%" : page == 3 ? "40%" : page == 4 ? "50%" : page == 5 ? "60%" : page == 6 ? "70%" : page == 7 ? "80%" : page == 8 ? "90%" : "100%" }}
+        <div style={{ width: page === 0 ? "0%" : page == 1 ? "30%" : page == 2 ? "45%" : page == 3 ? "55%" : page == 4 ? "65%" : page == 5 ? "85%" : "100%" }}
             ></div>
         </div>
         <div className="form-container pb-5 sm:px-10 px-3 ">

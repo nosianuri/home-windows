@@ -14,27 +14,76 @@ const Windowmaterial = ({ material, setMaterial, setPage }) => {
           <div className='text-xl'>
             <div onClick={() => handleChange("Aluminum")} className='radio-item'>
               <input name='material' id='aluminum'  type="radio" />
-              <label htmlFor="aluminum">Aluminum</label>
+              <label htmlFor="aluminum">4001
+</label>
             </div>
-            <div onClick={() => handleChange("Brick or Stone")} className='radio-item'>        
+            <div onClick={() => handleChange("4002")} className='radio-item'>        
                   <input name='material' id='brick'  type="radio" />
-              <label htmlFor="brick">Brick or Stone</label>
+              <label htmlFor="brick">4002</label>
             </div>
-            <div onClick={() => handleChange("Metal")} className='radio-item'>        
+            <div onClick={() => handleChange("4003")} className='radio-item'>        
                   <input name='material' id='metal'  type="radio" />
-              <label htmlFor="metal">Metal</label>
+              <label htmlFor="metal">4003</label>
             </div>
-            <div onClick={() => handleChange("Not Sure")} className='radio-item'>        
+            <div onClick={() => handleChange("4004")} className='radio-item'>        
                   <input name='material' id='notSure'  type="radio" />
-              <label htmlFor="notSure">Not Sure</label>
+              <label htmlFor="notSure">4004</label>
             </div>
-            <div onClick={() => handleChange("Vinyl")} className='radio-item'>        
+            <div onClick={() => handleChange("4005")} className='radio-item'>        
                   <input name='material' id='vinyl'  type="radio" />
-              <label htmlFor="vinyl">Vinyl</label>
+              <label htmlFor="vinyl">4005</label>
             </div>
-            <div onClick={() => handleChange("Wood")} className='radio-item'>        
+            <div onClick={() => handleChange("4006")} className='radio-item'>        
                   <input name='material' id='wood' type="radio" />
-              <label htmlFor="wood">Wood</label>
+              <label htmlFor="wood">4006</label>
+            </div>
+            <div onClick={() => handleChange("4007")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4007</label>
+            </div>
+            <div onClick={() => handleChange("4008")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4008</label>
+            </div>
+            <div onClick={() => handleChange("4009")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4009</label>
+            </div>
+            <div onClick={() => handleChange("4010")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4010</label>
+            </div>
+            <div onClick={() => handleChange("4011")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4011</label>
+            </div>
+            <div onClick={() => handleChange("4012")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4012</label>
+            </div>
+            <div onClick={() => handleChange("4013")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4013</label>
+            </div>
+            <div onClick={() => handleChange("4014")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4014</label>
+            </div>
+            <div onClick={() => handleChange("4015")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4015</label>
+            </div>
+            <div onClick={() => handleChange("4016")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4016</label>
+            </div>
+            <div onClick={() => handleChange("4017")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4017</label>
+            </div>
+            <div onClick={() => handleChange("4018")} className='radio-item'>        
+                  <input name='material' id='wood' type="radio" />
+              <label htmlFor="wood">4018</label>
             </div>
           </div>
         </div>

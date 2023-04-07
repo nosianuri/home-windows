@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet';
 import Loader from '../../Shared/Loader';
-import StepForm from '../Home/Form/StepForm';
+import StepForm from './Form/StepForm';
 import RoofingFaq from './RoofingFaq';
 import './Roofing.css';
 import RoofLoader from '../../Shared/RoofLoader';
@@ -25,7 +25,7 @@ const Roofing = () => {
             ) : (
                 <div>
                     <div className='body rf-body '>
-                        <div className='bg-opacity-25 bg-black'>
+                        <div className='bg-opacity-30 bg-black'>
                             <div className='max-w-[920px] mx-auto px-2 mt-3'>
 
                                 <div className='flex justify-between items-center '>
