@@ -36,3 +36,15 @@ code {
   aspect-ratio: auto 50 / 50;
   height: 40px;
 }
+
+
+
+.cac-mid-legal{
+  background: #FFFFFF;
+  min-width: 100vw;
+  padding: 50px 50px;
+  margin-top: 80px;
+  max-width: 1280px;
+  margin: auto;
+  width: 90%;
+}

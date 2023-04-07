@@ -39,8 +39,7 @@ const Home = () => {
                                             Licensed Agents available now
                                         </p>
                                     </div>
-                                </div>
-                                
+                                </div>                               
                             </div>
                             {/* <div className='speak-agent'>
                                 <div className='flex justify-center items-center'>
