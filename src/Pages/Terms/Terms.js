@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
-import Loader from '../../Shared/Loader';
+import MrLoader from '../../Shared/MrLoader';
 
 const Terms = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -17,7 +17,7 @@ const Terms = () => {
                 <title>Terms | Windows Installation</title>
             </Helmet>
             {isLoading ? (
-                <Loader />
+                <MrLoader />
             ) : (
                 <div>
                     <div className=''>
