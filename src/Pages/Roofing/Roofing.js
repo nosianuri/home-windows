@@ -29,7 +29,7 @@ const Roofing = () => {
                             <div className='max-w-[980px] mx-auto px-2 mt-3'>
 
                                 <div className='flex justify-between items-center '>
-                                    <a href="https://mrhomeservice.net/window-installation">
+                                    <a href="https://mrhomeservice.net/roofing-campaign">
 
                                         <img src="https://i.ibb.co/jrNqB5g/home-service.png" alt="" className='sm:w-36 w-24 ' />
                                     </a>
@@ -47,8 +47,11 @@ const Roofing = () => {
                             <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[950px] mx-auto mt-8 mb-16 px-3'>
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
                                     <img src='https://i.ibb.co/CVG0PfP/Home-Windows-5.png' alt="" className='sm:w-64 mx-auto' />
+                                    <div className='px-3'>
                                     <h4 className='text-[28px] font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Roofing <span className='font-bold'>Prices</span> By Zip Code</h4>
                                     <h5 className='text-[25px] font-medium mb-8 text-center'>Compare Roofing <span className='font-bold'>Prices</span> Today!</h5>
+                                    </div>
+                                    
                                 </div>
                                 <div className='bg-[#fff8f0] rounded-r-lg sm:w-[700px] '>
                                     <StepForm />
