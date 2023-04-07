@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
-import MrLoader from '../../Shared/MrLoader';
+import Mloader from '../../Shared/Mloader';
 
 const PrivacyPolicy = () => {
 
@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
                 <title>Terms | Windows Installation</title>
             </Helmet>
             {isLoading ? (
-                <MrLoader />
+                <Mloader />
             ) : (
                 <div>
                     <div className=''>
@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
 
                             <h4 className='text-3xl font-bold !leading-normal'>4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h4>
                             <p className='mb-2'><span className='italic font-bold'>In Short:</span> We may use cookies and other tracking technologies to collect and store your information.</p>
-                            <p className='mb-2'>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: <a href="https://mrhomeservice-com.preview-domain.net/window-installation">https://mrhomeservice.net/window-installation</a>.</p>
+                            {/* <p className='mb-2'>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: <a href="https://mrhomeservice-com.preview-domain.net/window-installation">https://mrhomeservice.net/window-installation</a>.</p> */}
 
                             <h4 className='text-3xl font-bold !leading-normal'>5. HOW LONG DO WE KEEP YOUR INFORMATION?</h4>
                             <p className='mb-2'><span className='italic font-bold'>In Short:</span>  We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.</p>

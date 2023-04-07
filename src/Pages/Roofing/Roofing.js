@@ -103,7 +103,7 @@ const Roofing = () => {
                                     </div>
                                     <div className='grid grid-cols-1 gap-3 sm:mt-5'>
                                         <div className='sm:text-xl text-xl mt-5 font-semibold text-[#e48a03]'>ROOF REPLACEMENT FAQS</div>
-                                        <div className="max-w-lg ">
+                                        <div className="max-w-xl ">
                                             <RoofingFaq title="What type of roofing materials do you offer?">
                                                 <p>
                                                     We offer a variety of roofing materials, including asphalt shingles, metal roofing, and flat roofing systems.
