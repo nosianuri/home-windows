@@ -14,7 +14,7 @@ const RoofPrivacyPolicy = () => {
     <>
     <Helmet>
         <meta charSet="utf-8" />
-        <title>Terms | Windows Installation</title>
+        <title>Terms | Roofing Replacement</title>
     </Helmet>
     {isLoading ? (
         <RoofLoader />
