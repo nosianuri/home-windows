@@ -9,7 +9,7 @@ const Final = () => {
             <div className='text-center'>
             <h2 className='font-bold text-xl'> Windows installation</h2>
             <p>See if windows is right for your home</p>
-            <p className='text-[#eaa613]'><a href="tel:+18888560197">Get Solar Now</a></p>
+            <p className='text-[#eaa613]'><a href="tel:+18888560197">Get Quick Now</a></p>
             </div>
            
         </div>

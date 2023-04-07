@@ -53,8 +53,6 @@ function App() {
     <Route path='/solar-services' element={<SolarService />} />
     <Route path='/windows-services' element={<WindowService />} />
     <Route path='/home-windows-installation' element={<WindowLander />} />
-    <Route path='/roofing-privacy-policy' element={<RoofPrivacyPolicy />} />
-    <Route path='/roofing-terms' element={<RoofTerms />} />
     </Routes>
     </>
   );
