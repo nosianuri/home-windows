@@ -23,7 +23,7 @@ const StepForm = () => {
     const [fault, setFault] = useState('yes');
     const [howner, setHowner] = useState('yes');
     const [timeFrame, setTimeFrame] = useState('yes');
-    const [material, setMaterial] = useState();
+    const [service, setService] = useState();
     const [yes, no] = useState('yes');
     let tcpaText = "Please be advised that by clicking the Submit button, you are consenting to being contacted by a law firm at the phone number you provided. You are also consenting to receiving advertising and telemarketing messages via text message or pre-recorded call, which may be dialed by an autodialer. Please note that your consent is not necessary for a purchase, but standard message and data rates may apply. By clicking Submit, you are electronically signing to indicate your consent to being contacted and agreeing to the Terms and Conditions. Please be aware that submitting this form and any information contained therein does not establish an attorney-client relationship. The information provided may be reviewed by one or more attorneys and/or law firms. Additionally, please understand that any information received in response to this questionnaire is general information for which there will be no charge, and it should not be relied upon as legal advice because the law may vary from state to state. Therefore, you may need to contact local counsel for referral of this matter. By clicking Submit, you acknowledge that the information you have viewed is advertising and that you agree to receive future advertisements from Legal Justice Claim and/or its partners."
 
@@ -37,21 +37,44 @@ const StepForm = () => {
             lp_campaign_id: "12022",
             lp_supplier_id: "24637",
             lp_key: "mp12bxxmarmmx",
+            lp_ping_id: "90e2b41b-00d6-4ccc-b224-f0c982d0cab8",
             ip_address: "229.222.220.248",
             api_key: "6309-24038-2x7h3zjbkzz6",
             trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
             tcpa_text: tcpaText,
             tcpa: "No",
-            email_address: formData.email_address,
-            phone_home: formData.phone_home,
-            window_project_type: nature,
-            number_of_windows: fault,
-            Service_id: material,
+            Service_id: service,
             home_owner: howner,
             time_frame: timeFrame,
             landing_page: 'https://mrhomeservice-com.preview-domain.com/roofing-campaign',
         }
         console.log(data, "so good")
+        const data2 = {
+            ...AllData,
+            lp_campaign_id: "12022",
+            lp_supplier_id: "24637",
+            lp_key: "mp12bxxmarmmx",
+            ip_address: "229.222.220.248",
+            api_key: "6309-24038-2x7h3zjbkzz6",
+            trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
+            tcpa_text: tcpaText,
+            tcpa: "No",
+            Service_id: service,
+            home_owner: howner,
+            time_frame: timeFrame,
+        }
+        console.log(data2, "very good")
+        fetch('https://api.leadprosper.io/ping', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(data2)
+        })
+            .then(res => {
+                // if (!res.ok) {
+                //     throw new Error(`HTTP error! status: ${res.status}`);
+                // }
+                return res.json();
+            })
         fetch('https://api.leadprosper.io/post', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
@@ -63,8 +86,9 @@ const StepForm = () => {
                 // }
                 return res.json();
             })
-            .then(data => {
-                if (data) {
+            
+            .then( data => {
+                if (data && data2) {
                     toast.success('Successful post data');
                     reset();
                     setLoading(false)
@@ -72,7 +96,7 @@ const StepForm = () => {
                     window.dataLayer.push({
                         event: data
                       })
-                    // navigate("/thanks");
+                    
                     setPage(page + 1);
                 } else if (data.errors) {
                     toast.error('Something went wrong', data.errors.message);
@@ -102,12 +126,14 @@ const StepForm = () => {
       } else if (page === 1) {
           return <PlanStart setTimeFrame={setTimeFrame} page={page} setPage={setPage} />;
       } else if (page === 2) {
-          return <OwnHome setHowner={setHowner} page={page} setPage={setPage} />;
+          return <Windowmaterial setService={setService} page={page} setPage={setPage} />;
       } else if (page === 3) {
-          return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+          return <OwnHome setHowner={setHowner} page={page} setPage={setPage} />;
       } else if (page === 4) {
+          return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+      } else if (page === 5) {
           return <Contact setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-        } else if (page === 5) {
+        } else if (page === 6) {
             return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       } else {
           return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
@@ -117,7 +143,7 @@ const StepForm = () => {
     <div className='mx-auto rounded-2xl text-gray-900'>
     <div className="form  container ">
         <div className="progressbar">
-        <div style={{ width: page === 0 ? "0%" : page == 1 ? "30%" : page == 2 ? "45%" : page == 3 ? "55%" : page == 4 ? "65%" : page == 5 ? "85%" : "100%" }}
+        <div style={{ width: page === 0 ? "0%" : page == 1 ? "20%" : page == 2 ? "35%" : page == 3 ? "45%" : page == 4 ? "55%" : page == 5 ? "65%" : page == 6 ? "85%" : "100%" }}
             ></div>
         </div>
         <div className="form-container pb-5 sm:px-10 px-3 ">

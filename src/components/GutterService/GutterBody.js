@@ -2,7 +2,7 @@ import React from 'react'
 
 const GutterBody = () => {
     return (
-        <div class="hero h-screen !bg-no-repeat !bg-cover" style={{
+        <div className="hero h-screen !bg-no-repeat !bg-cover" style={{
             background: `url(https://i.ibb.co/JtznkJg/bg6.png)`
         }}>
             <div className='bg-black bg-opacity-70 w-[100%] h-[100%]'>
@@ -12,9 +12,9 @@ const GutterBody = () => {
                     </div>
 
                     <div>
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Gutter Cleaning:</div> <div className='text-xl font-medium mb-4'>  Keep your home's gutters free of debris and prevent water damage with our gutter cleaning services. We can also install gutter guards to reduce the need for future cleaning.</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Gutter Cleaning:</div> <div className='text-xl font-medium mb-4'>  Keep your home's gutters free of debris and prevent water damage with our gutter cleaning services. We can also install gutter guards to reduce the need for future cleaning.</div>
 
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Gutter Repair:</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Gutter Repair:</div>
                         <div className='text-xl font-medium mb-4'>  If your gutters are leaking or sagging, our professionals can repair them to keep your home protected from rainwater damage.
                         </div>
 

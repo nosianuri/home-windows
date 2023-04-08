@@ -14,35 +14,35 @@ const WindowLander = () => {
                     <h1 className='sm:text-[35pt] text-[28pt] leading-normal font-semibold text-center max-w-[800px] mx-auto '>Transform Your Home with <span className='text-[#de1b23]'>High Quality Window</span> Installations
                     </h1>
                     <div className='max-w-[890px] mx-auto'>
-                    <div className='sm:px-0 px-3'>
-                    <div className='text-[#ffffff]'>-</div>
-                        <h4 className='text-[18pt] text-center my-2 font-medium text-[#ED8502]'>Upgrade Your Home's Energy Efficiency, Comfort, and Curb Appeal with Our Professional Window Installation Services
-                        </h4>
-                        
-                        <p className=' text-center my-2 font-medium'>At Window Installation Service, we know that your home is your sanctuary. That's why we are dedicated to providing the highest quality window installation services to transform your home and enhance your living experience. Our team of experienced professionals offers <span className='text-[#de1b23]'>customizable window solutions</span> to fit your needs, whether you're looking to improve your home's energy efficiency, comfort, or curb appeal.
-                        </p>
+                        <div className='sm:px-0 px-3'>
+                            <div className='text-[#ffffff]'>-</div>
+                            <h4 className='text-[18pt] text-center my-2 font-medium text-[#ED8502]'>Upgrade Your Home's Energy Efficiency, Comfort, and Curb Appeal with Our Professional Window Installation Services
+                            </h4>
+
+                            <p className=' text-center my-2 font-medium'>At Window Installation Service, we know that your home is your sanctuary. That's why we are dedicated to providing the highest quality window installation services to transform your home and enhance your living experience. Our team of experienced professionals offers <span className='text-[#de1b23]'>customizable window solutions</span> to fit your needs, whether you're looking to improve your home's energy efficiency, comfort, or curb appeal.
+                            </p>
                         </div>
-                        <div class="hero my-8 !bg-no-repeat !bg-cover" style={{
+                        <div className="hero my-8 !bg-no-repeat !bg-cover" style={{
                             background: `url(https://i.ibb.co/q7s7h6d/window-img.png)`
                         }}>
                             <div className='grid sm:grid-cols-2 grid-cols-1 leading-snug bg-black bg-opacity-50'>
                                 <div></div>
                                 <div className='text-[#ffffff] py-3 sm:px-5 px-3 '>
-                                    <div className='font-medium text-lg flex '><i class="fa-solid fa-circle-check  text-[#ED8502] mt-2 pr-3 "></i>
+                                    <div className='font-medium text-lg flex '><i className="fa-solid fa-circle-check  text-[#ED8502] mt-2 pr-3 "></i>
                                         <div>Increase your home's energy efficiency and save money on energy bills</div>
                                     </div>
-                                    <div className='font-medium text-lg flex '><i class="fa-solid fa-circle-check text-[#ED8502] mt-2 pr-3 "></i>
+                                    <div className='font-medium text-lg flex '><i className="fa-solid fa-circle-check text-[#ED8502] mt-2 pr-3 "></i>
                                         <div>Enjoy a more comfortable and secure living space</div>
                                     </div>
-                                    <div className='font-medium text-lg flex '><i class="fa-solid fa-circle-check text-[#ED8502] mt-2 pr-3 "></i>
+                                    <div className='font-medium text-lg flex '><i className="fa-solid fa-circle-check text-[#ED8502] mt-2 pr-3 "></i>
                                         <div>Enhance your home's curb appeal and value</div>
                                     </div>
-                                    <div className='font-medium text-lg flex '><i class="fa-solid fa-circle-check text-[#ED8502] mt-2 pr-3 "></i>
+                                    <div className='font-medium text-lg flex '><i className="fa-solid fa-circle-check text-[#ED8502] mt-2 pr-3 "></i>
                                         <div>Customizable window solutions to fit your unique needs</div>
                                     </div>
-                                    <div className='font-medium text-lg flex '><i class="fa-solid fa-circle-check text-[#ED8502] mt-2 pr-3 "></i>
+                                    <div className='font-medium text-lg flex '><i className="fa-solid fa-circle-check text-[#ED8502] mt-2 pr-3 "></i>
                                         <div>Expert installation services from a team of experienced professionals</div>
-                                    </div>   
+                                    </div>
                                 </div>
                             </div>
 

@@ -17,7 +17,7 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
             <h2 className='text-[24px] font-bold text-center mb-2'>What is the best phone number & email to reach you?<em className='text-red-700'>*</em></h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='space-y-2'>
-                    <div className=" mx-2">
+                    <div className="mx-2">
                         {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">Email<em className='text-red-700'>*</em>
                         </div> */}
                         <div className="input-container">
@@ -34,7 +34,8 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
                             {errors.email_address?.type === 'required' && <span className="text-xs text-red-500">{errors.email_address.message}</span>}
                         </p>
                     </div>
-                    <div className="mx-2 input-container">
+                    <div className='mx-2'>
+                    <div className="input-container">
                         {/* <div className="font-bold h-6 mt-3 !text-gray-900 text-sm !leading-normal uppercase">
                             Phone Number<em className='text-red-700'>*</em>
                         </div> */}
@@ -61,6 +62,7 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
                             {errors.phone_home?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.phone_home.message}</span>}
                             {errors.phone_home?.type === 'minLength' && <span className="text-xs text-red-500">{errors.phone_home.message}</span>}
                         </p>
+                    </div>
                     </div>
                     <p className='text-[8px] !mt-5'>BY CLICKING NEXT, YOU AUTHORIZE WINDOWSInstallation.COM, YOURHOMESCONNECTION.COM AND UP TO <a className='text-orange-500 hover:underline' href="/">FOUR PARTNER COMPANIES</a> TO CALL YOU AND SEND YOU PRE-RECORDED MESSAGES AND TEXT MESSAGES AT THE NUMBER YOU ENTERED ABOVE, USING AN AUTODIALER, WITH OFFERS ABOUT THEIR PRODUCTS OR SERVICES, EVEN IF YOUR PHONE NUMBER IS ON ANY NATIONAL OR STATE DO NOT CALL LIST. MESSAGE AND DATA RATES MAY APPLY. YOUR CONSENT HERE IS NOT BASED ON A CONDITION OF PURCHASE.YOU ALSO AGREE TO THE <a className='text-orange-500 hover:underline' href="/terms">TERMS AND CONDITION</a> AND <a className='text-orange-500 hover:underline' href="/privacy-policy">PRIVACY POLICY</a></p>
                     

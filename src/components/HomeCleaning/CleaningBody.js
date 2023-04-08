@@ -2,7 +2,7 @@ import React from 'react'
 
 const CleaningBody = () => {
     return (
-        <div class="hero h-screen !bg-no-repeat !bg-cover" style={{
+        <div className="hero h-screen !bg-no-repeat !bg-cover" style={{
             background: `url(https://i.ibb.co/3RnwVtn/bg4.png)`
         }}>
             <div className='bg-black bg-opacity-70 w-[100%] h-[100%]'>
@@ -12,13 +12,13 @@ const CleaningBody = () => {
                     </div>
 
                     <div>
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Deep Cleaning:</div> <div className='text-xl font-medium mb-4'>  Our team can provide a thorough deep cleaning of your home, including hard-to-reach areas like baseboards and high shelves.
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Deep Cleaning:</div> <div className='text-xl font-medium mb-4'>  Our team can provide a thorough deep cleaning of your home, including hard-to-reach areas like baseboards and high shelves.
                         </div>
 
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Regular Cleaning:</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Regular Cleaning:</div>
                         <div className='text-xl font-medium mb-4'>  Keep your home looking its best with our regular cleaning services. We offer weekly, bi-weekly, or monthly cleaning schedules to fit your needs.
                         </div>
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Move-In/Move-Out Cleaning:</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Move-In/Move-Out Cleaning:</div>
                         <div className='text-xl font-medium mb-4'> Moving can be stressful. Let us handle the cleaning so you can focus on settling into your new home or preparing it for the next occupant.
 
                         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const PlumbingBody = () => {
     return (
-        <div class="hero h-screen !bg-no-repeat !bg-cover" style={{
+        <div className="hero h-screen !bg-no-repeat !bg-cover" style={{
             background: `url(https://i.ibb.co/YDfgRjn/bg1.png)`
         }}>
             <div className='bg-[#09193d] bg-opacity-70 w-[100%] h-[100%]'>
@@ -12,11 +12,11 @@ const PlumbingBody = () => {
                     </div>
 
                     <div>
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Drain Cleaning:</div> <div className='text-xl font-medium mb-4'> Our plumbers can help you unclog stubborn drains in your home. Whether it's a kitchen sink or shower drain, we have the expertise to clear it quickly and efficiently.</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Drain Cleaning:</div> <div className='text-xl font-medium mb-4'> Our plumbers can help you unclog stubborn drains in your home. Whether it's a kitchen sink or shower drain, we have the expertise to clear it quickly and efficiently.</div>
 
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Leak Detection:</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Leak Detection:</div>
                         <div className='text-xl font-medium mb-4'> Do you suspect a water leak in your home? Our professionals use state-of-the-art technology to detect even the smallest leaks and repair them before they cause further damage.</div>
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Water Heater Repair:</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Water Heater Repair:</div>
                         <div className='text-xl font-medium mb-4'> Don't suffer through cold showers. We offer fast and reliable water heater repair services to get your hot water running again.
                         </div>
                         <div className='bg-[#de1b23] text-center sm:w-[40%] text-white text-2xl font-bold px-4 py-2 mt-10'>Get a Quote</div>

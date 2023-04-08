@@ -34,7 +34,7 @@ const Roofing = () => {
                                     </a>
 
                                     <div className='flex justify-center items-center px-1'>
-                                        <a href="tel:+18559390621"><i class="fa-solid fa-phone-volume pr-3 text-[#f4b836] sm:text-3xl text-xl"></i></a>
+                                        <a href="tel:+18559390621"><i className="fa-solid fa-phone-volume pr-3 text-[#f4b836] sm:text-3xl text-xl"></i></a>
                                         <p className='text-white !leading-normal sm:text-base text-xs agent '>Speak to a Licensed Agent <br />
                                             <a className='sm:text-3xl font-bold text-[#f4b836] ' href="tel:+18888560197">(888) 856-0197</a> <br />
                                             Licensed Agents available now
@@ -47,10 +47,10 @@ const Roofing = () => {
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
                                     <img src='https://i.ibb.co/CVG0PfP/Home-Windows-5.png' alt="" className='sm:w-64 mx-auto' />
                                     <div className='px-3'>
-                                    <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Roofing <span className='font-bold'>Prices</span> By Zip Code</h4>
-                                    <h5 className='text-xl font-medium mb-8 text-center'>Compare Roofing <span className='font-bold'>Prices</span> Today!</h5>
+                                        <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Roofing <span className='font-bold'>Prices</span> By Zip Code</h4>
+                                        <h5 className='text-xl font-medium mb-8 text-center'>Compare Roofing <span className='font-bold'>Prices</span> Today!</h5>
                                     </div>
-                                    
+
                                 </div>
                                 <div className='bg-[#fff8f0] rounded-r-lg sm:w-[700px] '>
                                     <StepForm />
@@ -61,7 +61,7 @@ const Roofing = () => {
                             <div className='bg-[#ED8502] text-xl text-white font-bold py-2 flex items-center justify-center'>
                                 <a href="#details">
                                     <span>More Info</span>
-                                    <i class="fa-solid fa-caret-down pl-3"></i>
+                                    <i className="fa-solid fa-caret-down pl-3"></i>
                                 </a>
                             </div>
                             <div id='cac-footer-legal'>
@@ -232,7 +232,7 @@ const Roofing = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>                            
+                                </div>
                             </div>
                         </div>
                         <div className='bg-opacity-60 bg-black'>

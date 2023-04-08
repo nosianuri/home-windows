@@ -2,7 +2,7 @@ import React from 'react'
 
 const PaintingBody = () => {
     return (
-        <div class="hero h-screen !bg-no-repeat !bg-cover" style={{
+        <div className="hero h-screen !bg-no-repeat !bg-cover" style={{
             background: `url(https://i.ibb.co/HhmWrh1/bg5.png)`
         }}>
             <div className='bg-black bg-opacity-70 w-[100%] h-[100%]'>
@@ -12,10 +12,10 @@ const PaintingBody = () => {
                     </div>
 
                     <div>
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3  "></i>Interior Painting:</div> <div className='text-xl font-medium mb-4'>  Whether you want to refresh your home's style or prepare it for sale, our professional painters can give your interior walls a fresh coat of paint with a variety of colors and finishes.
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3  "></i>Interior Painting:</div> <div className='text-xl font-medium mb-4'>  Whether you want to refresh your home's style or prepare it for sale, our professional painters can give your interior walls a fresh coat of paint with a variety of colors and finishes.
                         </div>
 
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Exterior Painting:</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Exterior Painting:</div>
                         <div className='text-xl font-medium mb-4'>  Protect your home from weather damage and enhance its curb appeal with our exterior painting services. We use high-quality paint that lasts for years to come.
                         </div>
 

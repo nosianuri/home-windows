@@ -2,7 +2,7 @@ import React from 'react'
 
 const BathroomBody = () => {
     return (
-        <div class="hero h-screen !bg-no-repeat !bg-cover" style={{
+        <div className="hero h-screen !bg-no-repeat !bg-cover" style={{
             background: `url(https://i.ibb.co/vZqnM6n/bg8.png)`
         }}>
             <div className='bg-black bg-opacity-70 w-[100%] h-[100%]'>
@@ -12,10 +12,10 @@ const BathroomBody = () => {
                     </div>
 
                     <div>
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Shower Installation:</div> <div className='text-xl font-medium mb-4'> Upgrade your bathroom's style and functionality with a new shower installation. We offer a range of styles and features to fit your needs and preferences.
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Shower Installation:</div> <div className='text-xl font-medium mb-4'> Upgrade your bathroom's style and functionality with a new shower installation. We offer a range of styles and features to fit your needs and preferences.
                         </div>
 
-                        <div className='text-2xl font-bold mt-5'><i class="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Vanity Replacement:</div>
+                        <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Vanity Replacement:</div>
                         <div className='text-xl font-medium mb-4'> Replace your outdated bathroom vanity with a new one that matches your style and provides ample storage space.
                         </div>
 
