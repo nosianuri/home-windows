@@ -212,7 +212,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='bg-opacity-10 bg-black'>
+                        <div className='bg-opacity-60 bg-black'>
                             <div className='text-white font-medium max-w-7xl px-3 mx-auto sm:my-16 my-5'>
                                 <h6 className='text-xs'>Important Disclosures</h6>
                                 <p className='text-xs'>This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video in any advertisement associated with this site are actors or models and not contractors affiliated with this site.

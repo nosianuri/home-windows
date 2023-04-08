@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet';
-import Loader from '../../Shared/Loader';
 import StepForm from './Form/StepForm';
 import RoofingFaq from './RoofingFaq';
 import './Roofing.css';
@@ -48,8 +47,8 @@ const Roofing = () => {
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
                                     <img src='https://i.ibb.co/CVG0PfP/Home-Windows-5.png' alt="" className='sm:w-64 mx-auto' />
                                     <div className='px-3'>
-                                    <h4 className='text-[26px] font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Roofing <span className='font-bold'>Prices</span> By Zip Code</h4>
-                                    <h5 className='text-[24px] font-medium mb-8 text-center'>Compare Roofing <span className='font-bold'>Prices</span> Today!</h5>
+                                    <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Roofing <span className='font-bold'>Prices</span> By Zip Code</h4>
+                                    <h5 className='text-xl font-medium mb-8 text-center'>Compare Roofing <span className='font-bold'>Prices</span> Today!</h5>
                                     </div>
                                     
                                 </div>
