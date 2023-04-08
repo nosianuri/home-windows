@@ -90,13 +90,13 @@ const Home = () => {
                                     
                                     <p className='text-xl font-semibold mb-2 text-[#e48a03]'>Installing new windows from Mr.Home Service comes with numerous benefits, including:</p>
                                     <ul className=' text-[17px] '>
-                                        <li>1. Energy Efficiency: Our energy-efficient windows can help reduce your energy bills and make your home more comfortable.</li>
-                                        <li>2. Improved Home Value: Upgrading your windows with us can add value to your home and improve its overall appeal.</li>
-                                        <li>3. Noise Reduction: Our windows are designed to reduce outside noise, creating a more peaceful and enjoyable living environment.</li>
-                                        <li>4. Increased Security: Our windows feature advanced locking mechanisms, providing added security and peace of mind.</li>
-                                        <li>5. Better Insulation: Our windows offer superior insulation, helping to keep your home cooler in the summer and warmer in the winter.</li>
+                                        <li className='mb-1'>1. <span className='underline'> Energy Efficiency</span> : Our energy-efficient windows can help reduce your energy bills and make your home more comfortable.</li>
+                                        <li className='mb-1'>2. <span className='underline'> Improved Home Value</span> : Upgrading your windows with us can add value to your home and improve its overall appeal.</li>
+                                        <li className='mb-1'>3. <span className='underline'> Noise Reduction</span> : Our windows are designed to reduce outside noise, creating a more peaceful and enjoyable living environment.</li>
+                                        <li className='mb-1'>4. <span className='underline' > Increased Security</span> : Our windows feature advanced locking mechanisms, providing added security and peace of mind.</li>
+                                        <li className='mb-1'>5. <span className='underline'> Better Insulation</span> : Our windows offer superior insulation, helping to keep your home cooler in the summer and warmer in the winter.</li>
                                     </ul>
-                                    <div className=' text-[17px]  mt-2'>Thank you for considering our services. We look forward to working with you to keep your home safe and secure for years to come.
+                                    <div className=' text-[17px]  mt-2'> Thank you for considering our services. We look forward to working with you to keep your home safe and secure for years to come.
                                     </div>
                                     <div className='grid grid-cols-1 gap-3 sm:mt-5'>
                                         <div className='sm:text-xl text-xl mt-5 font-semibold text-[#e48a03]'>ROOF REPLACEMENT FAQS</div>

@@ -83,9 +83,9 @@ const Roofing = () => {
 
                                     <p className='text-xl font-semibold mb-2 text-[#e48a03]'>Benefits of Our Service:</p>
                                     <ul className=' text-[17px] '>
-                                        <li>1. Competitive pricing: We offer fair and transparent pricing for all of our services, with no hidden fees or surprises.</li>
-                                        <li>2. Quick turnaround time: Our team works efficiently to get your roofing project completed in a timely manner, without sacrificing quality.</li>
-                                        <li>3. Comprehensive services: From repairs to installations and everything in between, we have the expertise to handle all of your roofing needs.</li>
+                                        <li className='mb-1'>1. <span className='underline'>Competitive pricing</span> : We offer fair and transparent pricing for all of our services, with no hidden fees or surprises.</li>
+                                        <li className='mb-1'>2. <span className='underline'>Quick turnaround time</span> : Our team works efficiently to get your roofing project completed in a timely manner, without sacrificing quality.</li>
+                                        <li className='mb-1'>3. <span className='underline'>Comprehensive services</span> : From repairs to installations and everything in between, we have the expertise to handle all of your roofing needs.</li>
                                     </ul>
                                     <div className=' text-[17px]  mt-2'>Thank you for considering our services. We look forward to working with you to keep your home safe and secure for years to come.
                                     </div>
