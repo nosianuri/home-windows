@@ -20,7 +20,7 @@ const Terms = () => {
                 <Mloader />
             ) : (
                 <div>
-                    <div className=''>
+                    <div className='bg-[#003144] text-[#FFFFFF]'>
                         <div className='max-w-7xl mx-auto sm:py-16 py-5'>
                             <h3 className='text-3xl font-bold !leading-normal'>Terms of Use</h3>
                             <h5 className='text-xl font-bold mb-2 !leading-normal'>Last update 23/03/2023</h5>
