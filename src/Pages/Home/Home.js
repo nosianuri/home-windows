@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import './Home.css';
 import StepForm from './Form/StepForm';
 import Loader from '../../Shared/Loader';
+import RoofingFaq from '../Roofing/RoofingFaq';
 
 const Home = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -72,6 +73,7 @@ const Home = () => {
                             </div>
                             <div id='cac-footer-legal'>
                                 <div className='max-w-[990px] mx-auto'>
+                                <p className='mb-5'>Welcome to Mr.Home Service, your trusted source for professional window installation services. Our team of experts is dedicated to helping homeowners enhance the appearance, energy efficiency, and security of their homes with top-quality window installations.</p>
                                     <h3 className='text-xl mb-2 text-[#e48a03]'>Update Your Existing Home Windows By Replacing Them With Affordable Window Alternatives</h3>
                                     <p className='mb-5'>Looking for replacement windows at great prices? You're in luck. windowinstallation.com helps you streamline and expedite the process of replacement window shopping without the hassle. Once you’ve completed the windows questionnaire above, numerous quotes from local window professionals (unique to your area) will be made available instantly so you can be sure you're getting the best value on your replacement windows!</p>
 
@@ -85,6 +87,128 @@ const Home = () => {
                                     <h3 className='text-xl mb-2 text-[#e48a03]'>Browsing For Window Quotes To Find The Average Cost Of Home Windows Replacement</h3>
                                     <p className='mb-2 '>There is no time like today to purchase suitable home windows at a reasonable value. Premium window companies will even assign a personalized home windows technician to your house for a tailored consultation experience - walking you through an assortment of replacement windows and window accessories, assisting you every step of the way. It’s best to acquire quotes from several window installers, so that you may take advantage of first-time customer deals or new home window consumer promotions. With a little research on multiple home window rates, you can make sure you’re getting the best energy-efficient and budget friendly windows out there.</p>
                                     <p className='mb-5'>With pertinent tools, resources and adequate information at your disposal - you can have a multi-faceted understanding of which windows work best for your home and budget, whether you go the route of working with a certified professional or installing windows on your own. With new home windows installation, there will be a notable improvement all around - your home's value and appearance will be enhanced while you save money. Window replacement automatically upgrades your home and is an effortless lifetime investment that you can enjoy with ease.</p>
+                                    
+                                    <p className='text-xl font-semibold mb-2 text-[#e48a03]'>Installing new windows from Mr.Home Service comes with numerous benefits, including:</p>
+                                    <ul className=' text-[17px] '>
+                                        <li>1. Energy Efficiency: Our energy-efficient windows can help reduce your energy bills and make your home more comfortable.</li>
+                                        <li>2. Improved Home Value: Upgrading your windows with us can add value to your home and improve its overall appeal.</li>
+                                        <li>3. Noise Reduction: Our windows are designed to reduce outside noise, creating a more peaceful and enjoyable living environment.</li>
+                                        <li>4. Increased Security: Our windows feature advanced locking mechanisms, providing added security and peace of mind.</li>
+                                        <li>5. Better Insulation: Our windows offer superior insulation, helping to keep your home cooler in the summer and warmer in the winter.</li>
+                                    </ul>
+                                    <div className=' text-[17px]  mt-2'>Thank you for considering our services. We look forward to working with you to keep your home safe and secure for years to come.
+                                    </div>
+                                    <div className='grid grid-cols-1 gap-3 sm:mt-5'>
+                                        <div className='sm:text-xl text-xl mt-5 font-semibold text-[#e48a03]'>ROOF REPLACEMENT FAQS</div>
+                                        <div className="max-w-2xl ">
+                                            <RoofingFaq title=" What makes Mr.Home Service the best choice for window installation?">
+                                                <p className='font-medium'>
+                                                 Our team of experts is committed to delivering top-quality window installations that meet your unique needs and preferences. We use only the highest-quality materials and work diligently to ensure your complete satisfaction with our services.
+                                                </p>
+                                            </RoofingFaq>
+                                            <RoofingFaq title=" How long does it take to install new windows with Mr.Home Service?">
+                                                <p className='font-medium'>
+                                                 The installation time will depend on the number and size of windows being installed, but our team works quickly and efficiently to minimize any disruption to your daily routine.
+                                                </p>
+                                            </RoofingFaq>
+                                            <RoofingFaq title=" Can I customize the windows to fit my home's unique style and needs?">
+                                                <p className='font-medium'>
+                                                 Yes! Our windows come in a variety of styles and finishes, and we can work with you to customize your windows to meet your specific needs and preferences.
+                                                </p>
+                                            </RoofingFaq>
+                                            <RoofingFaq title=" What kind of warranty do you offer on your window installations?">
+                                                <p className='font-medium'>
+                                                 We stand behind our work with a comprehensive warranty that covers both labor and materials. We are committed to providing our customers with the highest level of service and satisfaction.
+                                                </p>
+                                            </RoofingFaq>      
+                                        </div>
+                                    </div>
+
+                                    {/* recent comments */}
+                                    <div className='mb-8 mt-8 sm:px-0 px-3'>
+                                        <div className='flex justify-between'>
+                                            <p>Recent # Comments</p>
+                                            <p className='commen'>Add a comment</p>
+                                        </div>
+                                        <div>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
+                                                <img src="https://i.ibb.co/dWWt7P9/c10.jpg" alt="" className='review-img' />
+                                                <div>
+                                                    <p className='font-medium text-[#ED8502]'>Susan, San Diego, CA</p>
+                                                    <p className='mt-1 text-sm'>Mr.Home Service exceeded my expectations with their professional installation and high-quality windows. My home looks and feels amazing!</p>
+                                                    <p className='text-sm text-[#ED8502] mt-1'>Reply. 13 . Like . <span className='underline text-gray-400'>12 minutes ago</span></p>
+                                                </div>
+                                            </div>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
+                                                <img src="https://i.ibb.co/zfvSPzM/c1.jpg" alt="" className='review-img' />
+                                                <div>
+                                                    <p className='font-medium text-[#ED8502]'>Michael, Dallas, TX</p>
+                                                    <p className='mt-1 text-sm'>I highly recommend Mr.Home Service for anyone looking for top-quality window installations. Their team was knowledgeable, professional, and efficient, and the results were stunning.</p>
+                                                    <p className='text-sm text-[#ED8502] mt-1'>Reply. 6 . Like . <span className='underline text-gray-400'>13 minutes ago</span></p>
+                                                </div>
+                                            </div>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
+                                                <img src="https://i.ibb.co/k0FdgVf/c2.jpg" alt="" className='review-img' />
+                                                <div>
+                                                    <p className='font-medium text-[#ED8502]'>Mary, Seattle, WA</p>
+                                                    <p className='mt-1 text-sm'>The team at Mr.Home Service was a pleasure to work with from start to finish. They helped me choose the perfect windows for my home and delivered on their promises with a flawless installation.</p>
+                                                    <p className='text-sm text-[#ED8502] mt-1'>Reply. 19 . Like . <span className='underline text-gray-400'>25 minutes ago</span></p>
+                                                </div>
+                                            </div>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
+                                                <img src="https://i.ibb.co/4TfDMb1/c3.jpg" alt="" className='review-img' />
+                                                <div>
+                                                    <p className='font-medium text-[#ED8502]'>John, Miami, FL</p>
+                                                    <p className='mt-1 text-sm'>
+                                                    Mr.Home Service provided exceptional service and craftsmanship in the installation of my new windows. The results are truly breathtaking, and I couldn't be happier with the outcome.
+                                                    </p>
+                                                    <p className='text-sm text-[#ED8502] mt-1'>Reply. Like . <span className='underline text-gray-400'>46 minutes ago</span></p>
+                                                </div>
+                                            </div>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
+                                                <img src="https://i.ibb.co/Zg6g4j4/c4.jpg" alt="" className='review-img' />
+                                                <div>
+                                                    <p className='font-medium text-[#ED8502]'>Emily, Chicago, IL</p>
+                                                    <p className='mt-1 text-sm'>
+                                                    From the initial consultation to the final installation, Mr.Home Service was professional, courteous, and efficient. They went above and beyond to ensure my complete satisfaction with their services.
+                                                    </p>
+                                                    <p className='text-sm text-[#ED8502] mt-1'>Reply. 43 . Like . <span className='underline text-gray-400'>about an hour ago</span></p>
+                                                </div>
+                                            </div>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
+                                                <img src="https://i.ibb.co/D1ng0JG/c6.jpg" alt="" className='review-img' />
+                                                <div>
+                                                    <p className='font-medium text-[#ED8502]'>Daniel, Boston, MA</p>
+                                                    <p className='mt-1 text-sm'>
+                                                    The team at Mr.Home Service was knowledgeable and helpful every step of the way. They answered all of my questions and provided expert guidance to help me make the best decisions for my home.
+                                                    </p>
+                                                    <p className='text-sm text-[#ED8502] mt-1'>Reply. 3 . Like . <span className='underline text-gray-400'>1 hour ago</span></p>
+                                                </div>
+                                            </div>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
+                                                <img src="https://i.ibb.co/5L4G9x6/c7.jpg" alt="" className='review-img' />
+                                                <div>
+                                                    <p className='font-medium text-[#ED8502]'>Rachel, Denver, CO
+                                                    </p>
+                                                    <p className='mt-1 text-sm'>
+                                                    I'm thrilled with my new windows from Mr.Home Service. They look beautiful and have already made a noticeable difference in the energy efficiency of my home. Thank you!
+                                                    </p>
+                                                    <p className='text-sm text-[#ED8502] mt-1'>Reply. Like . <span className='underline text-gray-400'>2 hours ago</span></p>
+                                                </div>
+                                            </div>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
+                                                <img src="https://i.ibb.co/WxHVhjS/c8.jpg" alt="" className='review-img' />
+                                                <div>
+                                                    <p className='font-medium text-[#ED8502]'> Alex, Atlanta, GA</p>
+                                                    <p className='mt-1 text-sm'>
+                                                    Mr.Home Service delivered on their promises with a flawless installation and top-quality windows. I highly recommend their services to anyone looking for a trusted partner in home improvement.
+                                                    </p>
+                                                    <p className='text-sm text-[#ED8502] mt-1'>Reply. 12 . Like . <span className='underline text-gray-400'>2 hours ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>At Mr.Home Service, we are committed to providing our customers with top-quality window installations and exceptional customer service. Contact us today to learn more about our services and how we can help you enhance the beauty and value of your home.</div>
                                 </div>
                             </div>
                         </div>

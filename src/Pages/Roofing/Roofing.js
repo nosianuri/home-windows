@@ -25,7 +25,7 @@ const Roofing = () => {
             ) : (
                 <div>
                     <div className='body rf-body '>
-                        <div className='bg-opacity-30 bg-black'>
+                        <div className='bg-opacity-40 bg-black'>
                             <div className='max-w-[980px] mx-auto px-2 mt-3'>
 
                                 <div className='flex justify-between items-center '>
@@ -65,7 +65,7 @@ const Roofing = () => {
                                     <i class="fa-solid fa-caret-down pl-3"></i>
                                 </a>
                             </div>
-                            <div id='cac-mid-legal'>
+                            <div id='cac-footer-legal'>
                                 <div className='max-w-[1000px] mx-auto'>
                                     <p className='mb-5 text-[17px] '>We understand that it can be difficult to visualize the quality of our roofing work without seeing it for yourself. That's why we've included a gallery section showcasing some of our previous roofing projects. From simple repairs to full-scale installations, our team has the expertise to handle any roofing job with precision and care. Take a look at the before-and-after photos to see the dramatic difference a new roof can make for your home's appearance and functionality.</p>
 
@@ -128,13 +128,13 @@ const Roofing = () => {
 
 
                                     {/* recent comments */}
-                                    <div className='mb-16 mt-8 sm:px-0 px-3'>
+                                    <div className='mb-8 mt-8 sm:px-0 px-3'>
                                         <div className='flex justify-between'>
                                             <p>Recent # Comments</p>
                                             <p className='commen'>Add a comment</p>
                                         </div>
                                         <div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/dWWt7P9/c10.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>Sarah M.</p>
@@ -142,7 +142,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. 13 . Like . <span className='underline text-gray-400'>12 minutes ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/zfvSPzM/c1.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>John P.</p>
@@ -150,7 +150,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. 6 . Like . <span className='underline text-gray-400'>13 minutes ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/k0FdgVf/c2.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>Mark H.</p>
@@ -158,7 +158,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. 19 . Like . <span className='underline text-gray-400'>25 minutes ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/4TfDMb1/c3.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>Kelly S.</p>
@@ -168,7 +168,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. Like . <span className='underline text-gray-400'>46 minutes ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/Zg6g4j4/c4.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>Michael T.</p>
@@ -178,7 +178,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. 43 . Like . <span className='underline text-gray-400'>about an hour ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/D1ng0JG/c6.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>Jessica L.</p>
@@ -188,7 +188,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. 3 . Like . <span className='underline text-gray-400'>1 hour ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/5L4G9x6/c7.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>Thomas R.
@@ -199,7 +199,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. Like . <span className='underline text-gray-400'>2 hours ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/WxHVhjS/c8.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'> Rachel K.</p>
@@ -209,7 +209,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. 12 . Like . <span className='underline text-gray-400'>2 hours ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/p1RC9xy/c9.jpg" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>David W.
@@ -220,7 +220,7 @@ const Roofing = () => {
                                                     <p className='text-sm text-[#ED8502] mt-1'>Reply. 30 . Like <span className='underline text-gray-400'>.2 hours ago</span></p>
                                                 </div>
                                             </div>
-                                            <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
+                                            <div className='sm:flex gap-5 border border-[#003144] border-b-gray-300 px-1 py-5'>
                                                 <img src="https://i.ibb.co/wsV52V1/noelia.webp" alt="" className='review-img' />
                                                 <div>
                                                     <p className='font-medium text-[#ED8502]'>Sarah H.
@@ -233,15 +233,17 @@ const Roofing = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className=' max-w-7xl px-3 mx-auto sm:my-6 my-5'>
-                                    <h6 className='text-sm'>Important Disclosures</h6>
-                                    <p className='text-sm'>This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video in any advertisement associated with this site are actors or models and not contractors affiliated with this site.
-                                        <br /> <br />
-                                        Any service marks, logos, and trademarks (collectively the "Trademarks") displayed are registered and/or unregistered Trademarks of their respective owners. This site contains affiliate and partner links and may receive compensation for referrals or purchases made through our links. Subject matter within this website are copyrighted property of the owner of this site. This website and its owner is not responsible for any photographic or typographical errors.</p>
+                                </div>                            
+                            </div>
+                        </div>
+                        <div className='bg-opacity-60 bg-black'>
+                            <div className='text-white font-medium max-w-7xl px-3 mx-auto sm:my-16 my-5'>
+                                <h6 className='text-xs'>Important Disclosures</h6>
+                                <p className='text-xs'>This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video in any advertisement associated with this site are actors or models and not contractors affiliated with this site.
+                                    <br /> <br />
+                                    Any service marks, logos, and trademarks (collectively the "Trademarks") displayed are registered and/or unregistered Trademarks of their respective owners. This site contains affiliate and partner links and may receive compensation for referrals or purchases made through our links. Subject matter within this website are copyrighted property of the owner of this site. This website and its owner is not responsible for any photographic or typographical errors.</p>
 
-                                    <p className='text-sm text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#ED8502]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#ED8502]' href="/terms">Terms & Condition</a></p>
-                                </div>
+                                <p className='text-xs text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/terms">Terms & Condition</a></p>
                             </div>
                         </div>
                     </div>
