@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import { useForm } from 'react-hook-form';
 
 const ZipCode = ({ page, setPage, setAllData, AllData }) => {
@@ -17,11 +16,9 @@ const ZipCode = ({ page, setPage, setAllData, AllData }) => {
         <div className="flex flex-col " >
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="mx-2 flex-1 sm:mb-32">
-
                     <div className='text-center'>
                         <h2 className='sm:text-[27px] text-[25px] font-bold'>What is your Zip Code?<em className='text-red-700'>*</em></h2>
                         <div className=" my-10 ">
-
                             <div className="input-container">
                                 <input name="zip_code" type="text" className="input" 
                                     {...register("zip_code", {
@@ -45,7 +42,6 @@ const ZipCode = ({ page, setPage, setAllData, AllData }) => {
                                 {errors.zip_code?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.zip_code.message}</span>}
                                 {errors.zip_code?.type === 'minLength' && <span className="text-xs text-red-500">{errors.zip_code.message}</span>}
                             </p>
-
                         </div>
                     </div>
                 </div>

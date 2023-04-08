@@ -12,10 +12,8 @@ const HvacBody = () => {
                         <h1 className='text-center text-5xl leading-normal font-bold text-[#fff]'>HVAC Service</h1>
                         <div className='text-2xl my-8 font-bold text-[#ED8502] '>  Our HVAC services are backed by a money-back guarantee, and we offer financing options for larger projects.
                         </div>
-
                         <div className='max-w-[690px] '>
                             <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Air Conditioning Repair:</div> <div className='text-xl font-medium mb-4'>  Is your AC unit not working correctly? Our HVAC technicians can diagnose and repair any issue, from refrigerant leaks to faulty thermostats.</div>
-
                             <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Furnace Installation:</div>
                             <div className='text-xl font-medium mb-4'>  Need a new furnace installed in your home? We offer top-of-the-line energy-efficient models that can save you money on your heating bills.</div>
                             <div className='text-2xl font-bold mt-5'><i className="fa-solid fa-circle-check text-[#ED8502] pr-3 "></i>Indoor Air Quality Testing:</div>

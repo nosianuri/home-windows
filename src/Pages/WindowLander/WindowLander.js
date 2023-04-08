@@ -1,5 +1,5 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const WindowLander = () => {
     return (
@@ -18,7 +18,6 @@ const WindowLander = () => {
                             <div className='text-[#ffffff]'>-</div>
                             <h4 className='text-[18pt] text-center my-2 font-medium text-[#ED8502]'>Upgrade Your Home's Energy Efficiency, Comfort, and Curb Appeal with Our Professional Window Installation Services
                             </h4>
-
                             <p className=' text-center my-2 font-medium'>At Window Installation Service, we know that your home is your sanctuary. That's why we are dedicated to providing the highest quality window installation services to transform your home and enhance your living experience. Our team of experienced professionals offers <span className='text-[#de1b23]'>customizable window solutions</span> to fit your needs, whether you're looking to improve your home's energy efficiency, comfort, or curb appeal.
                             </p>
                         </div>
@@ -45,12 +44,10 @@ const WindowLander = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div className='text-center mb-5'>
                             <button className='px-4 py-2 bg-[#de1b23] text-xl text-[#fff] font-bold hover:text-[#0f2863] rounded sm:w-[40%] text-center'>GET A QUOTE</button>
                         </div>
-
                         <p className='text-center text-xl font-medium'>
                             <span className='text-[#de1b23]'>Book your free consultation</span> now to learn how our <span className='text-[#de1b23]'>professional window</span> installation services can transform your home and enhance your living experience.
                         </p>
@@ -62,11 +59,7 @@ const WindowLander = () => {
                             </span> professionals</p>
                             <p>Positive customer reviews and testimonials</p>
                         </div>
-
                     </div>
-
-
-
                     {/* recent comments */}
                     <div className='mb-16 mt-8 sm:px-0 px-3'>
                         <div className='flex justify-between'>

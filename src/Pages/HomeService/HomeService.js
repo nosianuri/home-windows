@@ -19,24 +19,6 @@ import img14 from '../../assets/14.png';
 const HomeService = () => {
     const [showMore, setShowMore] = useState(false);
     const toggleShowMore = () => setShowMore(!showMore);
-    const reviews = [
-        {
-            name: 'John',
-            company: 'Acme Corp',
-            review: 'Lorem ipsum dolor sit amet.',
-        },
-        {
-            name: 'Jane',
-            company: 'Widgets Inc',
-            review: 'Lorem ipsum dolor sit amet.',
-        },
-        {
-            name: 'Bob',
-            company: 'Gizmos LLC',
-            review: 'Lorem ipsum dolor sit amet.',
-        },
-    ];
-
     const services = [
         {
             id: 1,
@@ -177,10 +159,8 @@ const HomeService = () => {
                 </div>
             </div>
             <div>
-
                 <div id='cac-mid-legal'>
                     <div className='max-w-[990px] mx-auto'>
-                        {/* <h3 className='text-xl mb-2 text-[#e48a03] font-semibold'> Some customer testimonials or reviews for each service type.</h3> */}
                         <div className='flex justify-between'>
                             <p>Recent # Comments</p>
                             <p className='commen'>Add a comment</p>
@@ -207,7 +187,6 @@ const HomeService = () => {
                                     <p className='mt-1'>I was impressed with your home cleaning service. The team arrived on time and did an excellent job. My home was spotless when they finished. Thank you!</p>
                                 </div>
                             </div>
-
                             <div className='sm:flex gap-5 border border-white border-b-gray-300 px-1 py-5'>
                                 <img src="https://i.ibb.co/QMs9B9h/pablo9.webp" alt="" className='review-img' />
                                 <div>

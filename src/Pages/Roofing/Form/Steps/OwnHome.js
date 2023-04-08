@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const OwnHome = ({ page, setPage, setHowner }) => {
   const handleChange = (e) => {
@@ -16,10 +16,6 @@ const OwnHome = ({ page, setPage, setHowner }) => {
                 <input name='radio' id='radio1' type="radio" />
                 <label htmlFor="radio1">Yes</label>
               </div>
-              {/* <div onClick={() => handleChange("no")} className='radio-item'>
-                        <input name='radio' id='radio2' type="radio" />
-                        <label htmlFor="radio2">No, but I am allowed to make change</label>
-                    </div> */}
               <div onClick={() => handleChange("no")} className='radio-item'>
                 <input name='radio' id='radio2' type="radio" />
                 <label htmlFor="radio2">No</label>
@@ -28,13 +24,6 @@ const OwnHome = ({ page, setPage, setHowner }) => {
           </div>
         </div>
       </div>
-      {/* <div className="footer mt-5">
-
-        <button className="sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"
-          onClick={() => {
-            setPage((currPage) => currPage + 1);
-          }}>Next</button>
-      </div> */}
     </div>
   )
 }

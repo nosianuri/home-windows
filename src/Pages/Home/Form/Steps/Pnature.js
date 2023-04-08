@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Pnature = ({ nature, setNature, setPage }) => {
     const handleChange = (e) => {

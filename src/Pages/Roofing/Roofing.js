@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import StepForm from './Form/StepForm';
 import RoofingFaq from './RoofingFaq';
@@ -8,7 +8,6 @@ import RoofLoader from '../../Shared/RoofLoader';
 const Roofing = () => {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
-        // simulate a delay of 3 seconds to show the loader
         setTimeout(() => {
             setIsLoading(false);
         }, 3000);
@@ -26,13 +25,10 @@ const Roofing = () => {
                     <div className='body rf-body '>
                         <div className='bg-opacity-40 bg-black'>
                             <div className='max-w-[980px] mx-auto px-2 mt-3'>
-
                                 <div className='flex justify-between items-center '>
                                     <a href="https://mrhomeservice.net/roofing-campaign">
-
                                         <img src="https://i.ibb.co/jrNqB5g/home-service.png" alt="" className='sm:w-36 w-24 ' />
                                     </a>
-
                                     <div className='flex justify-center items-center px-1'>
                                         <a href="tel:+18559390621"><i className="fa-solid fa-phone-volume pr-3 text-[#f4b836] sm:text-3xl text-xl"></i></a>
                                         <p className='text-white !leading-normal sm:text-base text-xs agent '>Speak to a Licensed Agent <br />
@@ -42,7 +38,6 @@ const Roofing = () => {
                                     </div>
                                 </div>
                             </div>
-
                             <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[950px] mx-auto mt-8 mb-16 px-3'>
                                 <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
                                     <img src='https://i.ibb.co/CVG0PfP/Home-Windows-5.png' alt="" className='sm:w-64 mx-auto' />
@@ -50,7 +45,6 @@ const Roofing = () => {
                                         <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Roofing <span className='font-bold'>Prices</span> By Zip Code</h4>
                                         <h5 className='text-xl font-medium mb-8 text-center'>Compare Roofing <span className='font-bold'>Prices</span> Today!</h5>
                                     </div>
-
                                 </div>
                                 <div className='bg-[#fff8f0] rounded-r-lg sm:w-[700px] '>
                                     <StepForm />
@@ -67,20 +61,11 @@ const Roofing = () => {
                             <div id='cac-footer-legal'>
                                 <div className='max-w-[1000px] mx-auto'>
                                     <p className='mb-5 text-[17px] '>We understand that it can be difficult to visualize the quality of our roofing work without seeing it for yourself. That's why we've included a gallery section showcasing some of our previous roofing projects. From simple repairs to full-scale installations, our team has the expertise to handle any roofing job with precision and care. Take a look at the before-and-after photos to see the dramatic difference a new roof can make for your home's appearance and functionality.</p>
-
-
                                     <p className='mb-5  text-[17px] '>We believe that transparency is key to building trust with our customers, which is why we are proud to showcase our previous roofing work. If you have any questions about the photos or the specific roofing services we offer, please don't hesitate to reach out to our team. We are happy to provide additional information and answer any questions you may have.</p>
-
-
                                     <p className='mb-2 text-[17px] '>Our team of skilled professionals is equipped with the latest tools and techniques to handle any roofing project, no matter how big or small. From leaky roofs to full-scale replacements, we have the expertise to get the job done right, the first time around.
                                     </p>
-
-
                                     <p className='mb-5 text-[17px] '>What sets us apart from the competition? It's simple - we care about our customers. We understand that your home is your most valuable asset, and we treat it with the respect and care it deserves. That's why we use only the highest-quality materials and techniques to ensure that your roof will stand the test of time.</p>
-
-
                                     <p className='mb-2 text-[17px] '>Don't let a damaged or outdated roof put a damper on your home's appearance or safety. Contact us today to schedule a consultation and let us show you why we're the best in the business. Simply fill out the form below with your contact information, and we'll be in touch with you soon to discuss your roofing needs.</p>
-
                                     <p className='text-xl font-semibold mb-2 text-[#e48a03]'>Benefits of Our Service:</p>
                                     <ul className=' text-[17px] '>
                                         <li className='mb-1'>1. <span className='underline'>Competitive pricing</span> : We offer fair and transparent pricing for all of our services, with no hidden fees or surprises.</li>
@@ -124,8 +109,6 @@ const Roofing = () => {
                                             </RoofingFaq>
                                         </div>
                                     </div>
-
-
                                     {/* recent comments */}
                                     <div className='mb-8 mt-8 sm:px-0 px-3'>
                                         <div className='flex justify-between'>
@@ -241,7 +224,6 @@ const Roofing = () => {
                                 <p className='text-sm'>This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video in any advertisement associated with this site are actors or models and not contractors affiliated with this site.
                                     <br /> <br />
                                     Any service marks, logos, and trademarks (collectively the "Trademarks") displayed are registered and/or unregistered Trademarks of their respective owners. This site contains affiliate and partner links and may receive compensation for referrals or purchases made through our links. Subject matter within this website are copyrighted property of the owner of this site. This website and its owner is not responsible for any photographic or typographical errors.</p>
-
                                 <p className='text-sm text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/terms">Terms & Condition</a></p>
                             </div>
                         </div>

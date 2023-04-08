@@ -18,8 +18,6 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='space-y-2'>
                     <div className=" mx-2">
-                        {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">Email<em className='text-red-700'>*</em>
-                        </div> */}
                         <div className="input-container">
                             <input name="email" className="input"
                                 {...register("email_address", {
@@ -35,9 +33,6 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
                         </p>
                     </div>
                     <div className="mx-2 input-container">
-                        {/* <div className="font-bold h-6 mt-3 !text-gray-900 text-sm !leading-normal uppercase">
-                            Phone Number<em className='text-red-700'>*</em>
-                        </div> */}
                         <div className="input-container">
                             <input name="phone" type="text" autoComplete='off' className="input "
                                 {...register("phone_home", {

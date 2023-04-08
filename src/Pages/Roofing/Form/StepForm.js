@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import Address from './Steps/Address';
 import Contact from './Steps/Contact';
 import Final from './Steps/Final';
-import Involveved from './Steps/Involveved';
 import OwnHome from './Steps/OwnHome';
 import PersonalInfo from './Steps/PersonalInfo';
 import PlanStart from './Steps/PlanStart';
-import Pnature from './Steps/Pnature';
 import Windowmaterial from './Steps/Windowmaterial';
 import ZipCode from './Steps/ZipCode';
 
@@ -25,9 +22,7 @@ const StepForm = () => {
 
     const onSubmit = formData => {
         setLoading(true);
-
         const id = AllData?.first_name?.slice(0, 2) + AllData?.phone?.slice(4, 9) + AllData?.email?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + formData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone?.slice(1, ) + formData.state?.slice(0, 1);
-
         const data = {
             ...AllData,
             lp_campaign_id: "12022",
@@ -66,9 +61,6 @@ const StepForm = () => {
             body: JSON.stringify(data2)
         })
             .then(res => {
-                // if (!res.ok) {
-                //     throw new Error(`HTTP error! status: ${res.status}`);
-                // }
                 return res.json();
             })
         fetch('https://api.leadprosper.io/post', {
@@ -77,12 +69,8 @@ const StepForm = () => {
             body: JSON.stringify(data)
         })
             .then(res => {
-                // if (!res.ok) {
-                //     throw new Error(`HTTP error! status: ${res.status}`);
-                // }
                 return res.json();
             })
-            
             .then( data => {
                 if (data && data2) {
                     toast.success('Successful post data');
@@ -108,14 +96,6 @@ const StepForm = () => {
     }
 
       // console.log(AllData, "goods")
-      const FormTitles = ["Physical Injury",
-      "Currently Represented",
-      "At Fault",
-      "Incident Date",
-      "Case Description",
-      "Details",
-      "Address",
-      "Final",];
   const PageDisplay = () => {
       if (page === 0) {
           return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;

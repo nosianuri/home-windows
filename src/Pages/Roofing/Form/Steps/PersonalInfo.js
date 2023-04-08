@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useForm } from 'react-hook-form';
 
 const PersonalInfo = ({ page, setPage, setAllData, AllData }) => {
@@ -20,9 +20,6 @@ const PersonalInfo = ({ page, setPage, setAllData, AllData }) => {
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='space-y-4'>
                     <div className=" mx-2 ">
-                        {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
-                            First Name<em className='text-red-700'>*</em>
-                        </div> */}
                         <div className="input-container">
                             <input name="first_name" className="input"
                                 {...register("first_name", {
@@ -43,9 +40,6 @@ const PersonalInfo = ({ page, setPage, setAllData, AllData }) => {
                         </p>
                     </div>
                     <div className=" mx-2 ">
-                        {/* <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
-                            Last Name<em className='text-red-700'>*</em>
-                        </div> */}
                         <div className="input-container">
                             <input name="last_name" type="text" className="input"
                                 {...register("last_name", {
@@ -66,7 +60,6 @@ const PersonalInfo = ({ page, setPage, setAllData, AllData }) => {
                         </p>
                     </div>
                 </div>
-
                 <div className="footer mt-16 mx-auto">
                     <input className="sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Next" />
                 </div>

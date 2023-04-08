@@ -14,7 +14,6 @@ import Windowmaterial from './Steps/Windowmaterial';
 import ZipCode from './Steps/ZipCode';
 
 const StepForm = () => {
-    const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
     const [page, setPage] = useState(0);
@@ -24,13 +23,12 @@ const StepForm = () => {
     const [howner, setHowner] = useState('yes');
     const [timeFrame, setTimeFrame] = useState('yes');
     const [material, setMaterial] = useState();
-    const [yes, no] = useState('yes');
     let tcpaText = "Please be advised that by clicking the Submit button, you are consenting to being contacted by a law firm at the phone number you provided. You are also consenting to receiving advertising and telemarketing messages via text message or pre-recorded call, which may be dialed by an autodialer. Please note that your consent is not necessary for a purchase, but standard message and data rates may apply. By clicking Submit, you are electronically signing to indicate your consent to being contacted and agreeing to the Terms and Conditions. Please be aware that submitting this form and any information contained therein does not establish an attorney-client relationship. The information provided may be reviewed by one or more attorneys and/or law firms. Additionally, please understand that any information received in response to this questionnaire is general information for which there will be no charge, and it should not be relied upon as legal advice because the law may vary from state to state. Therefore, you may need to contact local counsel for referral of this matter. By clicking Submit, you acknowledge that the information you have viewed is advertising and that you agree to receive future advertisements from Legal Justice Claim and/or its partners."
 
     const onSubmit = formData => {
         setLoading(true);
 
-        const id = AllData?.first_name?.slice(0, 2) + AllData?.phone?.slice(4, 9) + AllData?.email?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + formData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone?.slice(1, ) + formData.state?.slice(0, 1);
+        const id = AllData?.first_name?.slice(0, 2) + AllData?.phone?.slice(4, 9) + AllData?.email?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + formData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone?.slice(1,) + formData.state?.slice(0, 1);
 
         const data = {
             ...AllData,
@@ -80,9 +78,6 @@ const StepForm = () => {
             body: JSON.stringify(data2)
         })
             .then(res => {
-                // if (!res.ok) {
-                //     throw new Error(`HTTP error! status: ${res.status}`);
-                // }
                 return res.json();
             })
         fetch('https://api.leadprosper.io/post', {
@@ -104,67 +99,54 @@ const StepForm = () => {
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
                         event: data
-                      })
-                    // navigate("/thanks");
+                    })
                     setPage(page + 1);
                 } else if (data.errors) {
                     toast.error('Something went wrong', data.errors.message);
                     setLoading(false)
                 }
-                // console.log(data, "response data");
             })
             .catch(error => {
-                // console.error(error);
                 toast.error(`Error: ${error.message}`);
                 setLoading(false);
             });
     }
-
-      // console.log(AllData, "goods")
-      const FormTitles = ["Physical Injury",
-      "Currently Represented",
-      "At Fault",
-      "Incident Date",
-      "Case Description",
-      "Details",
-      "Address",
-      "Final",];
-  const PageDisplay = () => {
-      if (page === 0) {
-          return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else if (page === 1) {
-          return <Pnature nature={nature} setNature={setNature} setPage={setPage} />;
-      } else if (page === 2) {
-          return <Involveved setFault={setFault} setPage={setPage} />;
-      } else if (page === 3) {
-          return <Windowmaterial material={material} setMaterial={setMaterial} page={page} setPage={setPage} />;
-      } else if (page === 4) {
-          return <PlanStart setTimeFrame={setTimeFrame} page={page} setPage={setPage} />;
-      } else if (page === 5) {
-          return <OwnHome setHowner={setHowner} page={page} setPage={setPage} />;
-      } else if (page === 6) {
-          return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else if (page === 7) {
-          return <Contact setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else if (page === 8) {
-          return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else {
-          return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      }
-  };
-  return (
-    <div className='mx-auto rounded-2xl text-gray-900'>
-    <div className="form  container ">
-        <div className="progressbar">
-            <div style={{ width: page === 0 ? "0%" : page == 1 ? "20%" : page == 2 ? "30%" : page == 3 ? "40%" : page == 4 ? "50%" : page == 5 ? "60%" : page == 6 ? "70%" : page == 7 ? "80%" : page == 8 ? "90%" : "100%" }}
-            ></div>
+    const PageDisplay = () => {
+        if (page === 0) {
+            return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        } else if (page === 1) {
+            return <Pnature nature={nature} setNature={setNature} setPage={setPage} />;
+        } else if (page === 2) {
+            return <Involveved setFault={setFault} setPage={setPage} />;
+        } else if (page === 3) {
+            return <Windowmaterial material={material} setMaterial={setMaterial} page={page} setPage={setPage} />;
+        } else if (page === 4) {
+            return <PlanStart setTimeFrame={setTimeFrame} page={page} setPage={setPage} />;
+        } else if (page === 5) {
+            return <OwnHome setHowner={setHowner} page={page} setPage={setPage} />;
+        } else if (page === 6) {
+            return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        } else if (page === 7) {
+            return <Contact setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        } else if (page === 8) {
+            return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        } else {
+            return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        }
+    };
+    return (
+        <div className='mx-auto rounded-2xl text-gray-900'>
+            <div className="form  container ">
+                <div className="progressbar">
+                    <div style={{ width: page === 0 ? "0%" : page == 1 ? "20%" : page == 2 ? "30%" : page == 3 ? "40%" : page == 4 ? "50%" : page == 5 ? "60%" : page == 6 ? "70%" : page == 7 ? "80%" : page == 8 ? "90%" : "100%" }}
+                    ></div>
+                </div>
+                <div className="form-container pb-5 sm:px-10 px-3 ">
+                    <div className="body ">{PageDisplay()}</div>
+                </div>
+            </div>
         </div>
-        <div className="form-container pb-5 sm:px-10 px-3 ">
-            <div className="body ">{PageDisplay()}</div>
-        </div>
-    </div>
-</div>
-  )
+    )
 }
 
 export default StepForm

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useForm } from 'react-hook-form';
 
 const Address = ({ page, setPage, onSubmit, submitButton }) => {
@@ -9,7 +9,6 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
         <h2 className='sm:text-[27px] text-[25px] font-bold text-center mb-8'>What is your Address?<em className='text-red-700'>*</em></h2>
         <form onSubmit={handleSubmit(onSubmit)}>
         <div className=" mx-2">
-               
                 <div className="input-container">
                     <input name="address" type="text" className="input"
                         {...register("address", {
@@ -17,18 +16,14 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                                 value: true,
                                 message: 'Address is required'
                             },
-                            
                         })}
                         placeholder='Street Address' />
                 </div>
                 <p>
                     {errors.address?.type === 'required' && <span className="text-xs text-red-500">{errors.address.message}</span>}
-                    
                 </p>
-
             </div>
                 <div className="flex-1 mx-2">
-                   
                     <div className="input-container ">
                         <input name="city" type="text" className="input"
                             {...register("city", {
@@ -54,13 +49,10 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                             })}
                             placeholder='STATE (EX. CA)' />
                     </div>
-                    
                     <p>
                         {errors.state?.type === 'required' && <span className="text-xs text-red-500">{errors.state.message}</span>}
                     </p>
                 </div>
-            
-            
             <div className="footer text-center mt-16 mx-auto">
                 <input id='submitButton' className=" sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Submit" />
             </div>

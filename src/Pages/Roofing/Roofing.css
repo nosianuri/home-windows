@@ -5,8 +5,6 @@
     position: fixed;
     opacity: 1 !important;
     background: url(https://i.ibb.co/Ry6zrS4/roof-replacement.png) no-repeat !important;
-    /* -webkit-filter: blur(5px) !important;
-    filter: blur(5px) !important; */
     filter: none !Important;
     background-size: cover !important;
     z-index: -1;

@@ -23,8 +23,6 @@ import SolarService from './components/SolarService/SolarService';
 import WindowService from './components/WindowService/WindowService';
 import WindowLander from './Pages/WindowLander/WindowLander';
 import Roofing from './Pages/Roofing/Roofing';
-import RoofPrivacyPolicy from './Pages/Roofing/RoofPrivacyPolicy';
-import RoofTerms from './Pages/Roofing/RoofTerms';
 
 function App() {
   useEffect(() => {
