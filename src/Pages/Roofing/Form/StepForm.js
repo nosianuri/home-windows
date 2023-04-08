@@ -14,17 +14,13 @@ import Windowmaterial from './Steps/Windowmaterial';
 import ZipCode from './Steps/ZipCode';
 
 const StepForm = () => {
-    const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
     const [page, setPage] = useState(0);
     const [AllData, setAllData] = useState({});
-    const [nature, setNature] = useState();
-    const [fault, setFault] = useState('yes');
     const [howner, setHowner] = useState('yes');
     const [timeFrame, setTimeFrame] = useState('yes');
     const [service, setService] = useState();
-    const [yes, no] = useState('yes');
     let tcpaText = "Please be advised that by clicking the Submit button, you are consenting to being contacted by a law firm at the phone number you provided. You are also consenting to receiving advertising and telemarketing messages via text message or pre-recorded call, which may be dialed by an autodialer. Please note that your consent is not necessary for a purchase, but standard message and data rates may apply. By clicking Submit, you are electronically signing to indicate your consent to being contacted and agreeing to the Terms and Conditions. Please be aware that submitting this form and any information contained therein does not establish an attorney-client relationship. The information provided may be reviewed by one or more attorneys and/or law firms. Additionally, please understand that any information received in response to this questionnaire is general information for which there will be no charge, and it should not be relied upon as legal advice because the law may vary from state to state. Therefore, you may need to contact local counsel for referral of this matter. By clicking Submit, you acknowledge that the information you have viewed is advertising and that you agree to receive future advertisements from Legal Justice Claim and/or its partners."
 
     const onSubmit = formData => {

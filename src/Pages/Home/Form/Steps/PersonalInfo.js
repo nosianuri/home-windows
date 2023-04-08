@@ -16,7 +16,7 @@ const PersonalInfo = ({ page, setPage, setAllData, AllData }) => {
     }
     return (
         <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
-            <h2 className='text-[24px] font-bold text-center mb-10'>What is your First & Last Name?<em className='text-red-700'>*</em></h2>
+            <h2 className='sm:text-[27px] text-[25px] font-bold text-center mb-8'>What is your First & Last Name?<em className='text-red-700'>*</em></h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='space-y-4'>
                     <div className=" mx-2  ">

@@ -9,7 +9,7 @@ const Windowmaterial = ({ service, setService, setPage }) => {
     <div className="flex flex-col w-full " data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
     <div className="mx-2 flex-1">
       <div className='text-center'>
-        <h2 className='text-[24px] font-bold mb-10'>Which service Id ?<em className='text-red-700'>*</em></h2>
+        <h2 className='sm:text-[27px] text-[25px] font-bold mb-8'>Which service Id do you prefer ?<em className='text-red-700'>*</em></h2>
         <div className='my-5'>
           <div className='text-xl'>
             <div onClick={() => handleChange("Aluminum")} className='radio-item'>

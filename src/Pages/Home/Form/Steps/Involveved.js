@@ -9,7 +9,7 @@ const Involveved = ({ setPage, setFault }) => {
         <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
             <div className="mx-2  flex-1">
                 <div className='text-center'>
-                    <h2 className='text-[24px] font-bold mb-10'>How many windows are involved?<em className='text-red-700'>*</em></h2>
+                    <h2 className='sm:text-[27px] text-[25px] font-bold mb-8'>How many windows are involved?<em className='text-red-700'>*</em></h2>
                     <div className='my-5'>
                         <div className='text-xl'>
                             <div onClick={() => handleChange("1")} className='radio-item'>
