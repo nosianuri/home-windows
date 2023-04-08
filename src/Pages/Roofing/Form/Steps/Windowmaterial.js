@@ -3,7 +3,7 @@ import React from 'react'
 const Windowmaterial = ({ service, setService, setPage }) => {
     const handleChange = (e) => {
       setService(e);
-        setPage(4);
+        setPage(3);
       };
   return (
     <div className="flex flex-col w-full " data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
