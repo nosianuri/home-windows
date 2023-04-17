@@ -32,9 +32,9 @@ const StepForm = () => {
 
         const data = {
             ...AllData,
-            lp_campaign_id: "12022",
-            lp_supplier_id: "24637",
-            lp_key: "mp12bxxmarmmx",
+            lp_campaign_id: "14616",
+            lp_supplier_id: "29867",
+            lp_key: "p6o2annqdfepyw",
             ip_address: "229.222.220.248",
             api_key: "6309-24038-2x7h3zjbkzz6",
             trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
@@ -53,11 +53,10 @@ const StepForm = () => {
         console.log(data, "so good")
         const data2 = {
             ...AllData,
-            lp_campaign_id: "12022",
-            lp_supplier_id: "24637",
-            lp_key: "mp12bxxmarmmx",
+            lp_campaign_id: "14616",
+            lp_supplier_id: "29867",
+            lp_key: "p6o2annqdfepyw",
             ip_address: "229.222.220.248",
-            api_key: "6309-24038-2x7h3zjbkzz6",
             trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
             tcpa_text: tcpaText,
             tcpa: "No",
@@ -98,6 +97,7 @@ const StepForm = () => {
                     setLoading(false)
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
+                        "message": "Window form submitted",
                         event: data
                     })
                     setPage(page + 1);

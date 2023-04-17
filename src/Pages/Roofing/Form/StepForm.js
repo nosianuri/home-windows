@@ -78,6 +78,7 @@ const StepForm = () => {
                     setLoading(false)
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
+                        "message": "Roofing form Submitted",
                         event: data
                       })
                     
