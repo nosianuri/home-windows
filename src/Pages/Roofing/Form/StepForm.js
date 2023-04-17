@@ -80,7 +80,7 @@ const StepForm = () => {
                     setLoading(false)
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
-                        "message": "Window form submitted",
+                        "message": "Roofing form submitted",
                         event: data
                       })
                     
