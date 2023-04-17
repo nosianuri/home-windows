@@ -25,86 +25,90 @@ const StepForm = () => {
         const id = AllData?.first_name?.slice(0, 2) + AllData?.phone?.slice(4, 9) + AllData?.email?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + formData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone?.slice(1, ) + formData.state?.slice(0, 1);
         const data = {
             ...AllData,
-            lp_campaign_id: "12022",
-            lp_supplier_id: "24637",
-            lp_key: "mp12bxxmarmmx",
-            lp_ping_id: "90e2b41b-00d6-4ccc-b224-f0c982d0cab8",
+            lp_campaign_id: "14638",
+            lp_supplier_id: "29908",
+            lp_key: "nv12sppd1aloyn",
             ip_address: "229.222.220.248",
-            api_key: "6309-24038-2x7h3zjbkzz6",
-            trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
+            trusted_form_cert_id: `https://cert.trustedform.com/${id}`,
             tcpa_text: tcpaText,
-            tcpa: "No",
-            Service_id: service,
+            tcpa: "Yes",
+            city: formData.city,
+            address: formData.address,
+            state: formData.state,
+            service_id: service,
             home_owner: howner,
             time_frame: timeFrame,
-            landing_page: 'https://mrhomeservice-com.preview-domain.com/roofing-campaign',
+            landing_page_url: 'https://mrhomeservice.net/roofing-campaign',
         }
-        console.log(data, "so good")
-        const data2 = {
-            ...AllData,
-            lp_campaign_id: "12022",
-            lp_supplier_id: "24637",
-            lp_key: "mp12bxxmarmmx",
-            ip_address: "229.222.220.248",
-            api_key: "6309-24038-2x7h3zjbkzz6",
-            trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
-            tcpa_text: tcpaText,
-            tcpa: "No",
-            Service_id: service,
-            home_owner: howner,
-            time_frame: timeFrame,
-        }
-        console.log(data2, "very good")
-        fetch('https://api.leadprosper.io/ping', {
+        // console.log(data, "so good")
+        // const data2 = {
+        //     ...AllData,
+        //     lp_campaign_id: "12022",
+        //     lp_supplier_id: "24637",
+        //     lp_key: "mp12bxxmarmmx",
+        //     ip_address: "229.222.220.248",
+        //     api_key: "6309-24038-2x7h3zjbkzz6",
+        //     trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
+        //     tcpa_text: tcpaText,
+        //     tcpa: "No",
+        //     Service_id: service,
+        //     home_owner: howner,
+        //     time_frame: timeFrame,
+        // }
+        // console.log(data2, "very good")
+        // fetch('https://api.leadprosper.io/ping', {
+        //     method: 'POST',
+        //     headers: { 'content-type': 'application/json' },
+        //     body: JSON.stringify(data2)
+        // })
+        //     .then(res => {
+        //         return res.json();
+        //     })
+        fetch('https://api.leadprosper.io/ingest', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
-            body: JSON.stringify(data2)
-        })
-            .then(res => {
+            body: JSON.stringify(data)    
+        }) 
+         .then(res => {
                 return res.json();
             })
-        fetch('https://api.leadprosper.io/post', {
-            method: 'POST',
-            headers: { 'content-type': 'application/json' },
-            body: JSON.stringify(data)
-        })
-            .then(res => {
-                return res.json();
-            })
+           
             .then( data => {
-                if (data && data2) {
+                if (data) {
                     toast.success('Successful post data');
                     reset();
                     setLoading(false)
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
+                        "message": "Window form submitted",
                         event: data
                       })
                     
                     setPage(page + 1);
+                    console.log(data);
                 } else if (data.errors) {
                     toast.error('Something went wrong', data.errors.message);
                     setLoading(false)
                 }
-                // console.log(data, "response data");
+                console.log(data, "response data");
             })
             .catch(error => {
-                // console.error(error);
+                console.error(error);
                 toast.error(`Error: ${error.message}`);
                 setLoading(false);
             });
     }
 
-      // console.log(AllData, "goods")
+      console.log(AllData, "goods")
   const PageDisplay = () => {
       if (page === 0) {
           return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       } else if (page === 1) {
           return <PlanStart setTimeFrame={setTimeFrame} page={page} setPage={setPage} />;
       } else if (page === 2) {
-          return <Windowmaterial setService={setService} page={page} setPage={setPage} />;
+          return <Windowmaterial setAllData={setAllData} AllData={AllData} setService={setService} page={page} setPage={setPage} />;
       } else if (page === 3) {
-          return <OwnHome setHowner={setHowner} page={page} setPage={setPage} />;
+          return <OwnHome setAllData={setAllData} AllData={AllData} setHowner={setHowner} page={page} setPage={setPage} />;
       } else if (page === 4) {
           return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
       } else if (page === 5) {

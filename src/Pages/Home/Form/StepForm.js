@@ -32,14 +32,13 @@ const StepForm = () => {
 
         const data = {
             ...AllData,
-            lp_campaign_id: "12022",
-            lp_supplier_id: "24637",
-            lp_key: "mp12bxxmarmmx",
-            ip_address: "229.222.220.248",
-            api_key: "6309-24038-2x7h3zjbkzz6",
-            trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
+            lp_campaign_id: "14616",
+            lp_supplier_id: "29867",
+            lp_key: "p6o2annqdfepyw",
+            ip_address: "153.36.39.47",
+            trusted_form_cert_id: `https://cert.trustedform.com/${id}`,
             tcpa_text: tcpaText,
-            tcpa: "No",
+            tcpa: "Yes",
             city: formData.city,
             address: formData.address,
             state: formData.state,
@@ -48,39 +47,39 @@ const StepForm = () => {
             window_material: material,
             home_owner: howner,
             time_frame: timeFrame,
-            landing_page: 'https://mrhomeservice-com.preview-domain.com/window-installation',
+            landing_page_url: 'https://mrhomeservice.net/window-installation',
         }
         console.log(data, "so good")
-        const data2 = {
-            ...AllData,
-            lp_campaign_id: "12022",
-            lp_supplier_id: "24637",
-            lp_key: "mp12bxxmarmmx",
-            ip_address: "229.222.220.248",
-            api_key: "6309-24038-2x7h3zjbkzz6",
-            trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
-            tcpa_text: tcpaText,
-            tcpa: "No",
-            city: formData.city,
-            address: formData.address,
-            state: formData.state,
-            window_project_type: nature,
-            number_of_windows: fault,
-            window_material: material,
-            home_owner: howner,
-            time_frame: timeFrame,
-            landing_page: 'https://mrhomeservice-com.preview-domain.com/window-installation',
-        }
-        console.log(data2, "very good")
-        fetch('https://api.leadprosper.io/ping', {
-            method: 'POST',
-            headers: { 'content-type': 'application/json' },
-            body: JSON.stringify(data2)
-        })
-            .then(res => {
-                return res.json();
-            })
-        fetch('https://api.leadprosper.io/post', {
+        // const data2 = {
+        //     ...AllData,
+        //     lp_campaign_id: "12022",
+        //     lp_supplier_id: "24637",
+        //     lp_key: "mp12bxxmarmmx",
+        //     ip_address: "229.222.220.248",
+        //     api_key: "6309-24038-2x7h3zjbkzz6",
+        //     trusted_form_cert_url: `https://cert.trustedform.com/${id}`,
+        //     tcpa_text: tcpaText,
+        //     tcpa: "No",
+        //     city: formData.city,
+        //     address: formData.address,
+        //     state: formData.state,
+        //     window_project_type: nature,
+        //     number_of_windows: fault,
+        //     window_material: material,
+        //     home_owner: howner,
+        //     time_frame: timeFrame,
+        //     landing_page: 'https://mrhomeservice-com.preview-domain.com/window-installation',
+        // }
+        // console.log(data2, "very good")
+        // fetch('https://api.leadprosper.io/ping', {
+        //     method: 'POST',
+        //     headers: { 'content-type': 'application/json' },
+        //     body: JSON.stringify(data2)
+        // })
+        //     .then(res => {
+        //         return res.json();
+        //     })
+        fetch('https://api.leadprosper.io/ingest', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
@@ -92,12 +91,13 @@ const StepForm = () => {
                 return res.json();
             })
             .then(data => {
-                if (data && data2) {
+                if (data) {
                     toast.success('Successful post data');
                     reset();
                     setLoading(false)
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
+                        "message": "Window form submitted",
                         event: data
                     })
                     setPage(page + 1);
