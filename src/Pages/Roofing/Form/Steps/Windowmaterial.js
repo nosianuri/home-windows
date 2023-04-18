@@ -14,76 +14,76 @@ const Windowmaterial = ({ service, setService, setPage }) => {
             <div className='text-xl'>
               <div onClick={() => handleChange("Aluminum")} className='radio-item'>
                 <input name='material' id='aluminum' type="radio" />
-                <label htmlFor="aluminum">4001
+                <label htmlFor="aluminum">Apply Roof Sealant
                 </label>
               </div>
               <div onClick={() => handleChange("4002")} className='radio-item'>
                 <input name='material' id='brick' type="radio" />
-                <label htmlFor="brick">4002</label>
+                <label htmlFor="brick">Repair Flat, Foam, Single Ply Roofing</label>
               </div>
               <div onClick={() => handleChange("4003")} className='radio-item'>
                 <input name='material' id='metal' type="radio" />
-                <label htmlFor="metal">4003</label>
+                <label htmlFor="metal">Repair Asphalt Shingle Roofing</label>
               </div>
               <div onClick={() => handleChange("4004")} className='radio-item'>
                 <input name='material' id='notSure' type="radio" />
-                <label htmlFor="notSure">4004</label>
+                <label htmlFor="notSure">Install Wood or composite Roofing</label>
               </div>
               <div onClick={() => handleChange("4005")} className='radio-item'>
                 <input name='material' id='vinyl' type="radio" />
-                <label htmlFor="vinyl">4005</label>
+                <label htmlFor="vinyl">Repair Metal Roofing</label>
               </div>
               <div onClick={() => handleChange("4006")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4006</label>
+                <label htmlFor="wood">Roofing Natural State Roofing</label>
               </div>
               <div onClick={() => handleChange("4007")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4007</label>
+                <label htmlFor="wood">Repair Tile Roofing</label>
               </div>
               <div onClick={() => handleChange("4008")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4008</label>
+                <label htmlFor="wood">Repair Wood or Composite Roofing</label>
               </div>
               <div onClick={() => handleChange("4009")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4009</label>
+                <label htmlFor="wood">Replace Entire Roof</label>
               </div>
               <div onClick={() => handleChange("4010")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4010</label>
+                <label htmlFor="wood">Install Flat, Foam, Single Ply Roofing</label>
               </div>
               <div onClick={() => handleChange("4011")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4011</label>
+                <label htmlFor="wood">Install Tile Roofing</label>
               </div>
               <div onClick={() => handleChange("4012")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4012</label>
+                <label htmlFor="wood">Install Natural Slate Roofing</label>
               </div>
               <div onClick={() => handleChange("4013")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4013</label>
+                <label htmlFor="wood">Install Metal Roofing</label>
               </div>
               <div onClick={() => handleChange("4014")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4014</label>
+                <label htmlFor="wood">Install Asphalt Shingle Roofing</label>
               </div>
               <div onClick={() => handleChange("4015")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4015</label>
+                <label htmlFor="wood">Install Roof Heating Cable to Melt Snow</label>
               </div>
               <div onClick={() => handleChange("4016")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4016</label>
+                <label htmlFor="wood">Clean a Roof</label>
               </div>
               <div onClick={() => handleChange("4017")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4017</label>
+                <label htmlFor="wood">New Roof on New Construction</label>
               </div>
               <div onClick={() => handleChange("4018")} className='radio-item'>
                 <input name='material' id='wood' type="radio" />
-                <label htmlFor="wood">4018</label>
+                <label htmlFor="wood">Repair Roof</label>
               </div>
             </div>
           </div>
