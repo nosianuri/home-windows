@@ -16,7 +16,7 @@ const Pnature = ({ nature, setNature, setPage }) => {
                 <input name='nature' id='cleaning'  type="radio" />
                 <label htmlFor="cleaning">Cleaning</label>
               </div>
-              <div onClick={() => handleChange("Replace")} className='radio-item'>        
+              <div onClick={() => handleChange("Install/Replace")} className='radio-item'>        
                     <input name='nature' id='replace'  type="radio" />
                 <label htmlFor="replace">Replace</label>
               </div>

@@ -105,12 +105,14 @@ const StepForm = () => {
                     toast.error('Something went wrong', data.errors.message);
                     setLoading(false)
                 }
+                console.log(data, "response data");
             })
             .catch(error => {
                 toast.error(`Error: ${error.message}`);
                 setLoading(false);
             });
     }
+    console.log(AllData, "goods")
     const PageDisplay = () => {
         if (page === 0) {
             return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
