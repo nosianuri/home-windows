@@ -123,17 +123,17 @@ const Professional = () => {
     return (
         <div className='w-[1300px] mx-auto'>
             <div className='my-10'>
-                <h2 className='uppercase text-[35px] font-bold text-center'>What Can Our Home Improvement Professionals Do For You?</h2>
+                <h2 className='uppercase sm:text-[45px] text-[28px] font-bold text-center sm:px-10'>What Can Our Home Improvement Professionals Do For You?</h2>
                 <div className='d-flex justify-content-center mt-5'>
                     <div className='banner-form items-center form-group '>
                         <div className=' text-[#000] '>
                             <div className='grid sm:grid-cols-5 grid-cols-1 '>
                                 {services.slice(0, showMore ? services.length : 10).map(city => (
-                                    <div key={city} className=" bg-[#fff] font-semibold text-xl  mx-auto my-5 border border-[#E1251A] hover:bg-[#E1251A]   rounded-lg py-[80px] w-[200px] text-center px-[40px] text-[#09193d] hover:text-[#fff]">
+                                    <div key={city} className=" bg-[#fff]  text-xl  mx-auto my-5 border border-[#E1251A] hover:bg-[#E1251A]   rounded-lg py-[80px] w-[200px] text-center  text-[#09193d] font-bold hover:text-[#fff]">
                                         <a href={city.link}><div className=""> <div> 
                                         <img className='w-8' src={city.img} alt="" />
                                         </div>
-                                         <div className='  '>{city.name}</div></div></a>
+                                         <div className='text-[25px] !leading-normal'>{city.name}</div></div></a>
                                     </div>
                                 ))}
                             </div>

@@ -16,10 +16,10 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 .ul-article {
   display: block;
   list-style-type: disc;
