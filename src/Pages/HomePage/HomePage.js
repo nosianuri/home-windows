@@ -7,6 +7,8 @@ import ExpertHome from './ExpertHome'
 import WhyChoose from './WhyChoose'
 import HomeReview from './HomeReview'
 import HoomFooter from './HoomFooter'
+import HowWork from './HowWork'
+import ComProject from './ComProject'
 
 const HomePage = () => {
   return (
@@ -15,6 +17,8 @@ const HomePage = () => {
         <HomeBanner />
         <Professional />
         <WhyChoose />
+        <ComProject />
+        <HowWork />
         <HomeReview />
         <HoomFooter />
     </div>
