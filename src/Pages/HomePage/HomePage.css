@@ -4,3 +4,6 @@
 .background-service{
     background: linear-gradient(to right bottom,#003144 50%,#EBEEF7 50%);
 }
+.prof-box:hover {
+    box-shadow: 0px 0px 53px -10px rgb(228 138 3);
+}

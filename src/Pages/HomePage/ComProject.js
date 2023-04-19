@@ -7,56 +7,86 @@ const ComProject = () => {
     const services = [
         {
             id: 1,
-            name: 'Assembly',
-            img: 'img',
+            name: 'Roofing',
+            img: 'https://i.ibb.co/YNc3BGX/bg12.png',
             link: '/',
         },
         {
             id: 2,
-            name: 'Repair',
-            img: 'img',
+            name: 'Window',
+            img: 'https://i.ibb.co/9ZCn0ZH/bg14.png',
             link: '/',
         },
         {
             id: 3,
-            name: 'Carpentry',
-            img: 'img',
+            name: 'Solar',
+            img: 'https://i.ibb.co/vDcXnPD/bg13.png',
             link: '/',
         },
         {
             id: 4,
-            name: 'Drywall',
-            img: 'img',
+            name: 'Plumbing',
+            img: 'https://i.ibb.co/YDfgRjn/bg1.png',
             link: '/',
         },
         {
             id: 5,
-            name: 'Installation',
-            img: 'img',
+            name: 'Movers',
+            img: 'https://i.ibb.co/QvZqQHG/bg10.png',
             link: '/',
         },
         {
             id: 6,
-            name: 'Tile',
-            img: 'img',
+            name: 'Kitchen',
+            img: 'https://i.ibb.co/2Fy6xVh/bg7.png',
             link: '/',
         },
         {
             id: 7,
-            name: 'Exterior',
-            img: 'img',
+            name: 'HVA',
+            img: 'https://i.ibb.co/ccFfP6W/bg2.png',
             link: '/',
         },
         {
             id: 8,
-            name: 'Painting',
-            img: 'img',
+            name: 'Home Security',
+            img: 'https://i.ibb.co/VNNvQ3q/bg9.png',
             link: '/',
         },
         {
             id: 9,
-            name: 'Maintenance',
-            img: 'img',
+            name: 'Gutter',
+            img: 'https://i.ibb.co/JtznkJg/bg6.png',
+            link: '/',
+        },
+        {
+            id: 10,
+            name: 'Home Painting',
+            img: 'https://i.ibb.co/HhmWrh1/bg5.png',
+            link: '/',
+        },
+        {
+            id: 11,
+            name: 'Home Cleaning',
+            img: 'https://i.ibb.co/3RnwVtn/bg4.png',
+            link: '/',
+        },
+        {
+            id: 12,
+            name: 'Flooring',
+            img: 'https://i.ibb.co/CmN45Dx/bg11.png',
+            link: '/',
+        },
+        {
+            id: 13,
+            name: 'Electrical',
+            img: 'https://i.ibb.co/bRnJCV9/bg3.png',
+            link: '/',
+        },
+        {
+            id: 14,
+            name: 'Bathroom',
+            img: 'https://i.ibb.co/vZqnM6n/bg8.png',
             link: '/',
         },
     ];
@@ -72,7 +102,7 @@ const ComProject = () => {
                             <div className='flex-wrap  mt-5'>
                                 <div className='image-box'>
                                     <a href={blog.link}>
-                                        <img className='!w-96 h-48' src={blog.url} alt="" />
+                                        <img className='!w-96 h-48' src={blog.img} alt="" />
                                     </a>
                                 </div>
                                 <div className='mt-5'>
@@ -85,7 +115,7 @@ const ComProject = () => {
                 <div className="flex justify-center mt-4 ">
                     <button
                         className={classNames(
-                            'px-4 py-3 text-white text-3xl font-bold rounded sm:w-[40%]',
+                            'px-4 py-3 text-white text-3xl font-bold rounded shadow-2xl sm:w-[40%]',
                             showMore ? 'bg-[#eaa613]' : 'bg-[#e48a03]'
                         )}
                         onClick={toggleShowMore}
