@@ -22,11 +22,11 @@ const HowWork = () => {
         },
     ]
   return (
-    <div className='my-10'>
+    <div className='my-10 bg-slate-200 py-8'>
         <div className='text-center'>
             <h2 className='font-bold text-4xl !leading-normal'>Here's how it works.</h2>
             <p>With an American Home Shield Warranty, getting help for your covered items is easy.</p>
-            <div className='grid sm:grid-cols-3 grid-cols-1 my-8 w-[900px] mx-auto'>
+            <div className='grid sm:grid-cols-3 grid-cols-1 my-8 sm:w-[900px] mx-auto'>
             {works.map(work => (
                 <div>
                     <img src={work.image} alt="" className='w-24 h-24 mx-auto' />

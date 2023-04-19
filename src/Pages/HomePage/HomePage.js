@@ -9,6 +9,7 @@ import HomeReview from './HomeReview'
 import HoomFooter from './HoomFooter'
 import HowWork from './HowWork'
 import ComProject from './ComProject'
+import WhoWith from './WhoWith'
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
         <WhyChoose />
         <ComProject />
         <HowWork />
+        <WhoWith />
         <HomeReview />
         <HoomFooter />
     </div>
