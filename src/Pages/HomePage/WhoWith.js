@@ -87,8 +87,8 @@ const WhoWith = () => {
     return (
         <div>
             <div>
-                <h1 className='text-center text-4xl !leading-normal font-extrabold'>Who We Work With</h1>
-                <div className='my-8 w-[1000px] mx-auto'>
+                <h1 className='text-center sm:text-4xl text-3xl !leading-normal font-extrabold'>Who We Work With</h1>
+                <div className='my-8 sm:w-[1000px] mx-auto'>
                     <Slider {...settings} ref={sliderRef}>
                         {logos.map((logo) => (
                             <div key={logo.id}>

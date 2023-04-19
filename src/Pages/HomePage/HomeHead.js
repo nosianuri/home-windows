@@ -34,7 +34,7 @@ const HomeHead = () => {
                             </div>
                         </div>
                         <div className='block sm:hidden'>
-                            <div className='text-[#198ec0] uppercase header-font text-[19px] font-bold flex items-center'><span>Menu</span> <i class="fa-solid fa-angle-down pl-1"></i></div>
+                            <div className='text-[#198ec0] uppercase header-font text-[19px] font-bold mr-5'><i class="fa-solid fa-bars text-4xl"></i></div>
                         </div>
                     </div>
                 </div>
