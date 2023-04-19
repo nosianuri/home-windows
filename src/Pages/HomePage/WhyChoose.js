@@ -10,7 +10,7 @@ const WhyChoose = () => {
                             <img className='!mt-[-60px] absolute w-96' src='https://i.ibb.co/D5qFBKJ/safest-169.webp' alt="" />
                         </div>
                         <div className=' text-[#fff] sm:ml-16 ml-2 py-10'>
-                            <h1 className=' sm:text-5xl text-3xl font-extrabold !leading-normal'>WHY CHOOSE ROTO-ROOTER</h1>
+                            <h1 className=' sm:text-5xl text-3xl font-extrabold !leading-normal uppercase'>WHY CHOOSE Mr Home Service</h1>
                             <h3 className='text-3xl !leading-normal'>We'll take care of all your plumbing and water cleanup needs.</h3>
                             <div className='sm:flex gap-5 text-[20px] mt-5'>
                                 <div>

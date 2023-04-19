@@ -69,9 +69,9 @@ const AboutFaq = () => {
       setOpenIndex(openIndex === index ? -1 : index);
     };
   return (
-    <div className='my-10'>
-    <h2 className='text-center text-[45px] font-extrabold'>FAQS</h2>
-         <div className="max-w-2xl mx-auto mt-5">
+    <div className='my-10 mx-3'>
+    <h2 className='text-center text-[45px] !leading-normal font-extrabold'>FAQS</h2>
+         <div className="max-w-2xl mx-auto mt-5 ">
       {faqData.map((faq, index) => (
         <div key={index} className="border-b mb-4">
           <div
