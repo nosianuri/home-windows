@@ -6,6 +6,7 @@ import OurService from './OurService'
 import ExpertHome from './ExpertHome'
 import WhyChoose from './WhyChoose'
 import HomeReview from './HomeReview'
+import HoomFooter from './HoomFooter'
 
 const HomePage = () => {
   return (
@@ -14,10 +15,10 @@ const HomePage = () => {
         <HomeBanner />
         <Professional />
         <OurService />
-        <ExpertHome />
+       
         <WhyChoose />
         <HomeReview />
-        
+        <HoomFooter />
     </div>
   )
 }

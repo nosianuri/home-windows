@@ -67,7 +67,7 @@ const ReviewSlider = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true, // Set autoplay to true
         autoplaySpeed: 3000, // Set autoplay speed to 3 seconds
@@ -113,7 +113,7 @@ const ReviewSlider = () => {
 
 
     return (
-        <div className='my-8 space-s-3'>
+        <div className='py-8 space-s-3 w-[1800px]'>
             <Slider {...settings} ref={sliderRef}>
                 {logos.map((logo) => (
                     <div key={logo.id} className='p-5'>
@@ -121,7 +121,7 @@ const ReviewSlider = () => {
                         <div className='text-[16px] mt-3'>{logo.shorts}</div>
                         <div className='flex justify-between items-center mt-2'>
                         <h4 className='sm:text-[18px] text-[12px]'>{logo.name}</h4>
-                        <p className='hover:underline sm:text-sm text-xs text-red-600'>Read More</p>
+                        <p className='hover:underline sm:text-sm text-xs text-[#ED8502]'>Read More</p>
                         </div>
                     </div>
                 ))}
