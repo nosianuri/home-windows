@@ -10,7 +10,7 @@ class BackgroundSlider extends Component {
       images: [
         'https://i.ibb.co/JtL50tr/mr-home-banner1.png',
         'https://i.ibb.co/6tVSM5G/mr-home-banner2.png',
-        'https://i.ibb.co/LkNYyN9/mr-home-banner3.png'
+        'https://i.ibb.co/86sVrBm/mr-home-banner-4.png'
       ]
     };
   }

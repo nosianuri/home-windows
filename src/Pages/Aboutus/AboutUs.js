@@ -2,12 +2,14 @@ import React from 'react'
 import HomeHead from '../HomePage/HomeHead'
 import HoomFooter from '../HomePage/HoomFooter'
 import WhoWith from '../HomePage/WhoWith'
+import AboutBanner from './AboutBanner'
 
 const AboutUs = () => {
   return (
     <div>
         <HomeHead />
-        <img src="https://i.ibb.co/zPFWK0V/female-construction-worker-PM3-R974-scaled.jpg" alt="" />
+        <AboutBanner />
+        
         <WhoWith />
         <HoomFooter />
     </div>
