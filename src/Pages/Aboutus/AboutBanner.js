@@ -9,7 +9,7 @@ const AboutBanner = () => {
 <div className='text-[#fff] text-center py-16'>
 <h1 className='text-[45px] font-extrabold'>About Mr Home Service</h1>
     <h5 className='text-[18px]'>Experience the Difference of Working with a Trusted  </h5>
-    <h6 className='text-[]'>Home Improvement Company - Contact Mr. Home Service Today!</h6>
+    <h6 className='text-[#f6b234]'>Home Improvement Company - Contact Mr. Home Service Today!</h6>
 </div>
 </div>
     </div>
