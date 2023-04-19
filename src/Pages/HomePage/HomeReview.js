@@ -3,7 +3,7 @@ import ReviewSlider from './ReviewSlider';
 
 const HomeReview = () => {
     return (
-        <div id='reviews' className='bg-[#003144] text-[#fff] mb-16 px-3 pb-10'>
+        <div id='reviews' className='bg-[#003144] text-[#fff]  px-3 pb-10'>
         <h2 className='text-6xl text-[#fff] font-bold !leading-normal text-center mt-5'>Why Us</h2>
         <h1 className='text-4xl text-[#98c83f] !leading-normal text-center mb-5 font-bold'>HOME IMPROVEMENT IS ALL WE KNOW</h1>
             <div className='sm:flex'>

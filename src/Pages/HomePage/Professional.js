@@ -197,7 +197,7 @@ const Professional = () => {
                         <div className=' text-[#000] '>
                             <div className='grid sm:grid-cols-4 grid-cols-1 '>
                                 {services.slice(0, showMore ? services.length : 8).map(city => (
-                                    <div key={city} className=" bg-[#fff]  text-xl  mx-auto my-5 border border-[#E1251A] hover:bg-[#E1251A] rounded-lg py-[40px] w-[300px] text-center  text-[#09193d]  hover:text-[#fff]">
+                                    <div key={city} className=" bg-[#fff] mx-auto my-5 border border-[#e48a03] hover:bg-[#e48a03] rounded-lg px-2 py-[40px] w-[300px] text-center  text-[#09193d]  hover:text-[#fff]">
                                         <a href={city.link}><div className=""> <div> 
                                         <img className='w-8' src={city.img} alt="" />
                                         </div>
@@ -210,8 +210,8 @@ const Professional = () => {
                             <div className="flex justify-center mt-4 ">
                                 <button
                                     className={classNames(
-                                        'px-4 py-3 text-white text-3xl font-bold rounded sm:w-[40%]',
-                                        showMore ? 'bg-[#0f2863]' : 'bg-[#09193d]'
+                                        'px-4 py-3 text-white text-3xl font-bold rounded sm:w-[40%] shadow-yellow-600 ',
+                                        showMore ? 'bg-[#eaa613]' : 'bg-[#e48a03]'
                                     )}
                                     onClick={toggleShowMore}
                                 >

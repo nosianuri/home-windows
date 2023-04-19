@@ -59,66 +59,6 @@ const ComProject = () => {
             img: 'img',
             link: '/',
         },
-        {
-            id: 10,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 11,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 12,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 13,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 14,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 15,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 16,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 17,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 18,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
-        {
-            id: 19,
-            name: 'Commercial',
-            img: 'img',
-            link: '/',
-        },
     ];
 
     return (
@@ -127,7 +67,7 @@ const ComProject = () => {
                 <h2 className='text-center font-extrabold text-4xl !leading-normal'>Recently Completed Projects</h2>
                 <p className='text-center font-bold'>Throughout the United States</p>
                 <div className='grid lg:grid-cols-3 grid-cols-1 gap-10 my-10 max-w-7xl mx-auto' >
-                {services.slice(0, showMore ? services.length : 3).map(blog => (
+                    {services.slice(0, showMore ? services.length : 3).map(blog => (
                         <div key={blog.id}>
                             <div className='flex-wrap  mt-5'>
                                 <div className='image-box'>
@@ -136,24 +76,23 @@ const ComProject = () => {
                                     </a>
                                 </div>
                                 <div className='mt-5'>
-                                    <h3 className='text-[#13100E] text-center !leading-normal font-semibold text-lg'><a className='hover:text-[#800020]' href="/">{blog.name}</a></h3>
-                                    
+                                    <h3 className='text-[#13100E] text-center !leading-normal font-semibold text-[20px]'><a className='hover:text-[#800020]' href="/">{blog.name}</a></h3>
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
                 <div className="flex justify-center mt-4 ">
-                                <button
-                                    className={classNames(
-                                        'px-4 py-3 text-white text-3xl font-bold rounded sm:w-[40%]',
-                                        showMore ? 'bg-[#0f2863]' : 'bg-[#09193d]'
-                                    )}
-                                    onClick={toggleShowMore}
-                                >
-                                    {showMore ? 'See Less' : 'See More Projects'}
-                                </button>
-                            </div>
+                    <button
+                        className={classNames(
+                            'px-4 py-3 text-white text-3xl font-bold rounded sm:w-[40%]',
+                            showMore ? 'bg-[#eaa613]' : 'bg-[#e48a03]'
+                        )}
+                        onClick={toggleShowMore}
+                    >
+                        {showMore ? 'See Less' : 'See More Projects'}
+                    </button>
+                </div>
             </div>
         </div>
     )

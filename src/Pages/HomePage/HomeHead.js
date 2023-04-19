@@ -6,14 +6,16 @@ const HomeHead = () => {
         <div className='bg-[#f6f6f6] '>
             <div className='sm:mx-32 mx-2'>
                 <div className='flex items-center justify-between' >
-                <div className='flex gap-5 items-center'>
-                <div className='my-1'>
-                        <img src="https://i.ibb.co/TKMPp1p/fav-home.png" alt="" className='w-24' />
+                    <div className='flex gap-5 items-center'>
+                        <div className='my-1'>
+                            <a href="/">
+                                <img src="https://i.ibb.co/Dp9Kz96/logo-window.png" alt="" className='w-24' />
+                            </a>
+                        </div>
+                        <div>
+                            <img src="https://i.ibb.co/yFv6tCK/awards.png" alt="" className='sm:w-44 w-24' />
+                        </div>
                     </div>
-                    <div>
-                        <img src="https://i.ibb.co/yFv6tCK/awards.png" alt="" className='sm:w-40 w-24' />
-                    </div>
-                </div>
                     <div className=''>
                         {/* <div className='flex gap-5 ml-32'>
                             <div className='text-[33px] font-bold text-[#198ec0]  header-font italic mb-5'>Call Guida Today <a className='text-[#98c07d]' href="/">1-111-232-6848</a></div>
@@ -25,10 +27,10 @@ const HomeHead = () => {
                             </div>
                         </div> */}
                         <div className='sm:block hidden'>
-                        <div className='flex text-[#198ec0] uppercase header-font text-[19px] font-bold '>
-                            <div className='px-4 py-3 hover:bg-[#fff]'>About Us <i class="fa-solid fa-angle-down pl-1"></i></div>
-                            <div className='px-4 py-3 hover:bg-[#fff]'>Products <i class="fa-solid fa-angle-down pl-1"></i></div>
-                            <div className='px-4 py-3 hover:bg-[#fff]'>Why Choose US <i class="fa-solid fa-angle-down pl-1"></i></div>
+                            <div className='flex text-[#198ec0] uppercase header-font text-[19px] font-bold '>
+                                <div className='px-4 py-3 hover:bg-[#fff]'>About Us </div>
+                                <div className='px-4 py-3 hover:bg-[#fff] flex items-center'><span>Products</span> <i class="fa-solid fa-angle-down pl-1"></i></div>
+                                <div className='px-4 py-3 hover:bg-[#fff]'>Why Choose US </div>
                             </div>
                         </div>
                         <div className='block sm:hidden'>
