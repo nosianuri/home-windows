@@ -5,6 +5,7 @@ import Professional from './Professional'
 import OurService from './OurService'
 import ExpertHome from './ExpertHome'
 import WhyChoose from './WhyChoose'
+import HomeReview from './HomeReview'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,8 @@ const HomePage = () => {
         <OurService />
         <ExpertHome />
         <WhyChoose />
+        <HomeReview />
+        
     </div>
   )
 }

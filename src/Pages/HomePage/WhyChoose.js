@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyChoose = () => {
     return (
-        <div className='absolute'>
+        <div className=''>
             <div className='bg-[#506bb7] !w-full mb-16 '>
                 <div className='w-[1500px] !mx-auto'>
                     <div className='flex  '>
