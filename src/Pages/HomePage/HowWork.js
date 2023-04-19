@@ -31,7 +31,6 @@ const HowWork = () => {
                 <div>
                     <img src={work.image} alt="" className='w-24 h-24 mx-auto' />
                     <h2 className='mt-1 font-medium'>{work.name}</h2>
-                    
                 </div>
             ))}
             </div>
