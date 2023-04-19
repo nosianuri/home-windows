@@ -38,7 +38,7 @@ const OurService = () => {
         <h2 className='text-[45px] text-[#fff] font-extrabold'>Our Services</h2>
         <div className='grid sm:grid-cols-4 grid-cols-1 gap-5 mt-8'>
         {services.map(service => (
-            <div className='bg-[#fff] px-5 w-[320px]'>
+            <div key={service} className='bg-[#fff] px-5 w-[320px]'>
                 <img src="" alt="" />
                 <h1 className='text-center font-bold text-[25px] mt-10'>{service.name}</h1>
                 <h4 className='text-[20px] text-center font-medium'>{service.desc}</h4>
