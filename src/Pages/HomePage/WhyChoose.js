@@ -12,13 +12,13 @@ const WhyChoose = () => {
                             <h3 className='text-3xl !leading-normal'>We'll take care of all your plumbing and water cleanup needs.</h3>
                             <div className='sm:flex gap-5 text-[20px] mt-5'>
                                 <div>
-                                    <div className='mt-1 uppercase'><i class="fa-solid fa-circle-check pr-1"></i> Emergency Service</div>
-                                    <div className='mt-1'><i class="fa-solid fa-circle-check pr-1"></i> LICENSED & INSURED</div>
-                                    <div className='mt-1'><i class="fa-solid fa-circle-check pr-1"></i> TRUSTED & RECOMMENDED SINCE 1935</div>
+                                    <div className='mt-1 uppercase'><i class="fa-solid fa-circle-check text-[#f6b234] pr-1"></i> Emergency Service</div>
+                                    <div className='mt-1'><i class="fa-solid fa-circle-check text-[#f6b234] pr-1"></i> LICENSED & INSURED</div>
+                                    <div className='mt-1'><i class="fa-solid fa-circle-check text-[#f6b234] pr-1"></i> TRUSTED & RECOMMENDED SINCE 1935</div>
                                 </div>
                                 <div>
-                                    <div className='mt-1 '><i class="fa-solid fa-circle-check pr-1"></i> AVAILABLE 24/7</div>
-                                    <div className='mt-1'><i class="fa-solid fa-circle-check pr-1"></i> WELL KNOWN REPUTATION</div>
+                                    <div className='mt-1 '><i class="fa-solid fa-circle-check text-[#f6b234] pr-1"></i> AVAILABLE 24/7</div>
+                                    <div className='mt-1'><i class="fa-solid fa-circle-check text-[#f6b234] pr-1"></i> WELL KNOWN REPUTATION</div>
                                 </div>
                             </div>
                         </div>

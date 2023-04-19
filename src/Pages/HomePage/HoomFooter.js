@@ -3,7 +3,7 @@ import React from 'react'
 const HoomFooter = () => {
     return (
         <div className='bg-[#f3f3f3]'>
-            <footer className="footer px-10 pt-10 text-base-content mx-auto">
+            <footer className="footer sm:px-10 pt-10 text-base-content mx-auto">
                 <div>
                     <span className="text-[#003144] mb-2 font-extrabold uppercase text-[18px] !leading-normal">Products</span>
                     <a href='/' className="link link-hover font-semibold !text-[#303030]">Windows</a>
@@ -46,7 +46,7 @@ const HoomFooter = () => {
                     </div> */}
                 </div>
             </footer>
-            <footer className="footer px-10 pb-10   text-base-content  mx-auto">
+            <footer className="footer sm:px-10 pb-10   text-base-content  mx-auto">
                 <div className="items-center ">
                     <div> <p className='text-sm text-[#003144] text-center mt-8'>© 2023 Mr. Home Service, All Rights Reserved. <a className='underline hover:text-[#f6b234]' href="/privacy-policy">Privacy Policy</a> Cookie Policy <a className='underline hover:text-[#f6b234]' href="/terms">Terms & Condition</a></p></div>
                     <p className='text-xs'>Important Disclosures

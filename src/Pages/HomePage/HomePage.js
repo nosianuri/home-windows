@@ -14,8 +14,6 @@ const HomePage = () => {
         <HomeHead />
         <HomeBanner />
         <Professional />
-        <OurService />
-       
         <WhyChoose />
         <HomeReview />
         <HoomFooter />
