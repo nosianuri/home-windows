@@ -4,14 +4,14 @@ import './HomePage.css';
 const HomeHead = () => {
     return (
         <div className='bg-[#f6f6f6] '>
-            <div className='mx-32'>
+            <div className='sm:mx-32 mx-2'>
                 <div className='flex items-center justify-between' >
                 <div className='flex gap-5 items-center'>
                 <div className='my-1'>
                         <img src="https://i.ibb.co/TKMPp1p/fav-home.png" alt="" className='w-24' />
                     </div>
                     <div>
-                        <img src="https://i.ibb.co/yFv6tCK/awards.png" alt="" className='w-40' />
+                        <img src="https://i.ibb.co/yFv6tCK/awards.png" alt="" className='sm:w-40 w-24' />
                     </div>
                 </div>
                     <div className=''>
@@ -24,11 +24,15 @@ const HomeHead = () => {
                                 <img src="https://i.ibb.co/fCgNVz2/linkedin.jpg" alt="" className='w-10 h-10' />
                             </div>
                         </div> */}
+                        <div className='sm:block hidden'>
                         <div className='flex text-[#198ec0] uppercase header-font text-[19px] font-bold '>
                             <div className='px-4 py-3 hover:bg-[#fff]'>About Us <i class="fa-solid fa-angle-down pl-1"></i></div>
                             <div className='px-4 py-3 hover:bg-[#fff]'>Products <i class="fa-solid fa-angle-down pl-1"></i></div>
                             <div className='px-4 py-3 hover:bg-[#fff]'>Why Choose US <i class="fa-solid fa-angle-down pl-1"></i></div>
-                            
+                            </div>
+                        </div>
+                        <div className='block sm:hidden'>
+                            <div className='text-[#198ec0] uppercase header-font text-[19px] font-bold flex items-center'><span>Menu</span> <i class="fa-solid fa-angle-down pl-1"></i></div>
                         </div>
                     </div>
                 </div>

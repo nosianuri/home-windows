@@ -6,7 +6,7 @@ const HomeBanner = () => {
             background: `url(https://i.ibb.co/FB76nqr/home-image.jpg)`
         }}>
             <div className='bg-black bg-opacity-50'>
-                <div className='container mx-auto lg:min-h-[580px]  min-h-[490px] flex justify-center items-center'>
+                <div className='container mx-auto lg:min-h-[580px]  min-h-[450px] flex justify-center items-center'>
                     <div className='text-center flex flex-col '>
                         <div
                             className='font-primary  font-semibold mb-1 lg:px-36 md:px-8 lg:mx-36 pt-16 px-5'>

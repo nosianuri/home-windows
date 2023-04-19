@@ -34,7 +34,7 @@ const OurService = () => {
     ]
   return (
     <div className='background-service py-10 mb-10'>
-    <div className='w-[1380px] mx-auto'>
+    <div className='sm:w-[1380px] mx-auto'>
         <h2 className='text-[45px] text-[#fff] font-extrabold'>Our Services</h2>
         <div className='grid sm:grid-cols-4 grid-cols-1 gap-5 mt-8'>
         {services.map(service => (

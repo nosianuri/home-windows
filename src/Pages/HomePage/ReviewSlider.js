@@ -67,7 +67,7 @@ const ReviewSlider = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true, // Set autoplay to true
         autoplaySpeed: 3000, // Set autoplay speed to 3 seconds
@@ -76,7 +76,7 @@ const ReviewSlider = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 },
             },
             {
