@@ -232,7 +232,7 @@ const Professional = () => {
                                     <div key={city} className="prof-box bg-[#fff] mx-auto my-5 border border-[#e48a03] hover:bg-[#e48a03] rounded-lg  pb-[40px] w-[300px] text-center  text-[#09193d]  hover:text-[#fff]">
                                         <a href={city.link}>
                                         <div className='mt-5'>
-                                            <div className=" w-[35%] mx-auto">
+                                            <div className="w-[35%] mx-auto">
                                                     <img src="https://i.ibb.co/gMsx4JM/cropped-favicon-180x180.png" alt='' className='w-24 rounded-full absolute mt-[-50px] !mx-auto' />
                                             </div>
                                             {/* <div> 

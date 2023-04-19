@@ -24,6 +24,7 @@ import WindowService from './components/WindowService/WindowService';
 import WindowLander from './Pages/WindowLander/WindowLander';
 import Roofing from './Pages/Roofing/Roofing';
 import HomePage from './Pages/HomePage/HomePage';
+import AboutUs from './Pages/Aboutus/AboutUs';
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
     <Route path='/' element={<HomePage />} />
     <Route path='/window-installation' element={<Home />} />
     <Route path='/roofing-campaign' element={<Roofing />} />
+    <Route path='/about-us' element={<AboutUs />} />
     <Route path='/privacy-policy' element={<PrivacyPolicy />} />
     <Route path='/terms' element={<Terms />} />
     <Route path='/home-services' element={<HomeService />} />

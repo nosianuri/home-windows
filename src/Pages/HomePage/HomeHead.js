@@ -27,14 +27,14 @@ const HomeHead = () => {
                             </div>
                         </div> */}
                         <div className='sm:block hidden'>
-                            <div className='flex text-[#198ec0] uppercase header-font text-[19px] font-bold '>
-                                <div className='px-4 py-3 hover:bg-[#fff]'>About Us </div>
+                            <div className='flex text-[#f6b234] uppercase header-font text-[19px] font-bold '>
+                                <div className='px-4 py-3 hover:bg-[#fff]'><a href="/about-us">About Us</a> </div>
                                 <div className='px-4 py-3 hover:bg-[#fff] flex items-center'><span>Products</span> <i class="fa-solid fa-angle-down pl-1"></i></div>
                                 <div className='px-4 py-3 hover:bg-[#fff]'>Why Choose US </div>
                             </div>
                         </div>
                         <div className='block sm:hidden'>
-                            <div className='text-[#198ec0] uppercase header-font text-[19px] font-bold mr-5'><i class="fa-solid fa-bars text-4xl"></i></div>
+                            <div className='text-[#f6b234] uppercase header-font text-[19px] font-bold mr-5'><i class="fa-solid fa-bars text-4xl"></i></div>
                         </div>
                     </div>
                 </div>

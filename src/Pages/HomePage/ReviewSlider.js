@@ -10,53 +10,143 @@ const ReviewSlider = () => {
             id: 1,
             name: "Bartol Stone",
             image: star,
-            desc: "I've had the pleasure of working with Legal Justice Claim on multiple occasions, and I can honestly say they are one of the best law firms in the country. Their attorneys, John Smith and Sarah Lee, both partners at the firm, are incredibly knowledgeable and dedicated to their clients, and they consistently achieve outstanding results. Based in New York City, they are a go-to firm for personal injury and toxic tort cases.",
-            shorts: "I've had the pleasure of working with Legal Justice Claim on multiple occasions, and I can honestly say they are one of the best law firms in the...",
+            desc: "I was blown away by the quality of work that Mr. Home Service provided. Their team was professional, efficient, and friendly. I would recommend them to anyone in need of home repairs.",
+            shorts: "I was blown away by the quality of work that Mr. Home Service provided. Their team was professional, efficient, and friendly. I would recommend them to anyone in need of home repairs.",
         },
         {
             id: 2,
             name: "David D.",
             image: star,
-            desc: "Legal Justice Claim is an exceptional law firm that I highly recommend to anyone seeking justice and compensation for their injuries. Their lead attorney, David Johnson, is skilled and experienced, and he works tirelessly to ensure that his clients receive the best possible outcomes. Based in Los Angeles, he specializes in product liability and medical malpractice cases.",
-            shorts: "Legal Justice Claim is an exceptional law firm that I highly recommend to anyone seeking justice and compensation for their injuries. Their lead...",
+            desc: "I had a leaky faucet that had been driving me crazy for months. Mr. Home Service fixed it in no time, and it's been working perfectly ever since. Thanks!",
+            shorts: "I had a leaky faucet that had been driving me crazy for months. Mr. Home Service fixed it in no time, and it's been working perfectly ever since. Thanks!",
         },
         {
             id: 3,
             name: "Patricia T.",
             image: star,
-            desc: "I've had the privilege of collaborating with Legal Justice Claim on several complex cases, and I am always impressed by their level of professionalism, expertise, and compassion. Their lead attorney, Lisa Williams, is a seasoned litigator with years of experience in personal injury and mass tort cases. Based in Chicago, she is a true asset to the legal community.",
-            shorts: "I've had the privilege of collaborating with Legal Justice Claim on several complex cases, and I am always impressed by their level of...",
+            desc: "I was hesitant to hire a repair service, but Mr. Home Service exceeded all of my expectations. They were affordable, responsive, and knowledgeable. I will definitely use them again.",
+            shorts: "I was hesitant to hire a repair service, but Mr. Home Service exceeded all of my expectations. They were affordable, responsive, and knowledgeable. I will definitely use them again.",
         },
         {
             id: 4,
             name: "Felix",
             image: star,
-            desc: "Legal Justice Claim is a team of exceptional lawyers who are committed to advocating for the rights of their clients. Their attorneys, James Brown and Emily Rodriguez, are both rising stars in the legal profession, with a deep understanding of the law and a passion for helping their clients. Based in Houston, they are known for their work in asbestos and mesothelioma cases.",
-            shorts: "Legal Justice Claim is a team of exceptional lawyers who are committed to advocating for the rights of their clients. Their attorneys, James Brown...",          
+            desc: "The team at Mr. Home Service did an amazing job renovating my bathroom. They were attentive to my needs and preferences, and the end result was better than I ever could have imagined.",
+            shorts: "The team at Mr. Home Service did an amazing job renovating my bathroom. They were attentive to my needs and preferences, and the end result was better than I ever could have imagined.",          
         },
         {
             id: 5,
             name: "Karen Johnson",
             image: star,
-            desc: "As a fellow attorney, I have the utmost respect for Legal Justice Claim and their team of lawyers. Their lead attorney, Michael Davis, is a seasoned litigator with a wealth of experience in personal injury and wrongful death cases. Based in Miami, he is a true advocate for his clients and an asset to the legal profession."
+            desc: "I had a pipe burst in my basement and was in a panic. Mr. Home Service came to the rescue and fixed it quickly and efficiently. They even helped me with the insurance paperwork. I can't thank them enough."
             ,
-            shorts: "As a fellow attorney, I have the utmost respect for Legal Justice Claim and their team of lawyers. Their lead attorney, Michael Davis, is a seasoned..."
+            shorts: "I had a pipe burst in my basement and was in a panic. Mr. Home Service came to the rescue and fixed it quickly and efficiently. They even helped me with the insurance paperwork. I can't thank them enough."
             ,
         },
         {
             id: 6,
             name: "Tamara Dew",
             image: star,
-            desc: "Legal Justice Claim is an exceptional law firm that I have had the pleasure of working with. Their lead attorney, Karen Taylor, is a fierce advocate for her clients and has a wealth of experience in complex litigation. Based in San Francisco, she is a go-to attorney for cases involving dangerous drugs and medical devices.",
-            shorts: "Legal Justice Claim is an exceptional law firm that I have had the pleasure of working with. Their lead attorney, Karen Taylor, is a fierce advocate for...",
+            desc: "I had a few odd jobs around the house that I just couldn't seem to get done. Mr. Home Service came in and took care of everything in no time. I'm so grateful for their help.",
+            shorts: "I had a few odd jobs around the house that I just couldn't seem to get done. Mr. Home Service came in and took care of everything in no time. I'm so grateful for their help.",
         },
         {
             id: 7,
             name: "Ann Fuchs",
             image: star,
-            desc: "I cannot recommend Legal Justice Claim enough. Their attorneys, Maria Hernandez and Mark Thompson, are a dynamic duo with years of experience in mass tort and personal injury cases. Based in Dallas, they are known for their dedication and tenacity in fighting for the rights of their clients."
+            desc: "I had some electrical issues that I was really worried about. Mr. Home Service was able to diagnose the problem and fix it right away. I feel much safer in my home now."
             ,
-            shorts: "I cannot recommend Legal Justice Claim enough. Their attorneys, Maria Hernandez and Mark Thompson, are a dynamic duo with years of experience ..."
+            shorts: "I had some electrical issues that I was really worried about. Mr. Home Service was able to diagnose the problem and fix it right away. I feel much safer in my home now."
+            ,
+        },
+        {
+            id: 8,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "Mr. Home Service replaced my old, worn-out roof with a new one that looks fantastic. I couldn't be happier with the work they did."
+            ,
+            shorts: "Mr. Home Service replaced my old, worn-out roof with a new one that looks fantastic. I couldn't be happier with the work they did."
+            ,
+        },
+        {
+            id: 9,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "The team at Mr. Home Service painted my house and did an incredible job. They were respectful of my property and really paid attention to the details. I love the way it looks now."
+            ,
+            shorts: "The team at Mr. Home Service painted my house and did an incredible job. They were respectful of my property and really paid attention to the details. I love the way it looks now."
+            ,
+        },
+        {
+            id: 10,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "I had some damage to my drywall that needed to be repaired. Mr. Home Service came in and fixed it so well that you can't even tell it was ever damaged. They're amazing."
+            ,
+            shorts: "I had some damage to my drywall that needed to be repaired. Mr. Home Service came in and fixed it so well that you can't even tell it was ever damaged. They're amazing."
+            ,
+        },
+        {
+            id: 11,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "I was skeptical about using a repair service, but Mr. Home Service put all my worries to rest. They were professional, reliable, and got the job done right."
+            ,
+            shorts: "I was skeptical about using a repair service, but Mr. Home Service put all my worries to rest. They were professional, reliable, and got the job done right."
+            ,
+        },
+        {
+            id: 12,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "I had some serious plumbing issues that were causing major problems in my house. Mr. Home Service was able to fix everything and restore my peace of mind. Thank you so much."
+            ,
+            shorts: "I had some serious plumbing issues that were causing major problems in my house. Mr. Home Service was able to fix everything and restore my peace of mind. Thank you so much."
+            ,
+        },
+        {
+            id: 13,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "Mr. Home Service replaced my old windows with new, energy-efficient ones that have made a huge difference in my home. I'm so glad I made the investment."
+            ,
+            shorts: "Mr. Home Service replaced my old windows with new, energy-efficient ones that have made a huge difference in my home. I'm so glad I made the investment."
+            ,
+        },
+        {
+            id: 14,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "I had some door repairs that I just couldn't do on my own. Mr. Home Service came in and fixed them quickly and efficiently. I'm so grateful for their help."
+            ,
+            shorts: "I had some door repairs that I just couldn't do on my own. Mr. Home Service came in and fixed them quickly and efficiently. I'm so grateful for their help."
+            ,
+        },
+        {
+            id: 15,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "Mr. Home Service was able to install a new air conditioning unit in my home just in time for the summer heat. They were professional and knowledgeable, and the unit works great."
+            ,
+            shorts: "Mr. Home Service was able to install a new air conditioning unit in my home just in time for the summer heat. They were professional and knowledgeable, and the unit works great."
+            ,
+        },
+        {
+            id: 16,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "I had some landscaping work that I needed done, but I didn't know where to start. Mr. Home Service came in and designed a beautiful new landscape that has completely transformed my yard."
+            ,
+            shorts: "I had some landscaping work that I needed done, but I didn't know where to start. Mr. Home Service came in and designed a beautiful new landscape that has completely transformed my yard."
+            ,
+        },
+        {
+            id: 17,
+            name: "Ann Fuchs",
+            image: star,
+            desc: "The team at Mr. Home Service was able to install new gutters on my home that have saved me so much hassle and headache. They really know their stuff."
+            ,
+            shorts: "The team at Mr. Home Service was able to install new gutters on my home that have saved me so much hassle and headache. They really know their stuff."
             ,
         },
         
