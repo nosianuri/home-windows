@@ -9,13 +9,13 @@ const ComProject = () => {
             id: 1,
             name: 'Roofing',
             img: 'https://i.ibb.co/YNc3BGX/bg12.png',
-            link: '/',
+            link: '/roofing-campaign',
         },
         {
             id: 2,
             name: 'Window',
             img: 'https://i.ibb.co/9ZCn0ZH/bg14.png',
-            link: '/',
+            link: '/window-installation',
         },
         {
             id: 3,

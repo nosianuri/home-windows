@@ -125,14 +125,14 @@ const Professional = () => {
             id: 1,
             name: 'Roofing',
             img: 'https://i.ibb.co/F45bhkf/home-service2.png',
-            link: '/',
+            link: '/roofing-campaign',
             desc: 'Our roofing services are licensed and insured, and we offer competitive pricing and free estimates.',
         },
         {
             id: 2,
             name: 'Window',
             img: 'https://i.ibb.co/YQv3qLQ/home-service3.png',
-            link: '/',
+            link: '/window-installation',
             desc: 'Our window services are backed by a satisfaction guarantee, and we offer free estimates for all our projects.',
         },
         {
@@ -223,7 +223,7 @@ const Professional = () => {
     return (
         <div className='sm:w-[1300px] mx-auto'>
             <div className='my-10'>
-                <h2 className='uppercase sm:text-[45px] text-[28px] font-bold text-center sm:px-10'>What Can Our Home Improvement Professionals Do For You?</h2>
+                <h2 className='uppercase sm:text-[45px] text-[28px] font-bold text-center sm:px-10 sm:w-[950px] mx-auto'>What Can Our Home Improvement Professionals Do For You?</h2>
                 <div className='d-flex justify-content-center mt-5'>
                     <div className='banner-form items-center form-group '>
                         <div className=' text-[#000] '>
