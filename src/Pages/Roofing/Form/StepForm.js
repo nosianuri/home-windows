@@ -22,7 +22,7 @@ const StepForm = () => {
 
     const onSubmit = formData => {
         setLoading(true);
-        const id = AllData?.first_name?.slice(0, 2) + AllData?.phone?.slice(4, 9) + AllData?.email?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + formData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone?.slice(1, ) + formData.state?.slice(0, 1);
+        const id = AllData?.first_name?.slice(0, 2) + AllData?.phone_home?.slice(4, 9) + AllData?.email_address?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + formData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone_home?.slice(1, ) + formData.state?.slice(0, 1);
         const data = {
             ...AllData,
             lp_campaign_id: "14638",

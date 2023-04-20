@@ -19,7 +19,7 @@ const Contact = ({ page, setPage, setAllData, AllData }) => {
                 <div className='space-y-2'>
                     <div className=" mx-2">
                         <div className="input-container">
-                            <input name="email" className="input"
+                            <input type='email' name="email" className="input"
                                 {...register("email_address", {
                                     required: {
                                         value: true,
