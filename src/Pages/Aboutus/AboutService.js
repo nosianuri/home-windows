@@ -3,9 +3,9 @@ import React from 'react'
 const AboutService = () => {
     return (
         <div className='max-w-7xl mx-auto mt-10'>
-            <div className='grid sm:grid-cols-2 grid-cols-1 gap-5 mx-2 items-center'>
+            <div className='grid sm:grid-cols-2 grid-cols-1 mx-2 items-center'>
                 <div>
-                    <img src="https://i.ibb.co/cr11XPJ/mr-home-about-us.png" alt="" className='rounded' />
+                    <img src="https://i.ibb.co/cr11XPJ/mr-home-about-us.png" alt="" className='rounded w-4/5' />
                 </div>
                 <div>
                     <h2 className=' font-medium'><span className='text-[35px] text-[#f6b234]'>Mr. Home Service</span> <br /> <span className='text-[20px]'>is a trusted and reliable home improvement company</span> </h2> <p className='text-[#8b8d94] text-justify font-medium'> That has been serving customers with superior service, expert installations, and quality products for years. The company has a rich history that dates back to its founding, which is steeped in a commitment to <span className='text-[#98c83f]'>exceptional craftsmanship</span>  and unparalleled customer satisfaction.

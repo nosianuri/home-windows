@@ -9,7 +9,7 @@ const HomeHead = () => {
                     <div className='flex gap-5 items-center'>
                         <div className='my-1'>
                             <a href="/">
-                                <img src="https://i.ibb.co/nfr3NgP/fav-home.png" alt="" className='w-24' />
+                                <img src="https://i.ibb.co/q0J2x1P/fav-home-removebg-preview.png" alt="" className='w-24' />
                             </a>
                         </div>
                         <div>
@@ -27,14 +27,18 @@ const HomeHead = () => {
                             </div>
                         </div> */}
                         <div className='sm:block hidden'>
-                            <div className='flex text-[#f6b234] uppercase header-font text-[19px] font-bold '>
+                            <div className='flex text-[#98c83f] uppercase header-font text-[19px] font-bold '>
                                 <div className='px-4 py-3 hover:bg-[#fff]'><a href="/about-us">About Us</a> </div>
                                 <div className='px-4 py-3 hover:bg-[#fff] flex items-center'><span>Products</span> <i class="fa-solid fa-angle-down pl-1"></i></div>
+                                <a href="/why-choose-us">
                                 <div className='px-4 py-3 hover:bg-[#fff]'>Why Choose US </div>
+                                </a>
                             </div>
                         </div>
                         <div className='block sm:hidden'>
+                        
                             <div className='text-[#f6b234] uppercase header-font text-[19px] font-bold mr-5'><i class="fa-solid fa-bars text-4xl"></i></div>
+                            
                         </div>
                     </div>
                 </div>

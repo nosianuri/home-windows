@@ -6,21 +6,21 @@ const HoomFooter = () => {
             <footer className="footer sm:px-10 pt-10 text-base-content mx-auto">
                 <div>
                     <span className="text-[#003144] mb-2 font-extrabold uppercase sm:text-[18px] !leading-normal">Products</span>
-                    <a href='/' className="link link-hover font-semibold !text-[#303030]">Windows</a>
+                    <a href='/window-installation' className="link link-hover font-semibold !text-[#303030]">Windows</a>
                     <a href='/' className="link link-hover font-semibold !text-[#303030]">Garage Doors </a>
-                    <a href='/' className="link link-hover font-semibold !text-[#303030]">Roofing</a>
+                    <a href='/roofing-campaign' className="link link-hover font-semibold !text-[#303030]">Roofing</a>
                     <a href='/' className="link link-hover font-semibold !text-[#303030]">Storm Doors</a>
                 </div>
                 <div>
                     <span className=" text-[#003144] mb-2 font-extrabold uppercase sm:text-[18px] !leading-normal">Company</span>
-                    <a href='/' className="link link-hover font-semibold !text-[#303030]">About us</a>
-                    <a href='/' className="link link-hover font-semibold !text-[#303030]">Why Choose US</a>
-                    <a href='/' className="link link-hover font-semibold !text-[#303030]">Privacy Policy</a>
-                    <a href='/' className="link link-hover font-semibold !text-[#303030]">Terms & Service</a>
+                    <a href='/about-us' className="link link-hover font-semibold !text-[#303030]">About us</a>
+                    <a href='/why-choose-us' className="link link-hover font-semibold !text-[#303030]">Why Choose US</a>
+                    <a href='/privacy-policy' className="link link-hover font-semibold !text-[#303030]">Privacy Policy</a>
+                    <a href='/terms' className="link link-hover font-semibold !text-[#303030]">Terms & Condition</a>
                 </div>
                 <div>
                     <span className="text-[#003144] mb-2 font-extrabold uppercase sm:text-[18px] !leading-normal">Social</span>
-                    <div className='text-[#003144] text-2xl font-extrabold'><a href="/">Call Us Today</a></div>
+                    <div className='text-[#003144] text-2xl font-extrabold'><a href="/">Elevate Your Lifestyle with Mr. Home Service</a></div>
                     <div className='flex gap-3'>
                     <a href="/">
                                 <img src="https://i.ibb.co/KwmNXCN/twitter.jpg" alt="" className='w-10 h-10' />
