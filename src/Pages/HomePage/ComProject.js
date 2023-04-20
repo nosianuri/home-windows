@@ -26,7 +26,7 @@ const ComProject = () => {
         {
             id: 4,
             name: 'Plumbing',
-            img: 'https://i.ibb.co/YDfgRjn/bg1.png',
+            img: 'https://i.ibb.co/zfztVP1/plumbing.png',
             link: '/',
         },
         {
@@ -38,7 +38,7 @@ const ComProject = () => {
         {
             id: 6,
             name: 'Kitchen',
-            img: 'https://i.ibb.co/2Fy6xVh/bg7.png',
+            img: 'https://i.ibb.co/VmchXPd/kitchen.png',
             link: '/',
         },
         {
@@ -50,7 +50,7 @@ const ComProject = () => {
         {
             id: 8,
             name: 'Home Security',
-            img: 'https://i.ibb.co/VNNvQ3q/bg9.png',
+            img: 'https://i.ibb.co/TvkwfPz/Home-security.png',
             link: '/',
         },
         {
@@ -62,13 +62,13 @@ const ComProject = () => {
         {
             id: 10,
             name: 'Home Painting',
-            img: 'https://i.ibb.co/HhmWrh1/bg5.png',
+            img: 'https://i.ibb.co/hK28DdV/home-cleaning.png',
             link: '/',
         },
         {
             id: 11,
             name: 'Home Cleaning',
-            img: 'https://i.ibb.co/3RnwVtn/bg4.png',
+            img: 'https://i.ibb.co/z6QqqNB/cleaning-home.png',
             link: '/',
         },
         {
