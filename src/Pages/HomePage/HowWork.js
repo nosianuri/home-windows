@@ -8,17 +8,17 @@ const HowWork = () => {
         {
             id: 1,
             name: '1. Request service online or by phone. Pay your Trade Service Call Fee.',
-            image: 'https://i.ibb.co/g9bnyPT/call-works1-removebg-preview.png',
+            image: 'https://i.ibb.co/XSfv74Q/phone.png',
         },
         {
             id: 2,
             name: '2. We assign a repair professional.',
-            image: 'https://i.ibb.co/4pkT7Zw/deliver-works2-removebg-preview.png',
+            image: 'https://i.ibb.co/GRX0msP/home-delivery.png',
         },
         {
             id: 3,
             name: '3. We repair or replace your covered home system or appliance.',
-            image: 'https://i.ibb.co/Bw2Bp0h/works1-removebg-preview.png',
+            image: 'https://i.ibb.co/s1fXw5Z/home-accesories.png',
         },
     ]
   return (

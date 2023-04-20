@@ -8,7 +8,7 @@ class BackgroundSlider extends Component {
     this.state = {
       currentIndex: 0,
       images: [
-        'https://i.ibb.co/JtL50tr/mr-home-banner1.png',
+        'https://i.ibb.co/L02pR84/home-service-banner5png.png',
         'https://i.ibb.co/6tVSM5G/mr-home-banner2.png',
         'https://i.ibb.co/86sVrBm/mr-home-banner-4.png'
       ]

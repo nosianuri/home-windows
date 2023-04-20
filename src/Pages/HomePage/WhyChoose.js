@@ -7,7 +7,7 @@ const WhyChoose = () => {
                     <div className='sm:flex justify-between gap-5 sm:mx-16'>
                         {/* <div className='relative top-[-50px] left-[-30px]'><img src="https://i.ibb.co/D5qFBKJ/safest-169.webp" alt="" className='' /></div> */}
                         <div className=' hidden lg:block'>
-                            <img className='!mt-[-60px] absolute w-96' src='https://i.ibb.co/D5qFBKJ/safest-169.webp' alt="" />
+                            <img className='!mt-[-60px] absolute w-96' src='https://i.ibb.co/JjPVBGt/mr-home-service.png' alt="" />
                         </div>
                         <div className=' text-[#fff] sm:ml-16 ml-2 py-10'>
                             <h1 className=' sm:text-5xl text-3xl font-extrabold !leading-normal uppercase'>WHY CHOOSE Mr Home Service</h1>

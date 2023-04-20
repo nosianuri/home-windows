@@ -9,7 +9,7 @@ const HomeHead = () => {
                     <div className='flex gap-5 items-center'>
                         <div className='my-1'>
                             <a href="/">
-                                <img src="https://i.ibb.co/Dp9Kz96/logo-window.png" alt="" className='w-24' />
+                                <img src="https://i.ibb.co/nfr3NgP/fav-home.png" alt="" className='w-24' />
                             </a>
                         </div>
                         <div>
