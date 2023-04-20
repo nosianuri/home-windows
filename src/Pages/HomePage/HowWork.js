@@ -34,7 +34,7 @@ const HowWork = () => {
                 </div>
             ))}
             </div>
-            <p className='sm:w-[800px] text-justify mx-auto text-[12px] px-2'>See the plan contract for coverage details, including service fees, limitations and exclusions. Charges for non-covered items may apply. Offer expires April 30, 2023. Pricing available to new customers only. Discount cannot be applied to previous purchases or combined with other offers. Offer not valid in Alaska, New York City or Hawaii. Not valid in conjunction with a real estate transaction. Discount only available for single-family homes under 5,000 sq. ft. (includes condos and townhomes).</p>
+            {/* <p className='sm:w-[800px] text-justify mx-auto text-[12px] px-2'>See the plan contract for coverage details, including service fees, limitations and exclusions. Charges for non-covered items may apply. Offer expires April 30, 2023. Pricing available to new customers only. Discount cannot be applied to previous purchases or combined with other offers. Offer not valid in Alaska, New York City or Hawaii. Not valid in conjunction with a real estate transaction. Discount only available for single-family homes under 5,000 sq. ft. (includes condos and townhomes).</p> */}
         </div>
     </div>
   )

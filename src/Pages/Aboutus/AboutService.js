@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutService = () => {
     return (
-        <div className='max-w-7xl mx-auto my-10'>
+        <div className='max-w-7xl mx-auto mt-10'>
             <div className='grid sm:grid-cols-2 grid-cols-1 gap-5 mx-2'>
                 <div>
                     <img src="https://i.ibb.co/bB0SLS0/South-Florida-Air-Conditioning-Services-scaled.jpg" alt="" />
@@ -16,8 +16,16 @@ const AboutService = () => {
                         <br />
                     </p>
                 </div>
-                <h3> The team at Mr. Home Service is made up of experts in their field who are passionate about what they do. From the skilled technicians who perform the installations to the knowledgeable customer service representatives who assist customers every step of the way, every member of the team is dedicated to delivering an exceptional experience.</h3>
+                
             </div>
+            <div className='my-5 font-medium text-justify'>
+            <h3> The team at Mr. Home Service is made up of experts in their field who are passionate about what they do. From the skilled technicians who perform the installations to the knowledgeable customer service representatives who assist customers every step of the way, every member of the team is dedicated to delivering an exceptional experience.</h3>
+            </div>
+            
+                <div className='bg-[#333] text-[#fff] p-5 text-[18px] mt-2 sm:w-[800px] mb-5 text-justify'> <span className='underline font-bold mr-2'>Note:</span> 
+                 At Mr. Home Service, the focus is on quality, reliability, and exceptional service. The company has a long-standing reputation for excellence, and it is committed to continuing to provide the same level of service for many years to come. Whether you're looking to upgrade your home with new windows, doors, or siding, or you need help with a repair or renovation project, Mr. Home Service is here to help.
+
+                </div>
         </div>
     )
 }

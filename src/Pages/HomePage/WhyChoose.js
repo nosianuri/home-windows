@@ -11,7 +11,7 @@ const WhyChoose = () => {
                         </div>
                         <div className=' text-[#fff] sm:ml-16 ml-2 py-10'>
                             <h1 className=' sm:text-5xl text-3xl font-extrabold !leading-normal uppercase'>WHY CHOOSE Mr Home Service</h1>
-                            <h3 className='text-3xl !leading-normal'>We'll take care of all your plumbing and water cleanup needs.</h3>
+                            <h3 className='text-3xl !leading-normal'>We provide a comprehensive range of home services to meet <br /> all your household needs.</h3>
                             <div className='sm:flex gap-5 text-[20px] mt-5'>
                                 <div>
                                     <div className='mt-1 uppercase'><i class="fa-solid fa-circle-check text-[#f6b234] pr-1"></i> Emergency Service</div>

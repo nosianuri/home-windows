@@ -166,7 +166,7 @@ const ReviewSlider = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                 },
             },
             {
@@ -203,7 +203,7 @@ const ReviewSlider = () => {
 
 
     return (
-        <div className='py-8 space-s-3 w-[1800px]'>
+        <div className='py-8 space-s-3 w-[2000px]'>
             <Slider {...settings} ref={sliderRef}>
                 {logos.map((logo) => (
                     <div key={logo.id} className='p-5'>
