@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './HomePage.css';
 
 const HomeHead = () => {
+    const [showMenu, setShowMenu] = useState(false);
+
+    const handleToggle = () => {
+        setShowMenu(!showMenu);
+    };
     return (
-        <div className='bg-[#f6f6f6] '>
+        <div className='bg-[#f6f6f6] fixed w-full z-50'>
             <div className='sm:mx-32 mx-2'>
                 <div className='flex items-center justify-between' >
                     <div className='flex gap-5 items-center'>
@@ -29,16 +34,30 @@ const HomeHead = () => {
                         <div className='sm:block hidden'>
                             <div className='flex text-[#98c83f] uppercase header-font text-[19px] font-bold '>
                                 <div className='px-4 py-3 hover:bg-[#fff]'><a href="/about-us">About Us</a> </div>
-                                <div className='px-4 py-3 hover:bg-[#fff] flex items-center'><span>Products</span> <i class="fa-solid fa-angle-down pl-1"></i></div>
+                                <div className='px-4 py-3 hover:bg-[#fff] flex items-center' onClick={handleToggle}><span>Products</span> <i class="fa-solid fa-angle-down pl-1"></i>
+                                   </div>
+                                   <div>
+                                   <ul className={showMenu ? 'submenu show-submenu' : 'submenu hide-submenu'}>
+                                        <li>
+                                            <a href="#">Service 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Service 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Service 3</a>
+                                        </li>
+                                    </ul>
+                                   </div>
                                 <a href="/why-choose-us">
-                                <div className='px-4 py-3 hover:bg-[#fff]'>Why Choose US </div>
+                                    <div className='px-4 py-3 hover:bg-[#fff]'>Why Choose US </div>
                                 </a>
                             </div>
                         </div>
                         <div className='block sm:hidden'>
-                        
+
                             <div className='text-[#f6b234] uppercase header-font text-[19px] font-bold mr-5'><i class="fa-solid fa-bars text-4xl"></i></div>
-                            
+
                         </div>
                     </div>
                 </div>

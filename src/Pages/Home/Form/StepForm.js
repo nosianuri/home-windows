@@ -73,6 +73,8 @@ const StepForm = () => {
                         "message": "Window form submitted",
                         event: data
                     })
+                    console.log(window.dataLayer);
+                    
                     navigate('/window-installation-thank-page')
                     // setPage(page + 1);
                 } else if (data.errors) {
