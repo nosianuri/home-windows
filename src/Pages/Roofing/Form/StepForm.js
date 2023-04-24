@@ -43,7 +43,7 @@ const StepForm = () => {
             landing_page_url: 'https://mrhomeservice.net/roofing-campaign',
         }
        
-        fetch('https://api.leadprosper.io/ingest', {
+        fetch('https://api.leadprosper.io/post', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)    

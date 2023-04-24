@@ -52,7 +52,7 @@ const StepForm = () => {
         }
         console.log(data, "so good")
         
-        fetch('https://api.leadprosper.io/ingest', {
+        fetch('https://api.leadprosper.io/post', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
