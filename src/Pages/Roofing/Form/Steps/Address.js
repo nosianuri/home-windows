@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 
-const Address = ({ page, setPage, onSubmit, submitButton }) => {
+const Address = ({ page, setPage, onSubmit, submitButton, loading }) => {
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
 
     return (
@@ -54,7 +54,13 @@ const Address = ({ page, setPage, onSubmit, submitButton }) => {
                     </p>
                 </div>
             <div className="footer text-center mt-16 mx-auto">
-                <input id='submitButton' className=" sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Submit" />
+                {/* <input id='submitButton' className=" sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" type="submit" value="Submit" /> */}
+                {!loading && (
+                    <button id='form-submit' className=" sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white" ><span className='!mx-auto !text-center'>Submit</span> </button>
+                  )}
+                  {loading && (
+                    <button id='form-submit' className="text-center sm:text-xl w-full text-lg cursor-pointer rounded-lg bg-[#eaa613] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#e48a03] hover:text-white flex" disabled> <div className='pl-5'><i className='fas fa-spinner fa-spin'></i>{" "}</div> <span className='!mx-auto !text-center'>Submit...</span> </button>
+                  )}
             </div>
         </form>
     </div>

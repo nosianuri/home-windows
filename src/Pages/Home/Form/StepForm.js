@@ -105,7 +105,7 @@ const StepForm = () => {
         } else if (page === 7) {
             return <Contact setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
         } else if (page === 8) {
-            return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+            return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} loading={loading} />;
         } else {
             return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
         }
