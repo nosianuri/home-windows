@@ -50,7 +50,20 @@ const StepForm = () => {
             time_frame: timeFrame,
             landing_page_url: 'https://mrhomeservice.net/window-installation',
         }
-        console.log(data, "so good")
+        console.log(data, "so good");
+        if (Object.keys(data).length > 0) {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+              event: "lead_submitted",
+              "data": data,
+            })
+            console.log("Form Data Pushed!", data)
+          }
+          else {
+            toast.warning("Input fields can't be empty", {
+              position: toast.POSITION.TOP_CENTER
+            })
+          }
         
         fetch('https://api.leadprosper.io/ingest', {
             method: 'POST',
@@ -68,13 +81,13 @@ const StepForm = () => {
                     toast.success('Successful post data');
                     reset();
                     setLoading(false)
-                    window.dataLayer = window.dataLayer || [];
-                    window.dataLayer.push({
-                        "message": "Window form submitted",
-                        event: data
-                    })
-                    console.log(window.dataLayer);
-                    
+                    // window.dataLayer = window.dataLayer || [];
+                    // window.dataLayer.push({
+                    //     "message": "Window form submitted",
+                    //     event: data
+                    // })
+                    // console.log(window.dataLayer);
+
                     navigate('/window-installation-thank-page')
                     // setPage(page + 1);
                 } else if (data.errors) {
