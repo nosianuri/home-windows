@@ -26,6 +26,8 @@ import Roofing from './Pages/Roofing/Roofing';
 import HomePage from './Pages/HomePage/HomePage';
 import AboutUs from './Pages/Aboutus/AboutUs';
 import WhyUs from './Pages/WhyUs/WhyUs';
+import WindowThanks from './Pages/Home/WindowThanks/WindowThanks';
+import RoofingThanks from './Pages/Roofing/RoofingThanks/RoofingThanks';
 
 function App() {
   useEffect(() => {
@@ -36,7 +38,9 @@ function App() {
     <Routes>
     <Route path='/' element={<HomePage />} />
     <Route path='/window-installation' element={<Home />} />
+    <Route path='/window-installation-thank-page' element={<WindowThanks />} />
     <Route path='/roofing-campaign' element={<Roofing />} />
+    <Route path='/roofing-campaign-thanks-page' element={<RoofingThanks />} />
     <Route path='/about-us' element={<AboutUs />} />
     <Route path='/why-choose-us' element={<WhyUs />} />
     <Route path='/privacy-policy' element={<PrivacyPolicy />} />

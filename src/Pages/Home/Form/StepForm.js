@@ -14,6 +14,7 @@ import Windowmaterial from './Steps/Windowmaterial';
 import ZipCode from './Steps/ZipCode';
 
 const StepForm = () => {
+    const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
     const [page, setPage] = useState(0);
@@ -35,7 +36,7 @@ const StepForm = () => {
             lp_campaign_id: "14616",
             lp_supplier_id: "29867",
             lp_key: "p6o2annqdfepyw",
-            ip_address: "153.36.39.47",
+            ip_address: "66.89.30.19",
             trusted_form_cert_id: `https://cert.trustedform.com/${id}`,
             tcpa_text: tcpaText,
             tcpa: "Yes",
@@ -72,7 +73,8 @@ const StepForm = () => {
                         "message": "Window form submitted",
                         event: data
                     })
-                    setPage(page + 1);
+                    navigate('/window-installation-thank-page')
+                    // setPage(page + 1);
                 } else if (data.errors) {
                     toast.error('Something went wrong', data.errors.message);
                     setLoading(false)

@@ -9,8 +9,10 @@ import PersonalInfo from './Steps/PersonalInfo';
 import PlanStart from './Steps/PlanStart';
 import Windowmaterial from './Steps/Windowmaterial';
 import ZipCode from './Steps/ZipCode';
+import { useNavigate } from 'react-router-dom';
 
 const StepForm = () => {
+    const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
     const [page, setPage] = useState(0);
@@ -60,8 +62,8 @@ const StepForm = () => {
                         "message": "Roofing form submitted",
                         event: data
                       })
-                    
-                    setPage(page + 1);
+                      navigate('/roofing-campaign-thanks-page')
+                    // setPage(page + 1);
                     console.log(data);
                 } else if (data.errors) {
                     toast.error('Something went wrong', data.errors.message);
