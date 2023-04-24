@@ -33,9 +33,9 @@ const StepForm = () => {
 
         const data = {
             ...AllData,
-            lp_campaign_id: "14616",
-            lp_supplier_id: "29867",
-            lp_key: "p6o2annqdfepyw",
+            lp_campaign_id: "14274",
+            lp_supplier_id: "29182",
+            lp_key: "Oy1pf1xdds33ne",
             ip_address: "203.92.18.236",
             trusted_form_cert_id: `https://cert.trustedform.com/${id}`,
             tcpa_text: tcpaText,
@@ -52,7 +52,7 @@ const StepForm = () => {
         }
         console.log(data, "so good")
         
-        fetch('https://api.leadprosper.io/post', {
+        fetch('https://api.leadprosper.io/ingest', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
