@@ -8,8 +8,8 @@ const HomeHero = () => {
             <div className='bg-black sm:bg-opacity-10 bg-opacity-70 w-[100%] h-[100%]'>
                 <div className='grid sm:grid-cols-2 grid-cols-1'>
                     <div></div>
-                    <div className='max-w-[800px] mx-auto  py-10 px-3'>
-                    <h3 className='font-bold text-[25px] text-[#98c83f]'>Revitalize Your Living Space</h3>
+                    <div className='max-w-[800px] mx-auto font-primary py-16 px-3'>
+                    <h3 className='font-bold text-[25px] italic text-[#98c83f]'>Revitalize Your Living Space</h3>
                         <h1 className=' sm:text-[60px] text-[38px] font-bold text-[#fff] tshadow'> Get Your Home in <br /> Perfect Shape</h1>
                         <div className='text-2xl mt-5 font-bold text-[#ED8502]'> Schedule a Consultation with Mr. Home Service Today!
                         </div>
