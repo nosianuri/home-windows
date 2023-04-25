@@ -7,37 +7,37 @@ const WhyUsBody = () => {
             <div className='max-w-7xl mx-auto mt-10'>
                 <h3 className='font-extrabold sm:text-[38px] text-[23px] sm:w-[900px]  text-[#98c83f]'>Upgrade Your Home with Confidence Choose Mr. Home Service for Expert Renovations!</h3>
                 <h1>When it comes to home improvement and repair services, you want to work with a team that you can trust to get the job done right. At Mr. Home Service, we believe that we are the best choice for homeowners who are looking for high-quality, reliable, and affordable services. Here are just a few reasons why you should choose us for your next project:</h1>
-                <div className='grid sm:grid-cols-3 grid-cols-1 gap-5 my-8'>
+                <div className='grid sm:grid-cols-3 grid-cols-1 gap-10 my-8'>
                     <div className='text-center'>
                         <img src="https://i.ibb.co/CwGCX3q/experience-001.png" alt="" className='mx-auto' />
-                        <h2>Experience:</h2>
-                        <p>Our team has years of experience in the home improvement industry, and we have completed thousands of projects for satisfied customers. Our knowledge and expertise allow us to tackle even the most complex projects with ease, and we are always up-to-date with the latest industry trends and technologies.</p>
+                        <h2 className='text-[18px] font-medium'>Experience:</h2>
+                        <p className='text-justify'>Our team has years of experience in the home improvement industry, and we have completed thousands of projects for satisfied customers. Our knowledge and expertise allow us to tackle even the most complex projects with ease, and we are always up-to-date with the latest industry trends and technologies.</p>
                     </div>
                     <div className='text-center'>
                         <img src="https://i.ibb.co/zhwZdNT/quality-001.png" alt="" className='mx-auto' />
-                        <h2>Quality: </h2>
-                        <p>We believe that quality is the key to success in our industry. We use only the best materials and equipment in our work, and we employ skilled professionals who are dedicated to delivering exceptional results. We also offer comprehensive warranties on all of our services to ensure that our customers are completely satisfied with their experience.</p>
+                        <h2 className='text-[18px] font-medium'>Quality: </h2>
+                        <p className='text-justify'>We believe that quality is the key to success in our industry. We use only the best materials and equipment in our work, and we employ skilled professionals who are dedicated to delivering exceptional results. We also offer comprehensive warranties on all of our services to ensure that our customers are completely satisfied with their experience.</p>
                     </div>
                     <div className='text-center'>
                         <img src="https://i.ibb.co/tc2H4Dz/service-001.png" alt="" className='mx-auto' />
-                        <h2>Customer Service:</h2>
-                        <p> We believe that customer service is the foundation of our business. We take the time to understand our customers' needs and provide tailored solutions that meet their unique requirements. We also communicate openly and honestly throughout the entire process, so our customers always know what to expect.</p>
+                        <h2 className='text-[18px] font-medium'>Customer Service:</h2>
+                        <p className='text-justify'> We believe that customer service is the foundation of our business. We take the time to understand our customers' needs and provide tailored solutions that meet their unique requirements. We also communicate openly and honestly throughout the entire process, so our customers always know what to expect.</p>
                     </div>
                     <div className='text-center'>
                         <img src="https://i.ibb.co/XpNx5xM/honor-001.png" alt="" className='mx-auto' />
-                        <h2>Affordable Pricing:</h2>
-                        <p> We understand that home improvement projects can be expensive, which is why we offer competitive pricing on all of our services. We also offer flexible financing options to help our customers get the services they need without breaking the bank.</p>
+                        <h2 className='text-[18px] font-medium'>Affordable Pricing:</h2>
+                        <p className='text-justify'> We understand that home improvement projects can be expensive, which is why we offer competitive pricing on all of our services. We also offer flexible financing options to help our customers get the services they need without breaking the bank.</p>
                     </div>
                     <div className='text-center'>
                         <img src="https://i.ibb.co/7GGXSYp/experts-001.png" alt="" className='mx-auto' />
-                        <h2>Comprehensive Services:</h2>
-                        <p> We offer a wide range of home improvement and repair services, including window and door installation, siding, roofing, kitchen and bathroom remodeling, and much more. Whatever your needs may be, we have the expertise and resources to get the job done right.
+                        <h2 className='text-[18px] font-medium'>Comprehensive Services:</h2>
+                        <p className='text-justify'> We offer a wide range of home improvement and repair services, including window and door installation, siding, roofing, kitchen and bathroom remodeling, and much more. Whatever your needs may be, we have the expertise and resources to get the job done right.
                         </p>
                     </div>
                 </div>
                 
                 
-                <p>In addition to our years of experience, commitment to quality, exceptional customer service, affordable pricing, and comprehensive services, there are several other reasons why you should choose Mr. Home Service for your home improvement needs.</p>
+                <p className='sm:mb-16 mb-10'>In addition to our years of experience, commitment to quality, exceptional customer service, affordable pricing, and comprehensive services, there are several other reasons why you should choose Mr. Home Service for your home improvement needs.</p>
                 {/* <p>First and foremost, we believe in transparency and honesty. We always provide detailed, itemized estimates for every project we undertake, so our customers know exactly what they are paying for. We never tack on hidden fees or charges, and we always strive to complete our projects on time and within budget.
                 </p> */}
                 {/* <p>Another reason why we stand out from our competitors is our dedication to safety. We take every precaution necessary to ensure the safety of our customers, our team members, and our job sites. We are fully licensed and insured, and we follow all applicable safety regulations and guidelines.
@@ -46,8 +46,14 @@ const WhyUsBody = () => {
                 {/* <p>Finally, we are a locally owned and operated business, which means that we are invested in the communities we serve. We believe in giving back to our communities and supporting local organizations and charities. When you work with us, you can feel good knowing that you are supporting a local business that cares about the people and places we serve.</p> */}
             </div>
             <OurService />
-            <p>In summary, when you choose Mr. Home Service, you can rest assured that you are getting the best possible service at an affordable price. Contact us today to learn more about our services and how we can help you with your next home improvement project.
+            <div className='sm:w-[700px] mx-auto text-center mb-10'>
+            <p className='mb-5 font-medium'> When you choose Mr. Home Service, you can rest assured that you are getting the best possible service at an affordable price. Contact us today to learn more about our services and how we can help you with your next home improvement project.
                 </p>
+                <a href="/">
+                <div className='w-1/2 mx-auto rounded bg-[#003144] text-[#fff] text-[25px] font-semibold py-1'>Get A Quote</div>
+                </a>
+            </div>
+            
             <div className='bg-[#003144] mt-5'>
                 <div className='max-w-7xl mx-auto'>
                     <div className=' py-5 sm:flex gap-3 items-center'>
