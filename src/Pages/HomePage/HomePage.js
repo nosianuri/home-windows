@@ -11,21 +11,22 @@ import WhoWith from './WhoWith';
 import BackgroundSlider from './BackgroundSlider';
 import HomeNav from './HomeNav';
 import HomeTop from './HomeTop';
+import HomeHero from './HomeHero';
 
 const HomePage = () => {
   return (
     <div>
-        <HomeHead />
-       <HomeTop />
-        <BackgroundSlider />
-        {/* <HomeBanner /> */}
-        <Professional />
-        <WhyChoose />
-        <ComProject />
-        <HowWork />
-        <WhoWith />
-        <HomeReview />
-        <HoomFooter />
+      <HomeHead />
+      {/* <HomeTop /> */}
+      {/* <BackgroundSlider /> */}
+      <HomeHero />
+      <Professional />
+      <WhyChoose />
+      <ComProject />
+      <HowWork />
+      <WhoWith />
+      <HomeReview />
+      <HoomFooter />
     </div>
   )
 }

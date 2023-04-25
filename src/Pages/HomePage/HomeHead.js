@@ -22,15 +22,16 @@ const HomeHead = () => {
                         </div> */}
                     </div>
                     <div className='ml-32 py-1'>
-                        <div className='flex gap-5 justify-end'>
-                            {/* <div className='text-[25px] font-bold text-[#198ec0]  header-font italic mb-5'>Call Guida Today <a className='text-[#98c07d]' href="/">1-111-232-6848</a></div> */}
-                            <div>
-                            <img src="https://i.ibb.co/yFv6tCK/awards.png" alt="" className='sm:w-44 w-24' />
-                        </div>
-                            <div className='flex gap-3'>
-                                <span className='font-bold text-xl mt-1'>Follow Us On:</span>
-                                <img src="https://i.ibb.co/6NnGWkY/facebook.jpg" alt="" className='w-8 rounded-full h-8' />
-                                
+                        <div className='sm:block hidden'>
+                            <div className='flex gap-5 justify-end '>
+                                {/* <div className='text-[25px] font-bold text-[#198ec0]  header-font italic mb-5'>Call Guida Today <a className='text-[#98c07d]' href="/">1-111-232-6848</a></div> */}
+                                <div>
+                                    <img src="https://i.ibb.co/yFv6tCK/awards.png" alt="" className='sm:w-44 w-24' />
+                                </div>
+                                <div className='flex gap-3'>
+                                    <span className='font-bold text-xl mt-1'>Follow Us On:</span>
+                                    <img src="https://i.ibb.co/6NnGWkY/facebook.jpg" alt="" className='w-8 rounded-full h-8' />
+                                </div>
                             </div>
                         </div>
                         <div className='sm:block hidden'>
@@ -38,9 +39,9 @@ const HomeHead = () => {
                                 <div className='px-4 text-[#003144] hover:text-[#98c83f] py-3 hover:bg-[#fff]'><a href="/">Home</a> </div>
                                 <div className='px-4 text-[#003144] hover:text-[#98c83f] py-3 hover:bg-[#fff]'><a href="/about-us">About Us</a> </div>
                                 <div className='px-4 text-[#003144] hover:text-[#98c83f] py-3 hover:bg-[#fff] flex items-center' onClick={handleToggle}><span>Products</span> <i class="fa-solid fa-angle-down pl-1"></i>
-                                   </div>
-                                   <div>
-                                   <ul className={showMenu ? 'submenu show-submenu' : 'submenu hide-submenu'}>
+                                </div>
+                                <div>
+                                    <ul className={showMenu ? 'submenu show-submenu' : 'submenu hide-submenu'}>
                                         <li>
                                             <a href="#">Service 1</a>
                                         </li>
@@ -51,7 +52,7 @@ const HomeHead = () => {
                                             <a href="#">Service 3</a>
                                         </li>
                                     </ul>
-                                   </div>
+                                </div>
                                 <a href="/why-choose-us">
                                     <div className='px-4 text-[#003144] hover:text-[#98c83f] py-3 hover:bg-[#fff]'>Why Choose US </div>
                                 </a>

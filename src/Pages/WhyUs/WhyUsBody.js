@@ -6,7 +6,7 @@ const WhyUsBody = () => {
         <div>
             <div className='max-w-7xl mx-auto mt-10'>
                 <h3 className='font-extrabold sm:text-[38px] text-[23px] sm:w-[900px]  text-[#98c83f]'>Upgrade Your Home with Confidence Choose Mr. Home Service for Expert Renovations!</h3>
-                <h1>When it comes to home improvement and repair services, you want to work with a team that you can trust to get the job done right. At Mr. Home Service, we believe that we are the best choice for homeowners who are looking for high-quality, reliable, and affordable services. Here are just a few reasons why you should choose us for your next project:</h1>
+                <h1 className='sm:w-[800px]'>When it comes to home improvement and repair services, you want to work with a team that you can trust to get the job done right. At Mr. Home Service, we believe that we are the best choice for homeowners who are looking for high-quality, reliable, and affordable services. Here are just a few reasons why you should choose us for your next project:</h1>
                 <div className='grid sm:grid-cols-3 grid-cols-1 gap-10 my-8'>
                     <div className='text-center'>
                         <img src="https://i.ibb.co/CwGCX3q/experience-001.png" alt="" className='mx-auto' />

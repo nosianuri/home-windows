@@ -221,7 +221,7 @@ const Professional = () => {
         },
     ]
     return (
-        <div className='sm:w-[1300px] mx-auto'>
+        <div className='sm:w-[1300px] mx-auto' id='home-service'>
             <div className='my-10'>
                 <h2 className='uppercase sm:text-[45px] text-[28px] font-bold text-center sm:px-10 sm:w-[950px] mx-auto'>What Can Our Home Improvement Professionals Do For You?</h2>
                 <div className='d-flex justify-content-center mt-5'>

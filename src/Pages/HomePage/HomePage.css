@@ -40,6 +40,12 @@
     background-color: #555;
   }
 
+  .tshadow{
+    text-shadow: 1px 1px 1px #ff0000, 
+    2px 2px 2px #00ff00,
+    3px 3px 3px #0000ff;
+  }
+
   @media screen and (max-width: 780px) {
     .reviewsbody {
       display: block;
