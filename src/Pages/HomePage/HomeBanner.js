@@ -5,7 +5,7 @@ const HomeBanner = () => {
         <div>
             <div className='bg-black bg-opacity-60'>
                 <div className='container mx-auto  flex justify-center items-center'>
-                    <div className='text-center flex flex-col mt-24'>
+                    <div className='text-center flex flex-col mt-5'>
                         <div
                             className='font-primary font-semibold mb-1 lg:px-36 md:px-8 lg:mx-36 pt-16 px-5 pb-16'>
                             <h2 className='text-[38px] lg:text-[70px] md:text-[40px] text-white italic'>Ready for a Change

@@ -17,24 +17,27 @@ const HomeHead = () => {
                                 <img src="https://i.ibb.co/q0J2x1P/fav-home-removebg-preview.png" alt="" className='w-24' />
                             </a>
                         </div>
-                        <div>
+                        {/* <div>
+                            <img src="https://i.ibb.co/yFv6tCK/awards.png" alt="" className='sm:w-44 w-24' />
+                        </div> */}
+                    </div>
+                    <div className='ml-32 py-1'>
+                        <div className='flex gap-5 justify-end'>
+                            {/* <div className='text-[25px] font-bold text-[#198ec0]  header-font italic mb-5'>Call Guida Today <a className='text-[#98c07d]' href="/">1-111-232-6848</a></div> */}
+                            <div>
                             <img src="https://i.ibb.co/yFv6tCK/awards.png" alt="" className='sm:w-44 w-24' />
                         </div>
-                    </div>
-                    <div className=''>
-                        {/* <div className='flex gap-5 ml-32'>
-                            <div className='text-[33px] font-bold text-[#198ec0]  header-font italic mb-5'>Call Guida Today <a className='text-[#98c07d]' href="/">1-111-232-6848</a></div>
                             <div className='flex gap-3'>
-                                <img src="https://i.ibb.co/KwmNXCN/twitter.jpg" alt="" className='w-10 h-10' />
-                                <img src="https://i.ibb.co/6NnGWkY/facebook.jpg" alt="" className='w-10 h-10' />
-                                <img src="https://i.ibb.co/2tNJBCD/instagram.jpg" alt="" className='w-10 h-10' />
-                                <img src="https://i.ibb.co/fCgNVz2/linkedin.jpg" alt="" className='w-10 h-10' />
+                                <span className='font-bold text-xl mt-1'>Follow Us On:</span>
+                                <img src="https://i.ibb.co/6NnGWkY/facebook.jpg" alt="" className='w-8 rounded-full h-8' />
+                                
                             </div>
-                        </div> */}
+                        </div>
                         <div className='sm:block hidden'>
-                            <div className='flex text-[#98c83f] uppercase header-font text-[19px] font-bold '>
-                                <div className='px-4 py-3 hover:bg-[#fff]'><a href="/about-us">About Us</a> </div>
-                                <div className='px-4 py-3 hover:bg-[#fff] flex items-center' onClick={handleToggle}><span>Products</span> <i class="fa-solid fa-angle-down pl-1"></i>
+                            <div className='flex uppercase header-font text-[19px] font-bold '>
+                                <div className='px-4 text-[#003144] hover:text-[#98c83f] py-3 hover:bg-[#fff]'><a href="/">Home</a> </div>
+                                <div className='px-4 text-[#003144] hover:text-[#98c83f] py-3 hover:bg-[#fff]'><a href="/about-us">About Us</a> </div>
+                                <div className='px-4 text-[#003144] hover:text-[#98c83f] py-3 hover:bg-[#fff] flex items-center' onClick={handleToggle}><span>Products</span> <i class="fa-solid fa-angle-down pl-1"></i>
                                    </div>
                                    <div>
                                    <ul className={showMenu ? 'submenu show-submenu' : 'submenu hide-submenu'}>
@@ -50,7 +53,7 @@ const HomeHead = () => {
                                     </ul>
                                    </div>
                                 <a href="/why-choose-us">
-                                    <div className='px-4 py-3 hover:bg-[#fff]'>Why Choose US </div>
+                                    <div className='px-4 text-[#003144] hover:text-[#98c83f] py-3 hover:bg-[#fff]'>Why Choose US </div>
                                 </a>
                             </div>
                         </div>

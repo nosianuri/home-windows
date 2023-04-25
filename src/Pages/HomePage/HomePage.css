@@ -13,7 +13,6 @@
   }
 
   .submenu {
-    position: absolute;
     background-color: #333;
     display: none;
     list-style: none;
@@ -21,7 +20,7 @@
   }
   
   .show-submenu {
-    position: absolute;
+    /* position: absolute; */
     display: block;
     margin-top: 50px;
   }

@@ -10,12 +10,13 @@ import ComProject from './ComProject';
 import WhoWith from './WhoWith';
 import BackgroundSlider from './BackgroundSlider';
 import HomeNav from './HomeNav';
+import HomeTop from './HomeTop';
 
 const HomePage = () => {
   return (
     <div>
         <HomeHead />
-        {/* <HomeNav /> */}
+       <HomeTop />
         <BackgroundSlider />
         {/* <HomeBanner /> */}
         <Professional />
