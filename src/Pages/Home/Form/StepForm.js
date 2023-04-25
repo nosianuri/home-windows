@@ -54,7 +54,7 @@ const StepForm = () => {
         if (Object.keys(data).length > 0) {
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-              event: "lead_submitted",
+              event: "window_lead_submitted",
               "data": data,
             })
             console.log("Form Data Pushed!", data)
