@@ -25,7 +25,7 @@ const HoomFooter = () => {
                     <a href="/">
                                 <img src="https://i.ibb.co/KwmNXCN/twitter.jpg" alt="" className='w-10 h-10' />
                                 </a>
-                                <a href="/">
+                                <a href="https://www.facebook.com/mrhomeserviceus">
                                 <img src="https://i.ibb.co/6NnGWkY/facebook.jpg" alt="" className='w-10 h-10' />
                                 </a>
                                 <a href="/">

@@ -27,7 +27,7 @@ const HomePage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Terms | Mr Home Service</title>
+        <title>Home | Mr Home Service</title>
       </Helmet>
       {isLoading ? (
         <Mloader />

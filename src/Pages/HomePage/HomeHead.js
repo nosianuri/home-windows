@@ -74,7 +74,9 @@ const HomeHead = () => {
                                 </div>
                                 <div className='flex gap-3'>
                                     <span className='font-bold text-xl mt-1'>Follow Us On:</span>
+                                    <a href="https://www.facebook.com/mrhomeserviceus">
                                     <img src="https://i.ibb.co/6NnGWkY/facebook.jpg" alt="" className='w-8 rounded-full h-8' />
+                                    </a>
                                 </div>
                             </div>
                         </div>

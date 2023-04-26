@@ -1,5 +1,6 @@
 import React from 'react'
 import OurService from '../HomePage/OurService'
+import WhoWith from '../HomePage/WhoWith'
 
 const WhyUsBody = () => {
     return (
@@ -45,6 +46,7 @@ const WhyUsBody = () => {
                 {/* <p>Finally, we are a locally owned and operated business, which means that we are invested in the communities we serve. We believe in giving back to our communities and supporting local organizations and charities. When you work with us, you can feel good knowing that you are supporting a local business that cares about the people and places we serve.</p> */}
             </div>
             <OurService />
+            <WhoWith />
             <div className='sm:w-[700px] mx-auto text-center mb-10'>
             <p className='mb-5 font-medium px-2'> When you choose Mr. Home Service, you can rest assured that you are getting the best possible service at an affordable price. Contact us today to learn more about our services and how we can help you with your next home improvement project.
                 </p>
@@ -52,6 +54,7 @@ const WhyUsBody = () => {
                 <div className='w-1/2 mx-auto rounded bg-[#003144] text-[#fff] text-[25px] font-semibold py-1'>Get A Quote</div>
                 </a>
             </div>
+           
             
             <div className='bg-[#003144] mt-5'>
                 <div className='max-w-7xl mx-auto'>
