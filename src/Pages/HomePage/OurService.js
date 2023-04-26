@@ -41,7 +41,7 @@ const OurService = () => {
             <div key={service} className='bg-[#fff] px-5 w-[320px] mx-auto py-5'>
                 {/* <img src="" alt="" /> */}
                 {/* <h1 className='text-center font-bold text-[25px] mt-10'>{service.name}</h1> */}
-                <h4 className='text-[17px] text-center font-medium'>{service.desc}</h4>
+                <h4 className='text-[17px] font-medium text-justify'><span className='text-[28px] text-[#fff] px-2 rounded-full bg-[#98c83f] mr-2'>{service.id}.</span>{service.desc}</h4>
                 {/* <div className='uppercase mb-5 text-[#506bb7] mt-1 font-semibold text-[23px]'><span className='hover:underline hover:pr-2'>Explore This Service</span> {textButton}</div> */}
             </div>
             ))}
