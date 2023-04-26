@@ -5,9 +5,9 @@ const WhyUsBody = () => {
     return (
         <div>
             <div className='max-w-7xl mx-auto mt-10'>
-                <h3 className='font-extrabold sm:text-[38px] text-[23px] sm:w-[900px]  text-[#98c83f]'>Upgrade Your Home with Confidence Choose Mr. Home Service for Expert Renovations!</h3>
-                <h1 className='sm:w-[800px]'>When it comes to home improvement and repair services, you want to work with a team that you can trust to get the job done right. At Mr. Home Service, we believe that we are the best choice for homeowners who are looking for high-quality, reliable, and affordable services. Here are just a few reasons why you should choose us for your next project:</h1>
-                <div className='grid sm:grid-cols-3 grid-cols-1 gap-10 my-8'>
+                <h3 className='font-extrabold sm:text-[38px] text-[23px] sm:w-[900px]  text-[#98c83f] px-2'>Upgrade Your Home with Confidence Choose Mr. Home Service for Expert Renovations!</h3>
+                <h1 className='sm:w-[800px] px-2'>When it comes to home improvement and repair services, you want to work with a team that you can trust to get the job done right. At Mr. Home Service, we believe that we are the best choice for homeowners who are looking for high-quality, reliable, and affordable services. Here are just a few reasons why you should choose us for your next project:</h1>
+                <div className='grid sm:grid-cols-3 grid-cols-1 gap-10 my-8 px-2'>
                     <div className='text-center'>
                         <img src="https://i.ibb.co/CwGCX3q/experience-001.png" alt="" className='mx-auto' />
                         <h2 className='text-[18px] font-medium'>Experience:</h2>
@@ -36,8 +36,7 @@ const WhyUsBody = () => {
                     </div>
                 </div>
                 
-                
-                <p className='sm:mb-16 mb-10'>In addition to our years of experience, commitment to quality, exceptional customer service, affordable pricing, and comprehensive services, there are several other reasons why you should choose Mr. Home Service for your home improvement needs.</p>
+                <p className='sm:mb-16 mb-10 px-2'>In addition to our years of experience, commitment to quality, exceptional customer service, affordable pricing, and comprehensive <br /> services, there are several other reasons why you should choose Mr. Home Service for your home improvement needs.</p>
                 {/* <p>First and foremost, we believe in transparency and honesty. We always provide detailed, itemized estimates for every project we undertake, so our customers know exactly what they are paying for. We never tack on hidden fees or charges, and we always strive to complete our projects on time and within budget.
                 </p> */}
                 {/* <p>Another reason why we stand out from our competitors is our dedication to safety. We take every precaution necessary to ensure the safety of our customers, our team members, and our job sites. We are fully licensed and insured, and we follow all applicable safety regulations and guidelines.
@@ -47,7 +46,7 @@ const WhyUsBody = () => {
             </div>
             <OurService />
             <div className='sm:w-[700px] mx-auto text-center mb-10'>
-            <p className='mb-5 font-medium'> When you choose Mr. Home Service, you can rest assured that you are getting the best possible service at an affordable price. Contact us today to learn more about our services and how we can help you with your next home improvement project.
+            <p className='mb-5 font-medium px-2'> When you choose Mr. Home Service, you can rest assured that you are getting the best possible service at an affordable price. Contact us today to learn more about our services and how we can help you with your next home improvement project.
                 </p>
                 <a href="/">
                 <div className='w-1/2 mx-auto rounded bg-[#003144] text-[#fff] text-[25px] font-semibold py-1'>Get A Quote</div>
