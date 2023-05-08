@@ -9,7 +9,7 @@ const ZipCode = ({ page, setPage, setAllData, AllData }) => {
             zip_code: data.zip_code,
         })
         setPage(page + 1);
-        console.log(AllData, data, page)
+        // console.log(AllData, data, page)
     }
     return (
         <div className="flex flex-col " >

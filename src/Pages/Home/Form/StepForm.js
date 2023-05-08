@@ -29,7 +29,7 @@ const StepForm = () => {
     const onSubmit = formData => {
         setLoading(true);
 
-        const id = AllData?.first_name?.slice(0, 2) + AllData?.phone_home?.slice(4, 9) + AllData?.email_address?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + formData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone_home?.slice(1,) + formData.state?.slice(0, 1);
+        const id = AllData?.first_name?.slice(0, 2) + AllData?.phone_home?.slice(4, 9) + AllData?.email_address?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + AllData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone_home?.slice(1,) + formData.state?.slice(0, 1);
 
         const data = {
             ...AllData,
@@ -57,7 +57,7 @@ const StepForm = () => {
               event: "window_lead_submitted",
               "data": data,
             })
-            console.log("Form Data Pushed!", data)
+            // console.log("Form Data Pushed!", data)
           }
           else {
             toast.warning("Input fields can't be empty", {
@@ -94,14 +94,14 @@ const StepForm = () => {
                     toast.error('Something went wrong', data.errors.message);
                     setLoading(false)
                 }
-                console.log(data, "response data");
+                // console.log(data, "response data");
             })
             .catch(error => {
                 toast.error(`Error: ${error.message}`);
                 setLoading(false);
             });
     }
-    console.log(AllData, "goods")
+    // console.log(AllData, "goods")
     const PageDisplay = () => {
         if (page === 0) {
             return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
