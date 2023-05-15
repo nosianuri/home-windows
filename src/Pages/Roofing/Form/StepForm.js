@@ -24,7 +24,7 @@ const StepForm = () => {
 
     const onSubmit = formData => {
         setLoading(true);
-        const id = AllData?.first_name?.slice(0, 2) + AllData?.phone_home?.slice(4, 9) + AllData?.email_address?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + AllData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone_home?.slice(1, ) + formData.state?.slice(0, 1);
+        const id = AllData?.first_name?.slice(0, 2) + AllData?.phone_home?.slice(4, 9) + AllData?.email_address?.slice(0, 3) + AllData?.last_name?.slice(0, 2) + AllData?.zip_code?.slice(0, 4) + formData?.city?.slice(0, 2) + AllData?.phone_home?.slice(1,) + formData.state?.slice(0, 1);
         const data = {
             ...AllData,
             lp_campaign_id: "13766",
@@ -46,27 +46,27 @@ const StepForm = () => {
         if (Object.keys(data).length > 0) {
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-              event: "roofing_lead_submitted",
-              "data": data,
+                event: "roofing_lead_submitted",
+                "data": data,
             })
             // console.log("Form Data Pushed!", data)
-          }
-          else {
+        }
+        else {
             toast.warning("Input fields can't be empty", {
-              position: toast.POSITION.TOP_CENTER
+                position: toast.POSITION.TOP_CENTER
             })
-          }
-       
+        }
+
         fetch('https://api.leadprosper.io/ingest', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
-            body: JSON.stringify(data)    
-        }) 
-         .then(res => {
+            body: JSON.stringify(data)
+        })
+            .then(res => {
                 return res.json();
             })
-           
-            .then( data => {
+
+            .then(data => {
                 if (data) {
                     toast.success('Successful post data');
                     reset();
@@ -76,7 +76,7 @@ const StepForm = () => {
                     //     "message": "Roofing form submitted",
                     //     event: data
                     //   })
-                      navigate('/roofing-campaign-thanks-page')
+                    navigate('/roofing-campaign-thanks-page')
                     // setPage(page + 1);
                     console.log(data);
                 } else if (data.errors) {
@@ -93,38 +93,38 @@ const StepForm = () => {
     }
 
     //   console.log(AllData, "goods")
-  const PageDisplay = () => {
-      if (page === 0) {
-          return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else if (page === 1) {
-          return <PlanStart setTimeFrame={setTimeFrame} page={page} setPage={setPage} />;
-      } else if (page === 2) {
-          return <Windowmaterial setAllData={setAllData} AllData={AllData} setService={setService} page={page} setPage={setPage} />;
-      } else if (page === 3) {
-          return <OwnHome setAllData={setAllData} AllData={AllData} setHowner={setHowner} page={page} setPage={setPage} />;
-      } else if (page === 4) {
-          return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      } else if (page === 5) {
-          return <Contact setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+    const PageDisplay = () => {
+        if (page === 0) {
+            return <ZipCode setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        } else if (page === 1) {
+            return <PlanStart setTimeFrame={setTimeFrame} page={page} setPage={setPage} />;
+        } else if (page === 2) {
+            return <Windowmaterial setAllData={setAllData} AllData={AllData} setService={setService} page={page} setPage={setPage} />;
+        } else if (page === 3) {
+            return <OwnHome setAllData={setAllData} AllData={AllData} setHowner={setHowner} page={page} setPage={setPage} />;
+        } else if (page === 4) {
+            return <PersonalInfo setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        } else if (page === 5) {
+            return <Contact setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
         } else if (page === 6) {
             return <Address onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} loading={loading} />;
-      } else {
-          return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-      }
-  };
-  return (
-    <div className='mx-auto rounded-2xl text-gray-900'>
-    <div className="form  container ">
-        <div className="progressbar">
-        <div style={{ width: page === 0 ? "0%" : page == 1 ? "20%" : page == 2 ? "35%" : page == 3 ? "45%" : page == 4 ? "55%" : page == 5 ? "65%" : page == 6 ? "85%" : "100%" }}
-            ></div>
+        } else {
+            return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+        }
+    };
+    return (
+        <div className='mx-auto rounded-2xl text-gray-900'>
+            <div className="form  container ">
+                <div className="progressbar">
+                    <div style={{ width: page === 0 ? "0%" : page == 1 ? "20%" : page == 2 ? "35%" : page == 3 ? "45%" : page == 4 ? "55%" : page == 5 ? "65%" : page == 6 ? "85%" : "100%" }}
+                    ></div>
+                </div>
+                <div className="form-container pb-5 sm:px-10 px-3 ">
+                    <div className="body ">{PageDisplay()}</div>
+                </div>
+            </div>
         </div>
-        <div className="form-container pb-5 sm:px-10 px-3 ">
-            <div className="body ">{PageDisplay()}</div>
-        </div>
-    </div>
-</div>
-  )
+    )
 }
 
 export default StepForm
