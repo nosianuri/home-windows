@@ -28,6 +28,7 @@ import AboutUs from './Pages/Aboutus/AboutUs';
 import WhyUs from './Pages/WhyUs/WhyUs';
 import WindowThanks from './Pages/Home/WindowThanks/WindowThanks';
 import RoofingThanks from './Pages/Roofing/RoofingThanks/RoofingThanks';
+import PestControl from './Pages/PestControl/PestControl';
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
     <Routes>
     <Route path='/' element={<HomePage />} />
     <Route path='/window-installation' element={<Home />} />
+    <Route path='/pest-control' element={<PestControl />} />
     <Route path='/window-installation-thank-page' element={<WindowThanks />} />
     <Route path='/roofing-campaign' element={<Roofing />} />
     <Route path='/roofing-campaign-thanks-page' element={<RoofingThanks />} />
