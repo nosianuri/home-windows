@@ -4,6 +4,7 @@ import Loader from '../../Shared/Loader';
 import PestControlFaq from './PestControlFaq';
 import StepForm from '../Home/Form/StepForm';
 import './PestControl.css';
+import PcLoader from '../../Shared/PcLoader';
 
 const PestControl = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -19,7 +20,7 @@ const PestControl = () => {
         <title>Home Windows Installation</title>
     </Helmet>
     {isLoading ? (
-        <Loader />
+        <PcLoader />
     ) : (
         <div className=''>
             <div className='body pc-body '>
@@ -27,7 +28,7 @@ const PestControl = () => {
                     <div className='max-w-[980px] mx-auto px-2 mt-3'>
 
                         <div className='flex justify-between items-center '>
-                            <a href="https://mrhomeservice.net/window-installation">
+                            <a href="https://mrhomeservice.net/pest-control">
 
                                 <img src="https://i.ibb.co/jrNqB5g/home-service.png" alt="" className='sm:w-36 w-24 ' />
                             </a>
