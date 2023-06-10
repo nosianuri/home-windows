@@ -84,7 +84,7 @@ const PestControl = () => {
                             </ul> */}
                             <div className=' text-[17px]  mt-2'> Thank you for considering our services. We look forward to working with you to keep your home safe and secure for years to come.
                             </div>
-                            <div className='grid grid-cols-1 gap-3 sm:mt-5'>
+                            {/* <div className='grid grid-cols-1 gap-3 sm:mt-5'>
                                 <div className='sm:text-xl text-xl mt-5 font-semibold text-[#e48a03]'>ROOF REPLACEMENT FAQS</div>
                                 <div className="max-w-2xl ">
                                     <PestControlFaq title=" What makes Mr.Home Service the best choice for window installation?">
@@ -108,9 +108,9 @@ const PestControl = () => {
                                         </p>
                                     </PestControlFaq>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* recent comments */}
-                            <div className='mb-8 mt-8 sm:px-0 px-3'>
+                            {/* <div className='mb-8 mt-8 sm:px-0 px-3'>
                                 <div className='flex justify-between'>
                                     <p>Recent # Comments</p>
                                     <p className='commen'>Add a comment</p>
@@ -192,7 +192,7 @@ const PestControl = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='text-[17px]'>At Mr.Home Service, we are committed to providing our customers with top-quality pest control and exceptional customer service. Contact us today to learn more about our services and how we can help you enhance the beauty and value of your home.</div>
                         </div>
                     </div>
