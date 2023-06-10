@@ -45,9 +45,9 @@ const PestControl = () => {
                     <div className='sm:flex  sm:space-y-0 space-y-5 max-w-[950px] mx-auto mt-8 mb-16 px-3'>
 
                         <div className='bg-[#fff8f0b0] px-5 sm:py-5'>
-                            <img src='https://i.ibb.co/WFZvYCD/zip-window.png' alt="" className='sm:w-64 mx-auto' />
-                            <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Home Window <span className='font-bold'>Prices</span> By Zip Code</h4>
-                            <h5 className='text-xl font-medium mb-8 text-center'>Compare Home Window <span className='font-bold'>Prices</span> Today!</h5>
+                            <img src='https://i.ibb.co/GRrpQ1p/pest-control-logo.png' alt="" className='sm:w-64 mx-auto' />
+                            <h4 className='text-2xl font-medium mb-2 text-center'>Find <span className='font-bold'>Local</span> Pest Control <span className='font-bold'>Prices</span> By Zip Code</h4>
+                            <h5 className='text-xl font-medium mb-8 text-center'>Compare Pest Control <span className='font-bold'>Prices</span> Today!</h5>
                         </div>
                         <div className='bg-[#fff8f0] rounded-r-lg sm:w-[700px] '>
                             <StepForm />
@@ -63,7 +63,7 @@ const PestControl = () => {
                     </div>
                     <div id='cac-footer-legal'>
                         <div className='max-w-[990px] mx-auto'>
-                            <p className='mb-5 text-[17px]'>Welcome to Mr.Home Service, your trusted source for professional window installation services. Our team of experts is dedicated to helping homeowners enhance the appearance, energy efficiency, and security of their homes with top-quality window installations.</p>
+                            <p className='mb-5 text-[17px]'>Welcome to Mr.Home Service, your trusted source for professional pest control services. We offer quick, safe, effective and responsive pest control solutions to protect you and your property from pest infestations and associated risks.</p>
                             <h3 className='text-xl mb-2 text-[#e48a03]'>Update Your Existing Home Windows By Replacing Them With Affordable Window Alternatives</h3>
                             <p className='mb-5 text-[17px]'>Looking for replacement windows at great prices? You're in luck. windowinstallation.com helps you streamline and expedite the process of replacement window shopping without the hassle. Once you’ve completed the windows questionnaire above, numerous quotes from local window professionals (unique to your area) will be made available instantly so you can be sure you're getting the best value on your replacement windows!</p>
                             <h3 className='text-xl mb-2 text-[#e48a03]'>Save On Costs And Be Energy Efficient By Purchasing New House Windows</h3>
